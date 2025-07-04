@@ -199,7 +199,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "display_on_card": false,
+        "display_on_card": true,
         "enable_quick_buy": false,
         "related_products_heading": "You may also like",
         "max_products": "3",
