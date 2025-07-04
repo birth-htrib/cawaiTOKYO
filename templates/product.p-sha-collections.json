@@ -289,6 +289,21 @@
       "disabled": true,
       "settings": {}
     },
+    "rich_text_jX3MUd": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "Browsing history",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+        "use_gradient_background": false
+      }
+    },
     "1751618762ead83392": {
       "type": "apps",
       "blocks": {
@@ -296,7 +311,7 @@
           "type": "shopify://apps/rempro/blocks/display-recent-view-products/bf7dbc8e-7e97-487b-8543-1123a8c287bf",
           "settings": {
             "rempro_block_customer": "all",
-            "rempro_block_title": "Browsing history",
+            "rempro_block_title": "",
             "rempro_block_alignment": "center",
             "rempro_block_title_size": 24,
             "rempro_block_columns": 4,
@@ -360,6 +375,7 @@
     "rich_text_bjQbHE",
     "rich_text_bzENK3",
     "product-history",
+    "rich_text_jX3MUd",
     "1751618762ead83392",
     "rich_text_DyPheb"
   ]
