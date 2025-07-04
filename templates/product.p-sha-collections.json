@@ -268,9 +268,23 @@
         "use_gradient_background": false
       }
     },
+    "rich_text_bzENK3": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "Browsing history",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
     "product-history": {
       "type": "product-history",
-      "disabled": true,
       "settings": {}
     },
     "1751618762ead83392": {
@@ -293,10 +307,11 @@
       "block_order": [
         "rempro_display_recent_view_products_Dy3Uyb"
       ],
+      "disabled": true,
       "settings": {
         "apply_vertical_spacing": true,
         "apply_horizontal_spacing": true,
-        "display_on_card": true,
+        "display_on_card": false,
         "content_width_desktop": "lg:w-full",
         "color_scheme": "",
         "use_gradient_background": false
@@ -339,6 +354,7 @@
     "related-products",
     "featured_collection_KY78aU",
     "rich_text_bjQbHE",
+    "rich_text_bzENK3",
     "product-history",
     "1751618762ead83392",
     "rich_text_DyPheb"
