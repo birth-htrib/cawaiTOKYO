@@ -186,7 +186,8 @@
     "rich_text_EBTVie": {
       "type": "rich-text",
       "custom_css": [
-        ".px-section {padding-bottom: 2rem;}"
+        ".px-section {padding-bottom: 2rem;}",
+        ".section-content {padding-bottom: 0px;}"
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
