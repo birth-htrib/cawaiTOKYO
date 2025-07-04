@@ -168,7 +168,7 @@
         ".px-section {padding-left: 10%; padding-right: 10%;}"
       ],
       "settings": {
-        "display_on_card": false,
+        "display_on_card": true,
         "enable_quick_buy": false,
         "related_products_heading": "You may also like",
         "max_products": "3",
@@ -180,12 +180,28 @@
     },
     "rich_text_EBTVie": {
       "type": "rich-text",
+      "blocks": {
+        "shape_divider_f3AMAt": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme-133eabc6-bcfb-4350-ba4f-0a66b5aabf17",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_f3AMAt"
+      ],
       "custom_css": [
         ".px-section {padding-bottom: 2rem;}"
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
-        "title": "閲覧履歴",
+        "title": "Browsing history",
         "heading_size": "heading-standard",
         "rich_text": "",
         "display_on_card": false,
