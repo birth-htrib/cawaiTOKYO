@@ -97,7 +97,7 @@
           "type": "shopify://apps/rempro/blocks/display-recent-view-products/bf7dbc8e-7e97-487b-8543-1123a8c287bf",
           "settings": {
             "rempro_block_customer": "all",
-            "rempro_block_title": "商品閲覧履歴",
+            "rempro_block_title": "Browsing history",
             "rempro_block_alignment": "center",
             "rempro_block_title_size": 24,
             "rempro_block_columns": 4,
