@@ -51,10 +51,7 @@
     },
     "main": {
       "type": "main-list-collections",
-      "custom_css": [
-        ".product-tile__container {padding: 0.9rem;}",
-        "@media screen and (max-width: 750px) {.product-tile__container {padding: 0.5rem; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "layout": "grid",
         "crop": "aspect-w-1 aspect-h-1",
@@ -69,7 +66,7 @@
         "slideshow_focus": "center",
         "mobile_slide_width": "three_fifths",
         "desktop_slide_width": 40,
-        "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+        "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
         "use_gradient_background": false
       }
     },
@@ -85,11 +82,31 @@
         "color_scheme": "",
         "use_gradient_background": false
       }
+    },
+    "scrolling_text_YabmQj": {
+      "type": "scrolling-text",
+      "name": "t:sections.scrolling_text.name",
+      "settings": {
+        "text": "cawaii tokyo",
+        "repeat_text": true,
+        "shape_between_text": "flower",
+        "animate_shape_between_text": true,
+        "link": "",
+        "font": "font-heading heading-secondary",
+        "apply_effects": false,
+        "mobile_text_scale": 2,
+        "desktop_text_scale": 4,
+        "speed": 120,
+        "direction": "",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
     "rich_text_wiLrrk",
     "main",
-    "collage"
+    "collage",
+    "scrolling_text_YabmQj"
   ]
 }
