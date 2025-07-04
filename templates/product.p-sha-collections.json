@@ -270,6 +270,7 @@
     },
     "rich_text_bzENK3": {
       "type": "rich-text",
+      "disabled": true,
       "name": "t:sections.rich_text.name",
       "settings": {
         "title": "Browsing history",
@@ -307,6 +308,9 @@
       },
       "block_order": [
         "rempro_display_recent_view_products_Dy3Uyb"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Josefin Sans\", sans-serif;}"
       ],
       "settings": {
         "apply_vertical_spacing": true,
