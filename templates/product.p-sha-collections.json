@@ -270,6 +270,7 @@
     },
     "product-history": {
       "type": "product-history",
+      "disabled": true,
       "settings": {}
     },
     "1751618762ead83392": {
