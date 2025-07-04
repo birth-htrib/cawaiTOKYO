@@ -275,10 +275,10 @@
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
-        "title": "閲覧履歴",
+        "title": "Browsing history",
         "heading_size": "heading-standard",
         "rich_text": "",
-        "display_on_card": true,
+        "display_on_card": false,
         "content_width_desktop": "lg:w-2/3",
         "button_link": "",
         "button_label": "Shop Now",
