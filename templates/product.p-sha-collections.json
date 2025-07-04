@@ -285,6 +285,7 @@
     },
     "product-history": {
       "type": "product-history",
+      "disabled": true,
       "settings": {}
     },
     "1751618762ead83392": {
@@ -307,13 +308,12 @@
       "block_order": [
         "rempro_display_recent_view_products_Dy3Uyb"
       ],
-      "disabled": true,
       "settings": {
         "apply_vertical_spacing": true,
         "apply_horizontal_spacing": true,
         "display_on_card": false,
         "content_width_desktop": "lg:w-full",
-        "color_scheme": "",
+        "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
         "use_gradient_background": false
       }
     },
