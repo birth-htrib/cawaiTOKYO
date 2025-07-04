@@ -190,7 +190,7 @@
         "sticker_JHAxUp"
       ],
       "custom_css": [
-        "@media screen and (max-width: 750px) {.product-tile__container {padding: 0.7rem; }}",
+        "@media screen and (max-width: 750px) {.product-tile__container {padding: 0.6rem; }}",
         "#sticker-sticker_d8CQ4z {top: -65px; left: 400px;}",
         "@media screen and (max-width: 1500px) {#sticker-sticker_d8CQ4z {top: -40px; left: 200px; }}"
       ],

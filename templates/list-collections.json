@@ -11,6 +11,31 @@
   "sections": {
     "rich_text_wiLrrk": {
       "type": "rich-text",
+      "blocks": {
+        "sticker_QxrBUM": {
+          "type": "sticker",
+          "settings": {
+            "width": 170,
+            "half_width_on_mobile": true,
+            "text": "TOKYO",
+            "shape": "scalloped_circle_4",
+            "sticker_font_size": "1.953rem",
+            "horizontal_position": 80,
+            "vertical_position": 80,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "none",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
+            "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
+          }
+        }
+      },
+      "block_order": [
+        "sticker_QxrBUM"
+      ],
       "name": "t:sections.rich_text.name",
       "settings": {
         "title": "All Products",
@@ -27,7 +52,8 @@
     "main": {
       "type": "main-list-collections",
       "custom_css": [
-        ".product-tile__container {padding: 0.9rem;}"
+        ".product-tile__container {padding: 0.9rem;}",
+        "@media screen and (max-width: 750px) {.product-tile__container {padding: 0.5rem; }}"
       ],
       "settings": {
         "layout": "grid",
@@ -38,7 +64,7 @@
         "show_view_all": true,
         "display_on_card": true,
         "enable_quick_buy": false,
-        "products_per_row_mobile": "1",
+        "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "slideshow_focus": "center",
         "mobile_slide_width": "three_fifths",
