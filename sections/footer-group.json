@@ -16,9 +16,10 @@
       "blocks": {
         "shape_divider_UzAFLF": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "above",
-            "target_section_color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+            "target_section_color_scheme": "scheme-3879db91-75d8-4e48-ad71-ebe556b7298b",
             "style": "clouds-shape_1400x161",
             "flip_horizontal": false,
             "enable_animation": false,
@@ -39,12 +40,14 @@
         "shape_divider_UzAFLF",
         "menus-0"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "li {line-height: 1rem; margin-bottom: 25px;}"
+      ],
       "settings": {
         "show_payment_icons": true,
         "show_country_selector": true,
         "show_locale_selector": true,
-        "color_scheme": "scheme-7f850b98-b35b-443a-8f5b-ba9ce443e11e",
+        "color_scheme": "scheme-133eabc6-bcfb-4350-ba4f-0a66b5aabf17",
         "use_gradient_background": true
       }
     },
@@ -60,7 +63,7 @@
         "disable_vertical_spacing": false,
         "enable_overlay": false,
         "overlay_offset": 100,
-        "color_scheme": "scheme-7f850b98-b35b-443a-8f5b-ba9ce443e11e",
+        "color_scheme": "scheme-133eabc6-bcfb-4350-ba4f-0a66b5aabf17",
         "use_gradient_background": false
       }
     }
