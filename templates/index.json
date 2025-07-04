@@ -611,39 +611,6 @@
             "button_text": "InnerCare",
             "url": "https://cawaiitokyo.jp/collections/innercare"
           }
-        },
-        "sticker_rMTQBP": {
-          "type": "sticker",
-          "disabled": true,
-          "settings": {
-            "width": 100,
-            "half_width_on_mobile": false,
-            "text": "TOKYO",
-            "shape": "scalloped_circle_4",
-            "sticker_font_size": "1.563rem",
-            "horizontal_position": 92,
-            "vertical_position": 100,
-            "rotate": 30,
-            "show_sticker_on_mobile": true,
-            "show_sticker_on_desktop": true,
-            "rotation_animation": "constantly_rotate",
-            "enable_parallax": false,
-            "parallax_speed": 3,
-            "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
-            "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
-          }
-        },
-        "shape_divider_AVeBKX": {
-          "type": "shape_divider",
-          "disabled": true,
-          "settings": {
-            "target_section": "below",
-            "target_section_color_scheme": "scheme1",
-            "style": "tilt-1-shape_1440x101",
-            "flip_horizontal": true,
-            "enable_animation": false,
-            "animation_direction": ""
-          }
         }
       },
       "block_order": [
@@ -651,9 +618,7 @@
         "shape_divider_qTh6KY",
         "image_gU9gqN",
         "image_77GGFH",
-        "image_wdRAxG",
-        "sticker_rMTQBP",
-        "shape_divider_AVeBKX"
+        "image_wdRAxG"
       ],
       "custom_css": [
         "h2 {margin-top: 8rem;}",
@@ -673,27 +638,15 @@
         "use_gradient_background": false
       }
     },
-    "rich_text_www8Cb": {
+    "rich_text_46Rn4D": {
       "type": "rich-text",
       "blocks": {
-        "shape_divider_CFHt7J": {
+        "shape_divider_QGmQqh": {
           "type": "shape_divider",
-          "settings": {
-            "target_section": "above",
-            "target_section_color_scheme": "scheme-d45b19c8-70b7-4398-80da-4b912a751e5e",
-            "style": "tilt-1-shape_1440x101",
-            "flip_horizontal": false,
-            "enable_animation": false,
-            "animation_direction": ""
-          }
-        },
-        "shape_divider_YNnEpH": {
-          "type": "shape_divider",
-          "disabled": true,
           "settings": {
             "target_section": "below",
-            "target_section_color_scheme": "scheme-d45b19c8-70b7-4398-80da-4b912a751e5e",
-            "style": "tilt-1-shape_1440x101",
+            "target_section_color_scheme": "scheme-133eabc6-bcfb-4350-ba4f-0a66b5aabf17",
+            "style": "waves-2-patterned_1200x43",
             "flip_horizontal": false,
             "enable_animation": false,
             "animation_direction": ""
@@ -701,20 +654,18 @@
         }
       },
       "block_order": [
-        "shape_divider_CFHt7J",
-        "shape_divider_YNnEpH"
+        "shape_divider_QGmQqh"
       ],
-      "disabled": true,
       "name": "t:sections.rich_text.name",
       "settings": {
-        "title": "Free Shipping",
+        "title": "",
         "heading_size": "heading-standard",
-        "rich_text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "rich_text": "",
         "display_on_card": false,
         "content_width_desktop": "lg:w-2/3",
         "button_link": "",
         "button_label": "Shop Now",
-        "color_scheme": "scheme-d45b19c8-70b7-4398-80da-4b912a751e5e",
+        "color_scheme": "",
         "use_gradient_background": false
       }
     }
@@ -732,6 +683,6 @@
     "scrolling_text_with_icons_4XBWjx",
     "testimonials_Fr76wm",
     "collage_pecNfM",
-    "rich_text_www8Cb"
+    "rich_text_46Rn4D"
   ]
 }

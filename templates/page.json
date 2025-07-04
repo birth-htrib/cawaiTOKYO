@@ -12,12 +12,12 @@
     "main": {
       "type": "main-page",
       "blocks": {
-        "shape_divider_7yxcNC": {
+        "shape_divider_rJtNQB": {
           "type": "shape_divider",
           "settings": {
             "target_section": "below",
-            "target_section_color_scheme": "scheme1",
-            "style": "clouds-shape_1400x161",
+            "target_section_color_scheme": "scheme-133eabc6-bcfb-4350-ba4f-0a66b5aabf17",
+            "style": "waves-2-patterned_1200x43",
             "flip_horizontal": false,
             "enable_animation": false,
             "animation_direction": ""
@@ -25,7 +25,7 @@
         }
       },
       "block_order": [
-        "shape_divider_7yxcNC"
+        "shape_divider_rJtNQB"
       ],
       "custom_css": [
         "h1 {font-size: 4vw; padding: 10px 0 30px 0;}",

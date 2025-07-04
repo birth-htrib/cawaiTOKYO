@@ -222,7 +222,7 @@
         "settings": {
           "text": "#000000",
           "text_contrast": "#ffffff",
-          "background": "#ffffff",
+          "background": "#22c3ff",
           "gradient": "",
           "accent_1": "#000000",
           "accent_1_contrast": "#ffffff",
@@ -236,7 +236,7 @@
         "settings": {
           "text": "#000000",
           "text_contrast": "#000000",
-          "background": "#f9f5f2",
+          "background": "#ff64e1",
           "gradient": "",
           "accent_1": "#fd91eb",
           "accent_1_contrast": "#000000",

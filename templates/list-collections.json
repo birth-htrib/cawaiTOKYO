@@ -25,7 +25,7 @@
             "rotate": 0,
             "show_sticker_on_mobile": true,
             "show_sticker_on_desktop": true,
-            "rotation_animation": "none",
+            "rotation_animation": "constantly_rotate",
             "enable_parallax": false,
             "parallax_speed": 3,
             "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
@@ -45,7 +45,7 @@
         "content_width_desktop": "lg:w-2/3",
         "button_link": "",
         "button_label": "Shop Now",
-        "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+        "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
         "use_gradient_background": false
       }
     },
@@ -83,22 +83,34 @@
         "use_gradient_background": false
       }
     },
-    "scrolling_text_YabmQj": {
-      "type": "scrolling-text",
-      "name": "t:sections.scrolling_text.name",
+    "rich_text_KEAjDG": {
+      "type": "rich-text",
+      "blocks": {
+        "shape_divider_6D83K4": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme-133eabc6-bcfb-4350-ba4f-0a66b5aabf17",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_6D83K4"
+      ],
+      "name": "t:sections.rich_text.name",
       "settings": {
-        "text": "cawaii tokyo",
-        "repeat_text": true,
-        "shape_between_text": "flower",
-        "animate_shape_between_text": true,
-        "link": "",
-        "font": "font-heading heading-secondary",
-        "apply_effects": false,
-        "mobile_text_scale": 2,
-        "desktop_text_scale": 4,
-        "speed": 120,
-        "direction": "",
-        "color_scheme": "",
+        "title": "",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
         "use_gradient_background": false
       }
     }
@@ -107,6 +119,6 @@
     "rich_text_wiLrrk",
     "main",
     "collage",
-    "scrolling_text_YabmQj"
+    "rich_text_KEAjDG"
   ]
 }
