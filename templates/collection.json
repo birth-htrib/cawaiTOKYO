@@ -20,6 +20,31 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "blocks": {
+        "sticker_bQ4BBn": {
+          "type": "sticker",
+          "settings": {
+            "width": 150,
+            "half_width_on_mobile": false,
+            "text": "cawaii",
+            "shape": "star_1",
+            "sticker_font_size": "1.953rem",
+            "horizontal_position": 80,
+            "vertical_position": 70,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "none",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
+            "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
+          }
+        }
+      },
+      "block_order": [
+        "sticker_bQ4BBn"
+      ],
       "settings": {
         "display_on_card": false,
         "show_collection_title": true,
@@ -32,11 +57,12 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        ".push-btn__surface {background-color: #EEFF2F;}"
+        ".push-btn__surface {background-color: #eeff2f;}",
+        "@media screen and (max-width: 750px) {.product-tile__container {padding: 0.5rem; }}"
       ],
       "settings": {
         "no_products": 8,
-        "display_on_card": false,
+        "display_on_card": true,
         "enable_quick_buy": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
