@@ -175,10 +175,7 @@
       "custom_css": [
         "h3 {font-family: \"Zen Kaku Gothic New\", sans-serif;}",
         "h4,p {font-size: 1.2rem; font-family: \"Zen Kaku Gothic New\", sans-serif;}",
-        ".square {width: 70%; margin: 0 auto; border: 3px solid #000; padding: 30px; box-shadow: 4px 4px; border-radius: 5px;}",
-        ".square h4 {margin-bottom: 20px;}",
-        ".rte table,.rte th,.rte td {border: 3px solid #000;}",
-        "@media screen and (max-width: 750px) {.square {width: 100%; } h3 {font-size: 1.2rem; } p {font-size: 1rem; }}"
+        "@media screen and (max-width: 750px) {h3 {font-size: 1.2rem; } p {font-size: 1rem; }}"
       ],
       "settings": {
         "crop": "",
@@ -206,7 +203,7 @@
         "enable_quick_buy": false,
         "related_products_heading": "You may also like",
         "max_products": "3",
-        "product_tiles_aspect_ratio": "",
+        "product_tiles_aspect_ratio": "aspect-w-1 aspect-h-1",
         "image_shape": "",
         "color_scheme": "scheme1",
         "use_gradient_background": false
@@ -238,9 +235,9 @@
         "no_products": 4,
         "show_view_all": false,
         "enable_quick_buy": false,
-        "display_on_card": false,
+        "display_on_card": true,
         "layout": "grid",
-        "products_per_row_mobile": "1",
+        "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "slideshow_focus": "center",
         "mobile_slide_width": "three_fifths",
