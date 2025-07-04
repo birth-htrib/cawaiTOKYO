@@ -1,0 +1,75 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "custom_css": [
+        ".lg\\:py-2 {padding-top: 0.5rem; padding-bottom: 4.5rem;}",
+        "@media screen and (max-width: 750px) {.lg\\:py-2 {padding-top: 0.3rem; padding-bottom: 3rem; }}"
+      ],
+      "settings": {
+        "home_page_only": true,
+        "display": "scrolling_text",
+        "text": "cawaiiTOKYO",
+        "link": "",
+        "color_scheme": "scheme2",
+        "use_gradient_background": false,
+        "repeat_text": true,
+        "shape_between_text": "none",
+        "animate_shape_between_text": true,
+        "speed": 120,
+        "direction": ""
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        ".lg\\:py-0 {margin-top: -58px; padding-bottom: 0;}",
+        "@media screen and (max-width: 990px) {.px-2\\.5 {padding-left: 0rem; padding-right: 0rem; } .w-1\\/3 {width: 20%; } .lg\\:py-0 {margin-top: -68px; }}",
+        "@media screen and (max-width: 750px) {.lg\\:py-0 {margin-top: -63px; }}",
+        "a{font-weight: 600;}"
+      ],
+      "settings": {
+        "logo_max_width": 230,
+        "main_linklist": "main-menu",
+        "nested_nav_style": "mega_menu",
+        "showcase_top_level_collections": false,
+        "show_all_navigation_links": false,
+        "showcase_second_level_links": false,
+        "crop": "",
+        "header_layout": "navigation_left_logo_center",
+        "header_show_search": true,
+        "sticky_header": true,
+        "show_icons": true,
+        "enable_overlay_on_homepage": true,
+        "enable_overlay_on_collection_pages": false,
+        "enable_overlay_on_product_pages": false,
+        "overlay_color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+        "transparent_when_overlaid_and_stuck": true,
+        "overlay_show_separator_border": false,
+        "overlay_first_section_padding_top_desktop": 6,
+        "overlay_first_section_padding_top_mobile": 6,
+        "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+        "active_color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+        "mobile_main_linklist": "",
+        "sidebar_menu_font_size": "heading-secondary",
+        "sidebar_show_footer_menu": false,
+        "sidebar_show_social_icons": false
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

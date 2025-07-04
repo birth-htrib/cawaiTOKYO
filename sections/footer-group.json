@@ -1,0 +1,72 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "shape_divider_UzAFLF": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+            "style": "clouds-shape_1400x161",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "menus-0": {
+          "type": "menus",
+          "settings": {
+            "show_menu_headings": false,
+            "linklist_1": "01",
+            "linklist_2": "link-list",
+            "linklist_3": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_UzAFLF",
+        "menus-0"
+      ],
+      "custom_css": [],
+      "settings": {
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_locale_selector": true,
+        "color_scheme": "scheme-7f850b98-b35b-443a-8f5b-ba9ce443e11e",
+        "use_gradient_background": true
+      }
+    },
+    "hero_logo_mQWzGx": {
+      "type": "hero-logo",
+      "name": "t:sections.hero_logo.name",
+      "settings": {
+        "home_page_only": true,
+        "mobile_text_scale": 4,
+        "desktop_text_scale": 10,
+        "alignment": "center",
+        "logo_max_width": 100,
+        "disable_vertical_spacing": false,
+        "enable_overlay": false,
+        "overlay_offset": 100,
+        "color_scheme": "scheme-7f850b98-b35b-443a-8f5b-ba9ce443e11e",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "hero_logo_mQWzGx"
+  ]
+}

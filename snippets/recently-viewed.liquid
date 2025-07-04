@@ -1,0 +1,86 @@
+{{ '//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' | script_tag }}
+{{ 'jquery.tmpl.min.js' | asset_url | script_tag }}
+{{ 'jquery.products.min.js' | asset_url | script_tag }}
+<style>
+  .products:hover{
+    opacity: 0.8;
+  }
+</style>
+<div class="clearfix"></div>
+
+<div class="product-template__container page-width head-room px-section max-w-site mx-auto">
+  <aside class="grid">
+    <div class="grid__item">
+      <ul id="recently-viewed-products" class="collection clearfix  grid gap-theme grid-cols-1 lg:grid-cols-4 ">
+        <div class="section-header" style="display:none;">
+          <h2 class="section-header__title" style="text-align:center;">最近閲覧した商品</h2>
+        </div>
+      </ul>
+    </div>
+  </aside>
+</div>
+{% assign grid_item_width = 'small--one-half medium-up--one-quarter' %}
+<div class="grid grid--uniform grid--view-items leg-room">
+  {% raw %}
+      
+      <script id="recently-viewed-product-template"  type="text/x-jquery-tmpl">
+
+
+<li class=""><div class="product-tile relative  ">
+    
+    <div class="product-tile__container "><a href="${url}" class="product-tile__featured-media group block">
+          <div class="product-media-object relative pb-media-shadow"><div class="media media--css-only media-template--19407178793186__featured_collection_KY78aU-36039349829858-0  default">
+    <div class="media__styled-element object-wrapper aspect-w-1 aspect-h-1">
+            <img src="${Shopify.Products.resizeImage(featured_image, "medium")}" />
+      </div>
+  </div></div>
+        </a><div class="product-tile mt-5 break-words text-center">
+        <a href="${url}" class="block h-full w-full">
+          <h3 class="font-body text-base">${title}</h3>
+
+<div class="
+    price mt-2.5">
+  <div class="price__container"><div class="price__regular ">
+      <span class="visually-hidden visually-hidden--inline">Translation missing: ja.products.product.price.regular_price</span>
+      <span class="price-item price-item--regular transcy-money">
+         <tc-money translate="no">¥0</tc-money> 
+      </span>
+    </div>
+    <div class="price__sale hidden">
+        <span class="visually-hidden visually-hidden--inline">Translation missing: ja.products.product.price.regular_price</span>
+        <span>
+          <s class="price-item price-item--regular">
+            
+              
+            
+          </s>
+        </span><span class="visually-hidden visually-hidden--inline">Translation missing: ja.products.product.price.sale_price</span>
+      <span class="price-item price-item--sale price-item--last transcy-money">
+         <tc-money translate="no" retry-tc-converted="1">¥0</tc-money> 
+      </span>
+    </div>
+    <small class="unit-price caption hidden">
+      <span class="visually-hidden">Translation missing: ja.products.product.price.unit_price</span>
+      <span class="price-item price-item--last">
+        <span></span>
+        <span aria-hidden="true">/</span>
+        <span class="visually-hidden">&nbsp;Translation missing: ja.general.accessibility.unit_price_separator&nbsp;</span>
+        <span>
+        </span>
+      </span>
+    </small>
+  </div>
+</div>
+</a>
+      </div>
+    </div>
+    
+  </div></li>
+        
+      </script>
+      {% endraw %}
+
+  <script>
+    Shopify.Products.showRecentlyViewed( { howManyToShow:4 } );// 表示する商品数を変更できます。
+  </script>
+</div>

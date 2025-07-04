@@ -1,0 +1,305 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "sticker_CciTqf": {
+          "type": "sticker",
+          "settings": {
+            "width": 180,
+            "half_width_on_mobile": true,
+            "text": "cawaii",
+            "shape": "star_1",
+            "sticker_font_size": "1.953rem",
+            "horizontal_position": 16,
+            "vertical_position": 94,
+            "rotate": 0,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "constantly_rotate",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
+            "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "display_on_card": false,
+            "text_align": "text-left"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_on_card": false,
+            "show_on_sale_sticker": false,
+            "text_align": "text-left"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+            "display_on_card": false,
+            "show_label": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "display_on_card": false,
+            "option_style": "drop_down",
+            "full_width_buttons": false,
+            "hide_option_labels": false,
+            "enable_color_swatches": false
+          }
+        },
+        "baf3083e-d14d-435d-bca3-100d6ac490ce": {
+          "type": "buy_buttons",
+          "settings": {
+            "display_on_card": false,
+            "show_price": true,
+            "enable_payment_button": true,
+            "show_pickup_availability": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "liquid_i9aQ6z": {
+          "type": "liquid",
+          "settings": {
+            "display_on_card": false,
+            "liquid": "<data-island x-data=\"RTE\" class=\"rte text-left\" ready=\"\">\n<h3><span style=\"vertical-align: inherit;\">離したくない、この香り。<br>日本の歌手で俳優のNissyがプロデュースした柔軟剤！</span></h3>\n<p><span style=\"vertical-align: inherit;\">何気ない生活の中で、パーフェクト（完璧）スペシャル（特別）ハピネス（幸せ）アソート（詰め合わせ）を皆さんにお届けしたいという思いから誕生しました🧼</span></p>\n<p>&nbsp;</p>\n\n\n<h4>P-shaの6つのこだわり🍀</h4>\n<p>\n<b style=\"font-size:1.5rem;\">01.</b>\n24時間抗菌＆防臭<br>\n<b style=\"font-size:1.5rem;\">02.</b>\n静電気防止に<br>\n<b style=\"font-size:1.5rem;\">03.</b>\n気になる匂いを抑える<br>\n<b style=\"font-size:1.5rem;\">04.</b>\n柔らか仕上げ<br>\n<b style=\"font-size:1.5rem;\">05.</b>\nオーガニックエキス配合<br>\n<b style=\"font-size:1.5rem;\">06.</b>\n毛玉・ケバダチ防止に\n</p>\n\n\n<!--\n<div class=\"square\">\n<h4><span style=\"vertical-align: inherit;\">P-shaの6つのこだわり🍀</span></h4>\n<p><span style=\"vertical-align: inherit;\">01 24時間抗菌＆防臭<br>02 静電気防止に<br>03 気になる匂いを抑える<br>04 柔らか仕上げ<br>05 オーガニックエキス配合<br>06 毛玉・ケバダチ防止に</span></p>\n</div>\n-->\n<br><br>\n\n    </data-island>"
+          }
+        },
+        "a17e90c4-acc9-4f1d-af84-828ae4cb2289": {
+          "type": "description",
+          "settings": {
+            "display_on_card": false,
+            "truncate_description": false,
+            "text_align": "text-left"
+          }
+        },
+        "shape_divider_HzGqXf": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "collapsible_tab_WAGr4R": {
+          "type": "collapsible_tab",
+          "settings": {
+            "display_on_card": true,
+            "icon": "none",
+            "heading": "商品名",
+            "uppercase_text": false,
+            "content": "<p>P-sha　ボトル＆詰め替えセット</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_NQMDQJ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "display_on_card": true,
+            "icon": "none",
+            "heading": "商品区分",
+            "uppercase_text": false,
+            "content": "<p>柔軟剤</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_xggdgX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "display_on_card": true,
+            "icon": "none",
+            "heading": "内容量",
+            "uppercase_text": false,
+            "content": "<p>ボトル：600ml</p><p>詰め替え：480ml</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_3fLtAG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "display_on_card": true,
+            "icon": "none",
+            "heading": "成分",
+            "uppercase_text": false,
+            "content": "<p>界面活性剤(エステル型ジアルキルアンモニウム塩)、安定化剤、抗菌剤</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_mPC6Qe": {
+          "type": "collapsible_tab",
+          "settings": {
+            "display_on_card": true,
+            "icon": "none",
+            "heading": "製造国",
+            "uppercase_text": false,
+            "content": "<p>日本</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "sticker_CciTqf",
+        "title",
+        "price",
+        "quantity_selector",
+        "variant_picker",
+        "baf3083e-d14d-435d-bca3-100d6ac490ce",
+        "liquid_i9aQ6z",
+        "a17e90c4-acc9-4f1d-af84-828ae4cb2289",
+        "shape_divider_HzGqXf",
+        "collapsible_tab_WAGr4R",
+        "collapsible_tab_NQMDQJ",
+        "collapsible_tab_xggdgX",
+        "collapsible_tab_3fLtAG",
+        "collapsible_tab_mPC6Qe"
+      ],
+      "custom_css": [
+        "h3 {font-family: \"Zen Kaku Gothic New\", sans-serif;}",
+        "h4,p {font-size: 1.2rem; font-family: \"Zen Kaku Gothic New\", sans-serif;}",
+        ".square {width: 70%; margin: 0 auto; border: 3px solid #000; padding: 30px; box-shadow: 4px 4px; border-radius: 5px;}",
+        ".square h4 {margin-bottom: 20px;}",
+        ".rte table,.rte th,.rte td {border: 3px solid #000;}",
+        "@media screen and (max-width: 750px) {.square {width: 100%; } h3 {font-size: 1.2rem; } p {font-size: 1rem; }}"
+      ],
+      "settings": {
+        "crop": "",
+        "image_shape": "default",
+        "desktop_media_width": "lg:col-span-6_lg:col-span-6",
+        "show_slideshow_arrows_on_desktop": false,
+        "enable_image_zoom": false,
+        "enable_video_looping": true,
+        "autoplay_videos_on_desktop": true,
+        "media_mobile_width": "w-full",
+        "thumbnails_position": "under",
+        "thumbnail_crop": "aspect-w-1 aspect-h-1",
+        "thumbnail_shape": "heptagon",
+        "thumbnail_size": "large",
+        "show_thumbnails_on_mobile": false,
+        "hide_media_shadow": false,
+        "color_scheme": "scheme5",
+        "use_gradient_background": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "display_on_card": false,
+        "enable_quick_buy": false,
+        "related_products_heading": "You may also like",
+        "max_products": "3",
+        "product_tiles_aspect_ratio": "",
+        "image_shape": "",
+        "color_scheme": "scheme1",
+        "use_gradient_background": false
+      }
+    },
+    "featured_collection_KY78aU": {
+      "type": "featured-collection",
+      "blocks": {
+        "shape_divider_qfN7pd": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_qfN7pd"
+      ],
+      "name": "t:sections.featured_collection.name",
+      "settings": {
+        "title": "Other scents",
+        "subheading": "あなたのお気に入りの香りを見つけよう",
+        "collection": "laundry",
+        "no_products": 4,
+        "show_view_all": false,
+        "enable_quick_buy": false,
+        "display_on_card": false,
+        "layout": "grid",
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "slideshow_focus": "center",
+        "mobile_slide_width": "three_fifths",
+        "desktop_slide_width": 40,
+        "autoscroll_mode": "1",
+        "product_tiles_aspect_ratio": "",
+        "image_shape": "",
+        "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+        "use_gradient_background": false
+      }
+    },
+    "rich_text_bjQbHE": {
+      "type": "rich-text",
+      "custom_css": [
+        ".section-content {padding-top: 0px;}",
+        ".push-btn__surface {width: 250px;}"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "",
+        "heading_size": "heading-feature",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "shopify://collections/p-sha-collections-for-top",
+        "button_label": "VIEW MORE",
+        "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+        "use_gradient_background": false
+      }
+    },
+    "rich_text_DyPheb": {
+      "type": "rich-text",
+      "custom_css": [
+        ".px-section {padding-bottom: 2rem;}"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "閲覧履歴",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+        "use_gradient_background": false
+      }
+    },
+    "product-history": {
+      "type": "product-history",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "featured_collection_KY78aU",
+    "rich_text_bjQbHE",
+    "rich_text_DyPheb",
+    "product-history"
+  ]
+}

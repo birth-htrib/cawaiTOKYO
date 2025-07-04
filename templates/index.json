@@ -1,0 +1,737 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_slideshow_Lp8DYY": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "slide_QFmVKy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fv1.webp",
+            "image_mobile": "shopify://shop_images/sp-fv1.webp",
+            "title": "",
+            "richtext": "",
+            "cta_url": "",
+            "cta_text": "Shop Now",
+            "place_content": "place-content-end-start",
+            "text_align": "text-center"
+          }
+        },
+        "slide_h3mCjy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fv2.webp",
+            "image_mobile": "shopify://shop_images/sp-fv2.webp",
+            "title": "",
+            "richtext": "",
+            "cta_url": "",
+            "cta_text": "Shop Now",
+            "place_content": "inherit",
+            "text_align": "inherit"
+          }
+        },
+        "sticker_HXmaCB": {
+          "type": "sticker",
+          "settings": {
+            "width": 230,
+            "half_width_on_mobile": true,
+            "text": "cawaii",
+            "shape": "scalloped_circle_3",
+            "sticker_font_size": "2.441rem",
+            "horizontal_position": 87,
+            "vertical_position": 93,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "constantly_rotate",
+            "enable_parallax": true,
+            "parallax_speed": 3,
+            "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
+            "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
+          }
+        },
+        "sticker_VABzjY": {
+          "type": "sticker",
+          "settings": {
+            "width": 210,
+            "half_width_on_mobile": true,
+            "text": "TOKYO",
+            "shape": "star_1",
+            "sticker_font_size": "1.953rem",
+            "horizontal_position": 24,
+            "vertical_position": 24,
+            "rotate": 26,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "constantly_rotate",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme5",
+            "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
+          }
+        },
+        "shape_divider_XLNyhg": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "shape_divider_N9yAre": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_QFmVKy",
+        "slide_h3mCjy",
+        "sticker_HXmaCB",
+        "sticker_VABzjY",
+        "shape_divider_XLNyhg",
+        "shape_divider_N9yAre"
+      ],
+      "custom_css": [
+        ".splide__arrows {display: none;}"
+      ],
+      "name": "t:sections.hero_slideshow.name",
+      "settings": {
+        "style": "full",
+        "height": "natural",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": false,
+        "auto_rotate": true,
+        "slide_speed": "5000",
+        "place_content": "place-content-start-start",
+        "text_align": "text-left",
+        "heading_size": "heading-feature",
+        "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+        "use_gradient_background": false
+      }
+    },
+    "custom_liquid_rQiDCk": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".section-content {margin: 0 auto; text-align: center; font-size: 7vw; font-family: \"Josefin Sans\", sans-serif; line-height: 9vw; padding: 10vw 0 6vw;}",
+        "@media screen and (max-width: 750px) {.section-content {font-size: 13vw; line-height: 14.5vw; padding: 15vw 0 8vw; }}"
+      ],
+      "name": "t:sections.custom_liquid.name",
+      "settings": {
+        "title": "",
+        "custom_liquid": "<strong>“cawaii” <br>from Tokyo <br>to Asia</strong>",
+        "full_width": false,
+        "color_scheme": "scheme-9c1aec51-f030-4ab1-80eb-883f41f64e00"
+      }
+    },
+    "collection_focus_carousel_xArQXG": {
+      "type": "collection-focus-carousel",
+      "blocks": {
+        "sticker_d8CQ4z": {
+          "type": "sticker",
+          "settings": {
+            "width": 210,
+            "half_width_on_mobile": true,
+            "text": "TOKYO",
+            "shape": "scalloped_circle_1",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 19,
+            "vertical_position": 0,
+            "rotate": 0,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "constantly_rotate",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
+            "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
+          }
+        },
+        "sticker_JHAxUp": {
+          "type": "sticker",
+          "settings": {
+            "width": 170,
+            "half_width_on_mobile": false,
+            "text": "cawaii",
+            "shape": "star_wide",
+            "sticker_font_size": "1.953rem",
+            "horizontal_position": 14,
+            "vertical_position": 92,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "constantly_rotate",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme5",
+            "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
+          }
+        }
+      },
+      "block_order": [
+        "sticker_d8CQ4z",
+        "sticker_JHAxUp"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 750px) {.product-tile__container {padding: 0.7rem; }}",
+        "#sticker-sticker_d8CQ4z {top: -65px; left: 400px;}",
+        "@media screen and (max-width: 1500px) {#sticker-sticker_d8CQ4z {top: -40px; left: 200px; }}"
+      ],
+      "name": "t:sections.collection_focus_carousel.name",
+      "settings": {
+        "title": "Pickup",
+        "subheading": "",
+        "collection": "pickup",
+        "no_products": 3,
+        "enable_focused_quick_buy": false,
+        "focused_slide_source": "metafield",
+        "focused_slide_metafield": "",
+        "display_on_card": true,
+        "enlarge_active_slide": true,
+        "mobile_slide_width": "three_fifths",
+        "desktop_slide_width": 30,
+        "product_tiles_aspect_ratio": "natural",
+        "image_shape": "",
+        "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+        "use_gradient_background": false
+      }
+    },
+    "curved_text_mXa8xN": {
+      "type": "curved-text",
+      "custom_css": [],
+      "name": "t:sections.curved_text.name",
+      "settings": {
+        "text": "c a w a i i T O K Y O",
+        "link": "",
+        "wave_height": 200,
+        "wave_width": 300,
+        "speed": 0.8,
+        "mobile_text_scale": 1,
+        "desktop_text_scale": 7,
+        "font": "font-heading",
+        "enable_animation": true,
+        "pause_on_hover": false,
+        "direction": "rtl",
+        "color_scheme": "scheme-9c1aec51-f030-4ab1-80eb-883f41f64e00",
+        "use_gradient_background": false
+      }
+    },
+    "custom_liquid_iKqdYi": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "video {width: min(100vw, 100vh); height: min(100vw, 100vh); margin-left: auto; margin-right: auto;}",
+        ".section-content {height: min(100vw, 100vh);}"
+      ],
+      "name": "t:sections.custom_liquid.name",
+      "settings": {
+        "title": "",
+        "custom_liquid": "<div class=\"section-content\">\n    \n\n    <div class=\"mx-auto w-full\">\n      <div class=\"section-content relative z-10 mx-auto w-full text-center\">\n        \n          <data-island id=\"video-template--19185944559842__video_kqiNfA\" x-data=\"Video('inline', 'autoplay')\" class=\"relative w-full\" x-intersect:leave=\"pause\" x-intersect:enter=\"play\" style=\"padding-top: 100.0%;\" ready=\"\">\n            <div class=\"\" :class=\"{ 'opacity-0 pointer-events-none' : !shown }\">\n              <data-island class=\"contents\" x-data=\"HTMLVideo\" @play=\"play\" @pause=\"pause\" ready=\"\">\n                \n                \n                  <video loop playsinline=\"playsinline\" class=\"absolute inset-0 w-full h-full object-cover\" autoplay=\"autoplay\" playsline=\"true\" x-ref=\"video\" muted=\"muted\" preload=\"metadata\" poster=\"//cdn.shopify.com/s/files/1/0743/8145/9682/files/preview_images/733036a5e1bb435aaf5253e95e06726d.thumbnail.0000000000_2000x.jpg?v=1750730522\"><source src=\"https://cdn.shopify.com/videos/c/o/v/0cba8e92514b4c20904bb10ec7b85175.mp4\" type=\"video/mp4\"><img src=\"//cdn.shopify.com/s/files/1/0743/8145/9682/files/preview_images/733036a5e1bb435aaf5253e95e06726d.thumbnail.0000000000_2000x.jpg?v=1750730522\"></video>\n                \n              </data-island>\n            </div>\n          </data-island>\n        \n      </div>\n    </div>\n  </div>",
+        "full_width": true,
+        "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b"
+      }
+    },
+    "curved_text_XhrWh7": {
+      "type": "curved-text",
+      "name": "t:sections.curved_text.name",
+      "settings": {
+        "text": "c w a i i T O K Y O",
+        "link": "",
+        "wave_height": 200,
+        "wave_width": 300,
+        "speed": 0.8,
+        "mobile_text_scale": 1,
+        "desktop_text_scale": 7,
+        "font": "font-heading",
+        "enable_animation": true,
+        "pause_on_hover": false,
+        "direction": "ltr",
+        "color_scheme": "scheme-9c1aec51-f030-4ab1-80eb-883f41f64e00",
+        "use_gradient_background": false
+      }
+    },
+    "image_with_text_overlay_QdHLTi": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "shape_divider_TthPeW": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme-3879db91-75d8-4e48-ad71-ebe556b7298b",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "shape_divider_6xBFk7": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": true,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "sticker_QL7TMn": {
+          "type": "sticker",
+          "settings": {
+            "width": 130,
+            "half_width_on_mobile": false,
+            "text": "TOKYO",
+            "shape": "zig_zag_ribbon",
+            "sticker_font_size": "1.953rem",
+            "horizontal_position": 79,
+            "vertical_position": 3,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": false,
+            "rotation_animation": "constantly_rotate",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme5",
+            "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_TthPeW",
+        "shape_divider_6xBFk7",
+        "sticker_QL7TMn"
+      ],
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "image": "shopify://shop_images/psha_main.webp",
+        "image_mobile": "shopify://shop_images/sp-psha_main.webp",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": false,
+        "style": "full",
+        "height": "natural",
+        "place_content": "place-content-center-center",
+        "text_align": "text-right",
+        "title": "",
+        "heading_size": "heading-feature",
+        "richtext": "",
+        "cta_url": "",
+        "cta_text": "Shop Now",
+        "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
+        "use_gradient_background": false
+      }
+    },
+    "collection_focus_carousel_XnMGHU": {
+      "type": "collection-focus-carousel",
+      "custom_css": [
+        "@media screen and (max-width: 750px) {h2 {margin-top: 1rem; }}"
+      ],
+      "name": "t:sections.collection_focus_carousel.name",
+      "settings": {
+        "title": "Fabric softener",
+        "subheading": "<a href=\"https://cawaiitokyo.jp/collections/p-sha-collections\" title=\"https://cawaiitokyo.jp/collections/p-sha-collections\">VIEW MORE</a>",
+        "collection": "p-sha-collections-for-top",
+        "no_products": 4,
+        "enable_focused_quick_buy": true,
+        "focused_slide_source": "none",
+        "focused_slide_metafield": "",
+        "display_on_card": false,
+        "enlarge_active_slide": true,
+        "mobile_slide_width": "three_fifths",
+        "desktop_slide_width": 25,
+        "product_tiles_aspect_ratio": "natural",
+        "image_shape": "default",
+        "color_scheme": "scheme-3879db91-75d8-4e48-ad71-ebe556b7298b",
+        "use_gradient_background": false
+      }
+    },
+    "scrolling_text_with_icons_CAQ94V": {
+      "type": "scrolling-text-with-icons",
+      "blocks": {
+        "text_nBtYzD": {
+          "type": "text",
+          "settings": {
+            "text": "Reviews",
+            "icon": "heart"
+          }
+        },
+        "text_4Y8bTJ": {
+          "type": "text",
+          "settings": {
+            "text": "Reviews",
+            "icon": "heart"
+          }
+        },
+        "text_Bq9eeP": {
+          "type": "text",
+          "settings": {
+            "text": "Reviews",
+            "icon": "heart"
+          }
+        },
+        "text_UrCqWp": {
+          "type": "text",
+          "settings": {
+            "text": "Reviews",
+            "icon": "heart"
+          }
+        },
+        "text_yt3aJW": {
+          "type": "text",
+          "settings": {
+            "text": "Reviews",
+            "icon": "heart"
+          }
+        },
+        "text_mrUbzV": {
+          "type": "text",
+          "settings": {
+            "text": "Reviews",
+            "icon": "heart"
+          }
+        }
+      },
+      "block_order": [
+        "text_nBtYzD",
+        "text_4Y8bTJ",
+        "text_Bq9eeP",
+        "text_UrCqWp",
+        "text_yt3aJW",
+        "text_mrUbzV"
+      ],
+      "name": "t:sections.scrolling_text_with_icons.name",
+      "settings": {
+        "repeat_text": true,
+        "link": "",
+        "font": "body",
+        "gap": "gap-44",
+        "icon_size": "size-8",
+        "speed": 120,
+        "direction": "",
+        "icon_thickness": 1.5,
+        "background_color": "bg-scheme-accent-2 text-scheme-accent-2-contrast",
+        "show_border": true,
+        "color_scheme": "scheme-3879db91-75d8-4e48-ad71-ebe556b7298b",
+        "use_gradient_background": false
+      }
+    },
+    "scrolling_text_with_icons_4XBWjx": {
+      "type": "scrolling-text-with-icons",
+      "blocks": {
+        "text_7VdYnx": {
+          "type": "text",
+          "settings": {
+            "text": "Reviews",
+            "icon": "heart"
+          }
+        },
+        "text_8FHqJT": {
+          "type": "text",
+          "settings": {
+            "text": "Reviews",
+            "icon": "heart"
+          }
+        },
+        "text_9qDiYN": {
+          "type": "text",
+          "settings": {
+            "text": "Reviews",
+            "icon": "heart"
+          }
+        },
+        "text_XKACad": {
+          "type": "text",
+          "settings": {
+            "text": "Reviews",
+            "icon": "heart"
+          }
+        },
+        "text_ePMgmD": {
+          "type": "text",
+          "settings": {
+            "text": "Reviews",
+            "icon": "heart"
+          }
+        }
+      },
+      "block_order": [
+        "text_7VdYnx",
+        "text_8FHqJT",
+        "text_9qDiYN",
+        "text_XKACad",
+        "text_ePMgmD"
+      ],
+      "name": "t:sections.scrolling_text_with_icons.name",
+      "settings": {
+        "repeat_text": true,
+        "link": "",
+        "font": "body",
+        "gap": "gap-20",
+        "icon_size": "size-8",
+        "speed": 120,
+        "direction": "",
+        "icon_thickness": 1.4,
+        "background_color": "bg-scheme-accent-2 text-scheme-accent-2-contrast",
+        "show_border": true,
+        "color_scheme": "scheme-3879db91-75d8-4e48-ad71-ebe556b7298b",
+        "use_gradient_background": false
+      }
+    },
+    "testimonials_Fr76wm": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_CyMMUM": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "新しい香りが出ると必ず買ってしまう。どれもいい香りで、毎日どれを使うか悩みます。今回のも優しいいい香りで、香り選びの楽しみが増えました。",
+            "source": "akari"
+          }
+        },
+        "testimonial_NNrVyr": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "P-shaはどれも香りが良くて香りが長続きし大好きです。",
+            "source": "sari"
+          }
+        },
+        "testimonial_KbKA3W": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "ホワイトフローラルを毎回購入しています。今度はどんな香りが出るのかなぁと、毎回楽しみにしております。",
+            "source": "sho"
+          }
+        },
+        "testimonial_DXmNLy": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "良い香り！大好き好きて常にストックは切らしません。",
+            "source": "mayu"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_CyMMUM",
+        "testimonial_NNrVyr",
+        "testimonial_KbKA3W",
+        "testimonial_DXmNLy"
+      ],
+      "name": "t:sections.testimonials.name",
+      "settings": {
+        "display_on_card": true,
+        "title": "",
+        "max_width": 310,
+        "disable_media_style": false,
+        "crop": "aspect-w-4 aspect-h-3",
+        "image_shape": "default",
+        "desktop_slide_width": 25,
+        "autoscroll_mode": "0",
+        "color_scheme": "scheme-3879db91-75d8-4e48-ad71-ebe556b7298b",
+        "use_gradient_background": false
+      }
+    },
+    "collage_pecNfM": {
+      "type": "collage",
+      "blocks": {
+        "sticker_kycqyx": {
+          "type": "sticker",
+          "settings": {
+            "width": 240,
+            "half_width_on_mobile": true,
+            "text": "cawaii",
+            "shape": "ribbon",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 13,
+            "vertical_position": 3,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "constantly_rotate",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
+            "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
+          }
+        },
+        "shape_divider_qTh6KY": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme-3879db91-75d8-4e48-ad71-ebe556b7298b",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": true,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "image_gU9gqN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/laundry.jpg",
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "Laundry",
+            "url": "shopify://collections/laundry"
+          }
+        },
+        "image_77GGFH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/oralcare_36686554-1492-4330-85a4-359e9ca97a89.jpg",
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "OralCare",
+            "url": "https://cawaiitokyo.jp/collections/oralcare"
+          }
+        },
+        "image_wdRAxG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/innercare_dc2ab06c-4452-4320-b933-261c6f0342b2.jpg",
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "InnerCare",
+            "url": "https://cawaiitokyo.jp/collections/innercare"
+          }
+        },
+        "sticker_rMTQBP": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "width": 100,
+            "half_width_on_mobile": false,
+            "text": "TOKYO",
+            "shape": "scalloped_circle_4",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 92,
+            "vertical_position": 100,
+            "rotate": 30,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "constantly_rotate",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+            "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
+          }
+        },
+        "shape_divider_AVeBKX": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "tilt-1-shape_1440x101",
+            "flip_horizontal": true,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "sticker_kycqyx",
+        "shape_divider_qTh6KY",
+        "image_gU9gqN",
+        "image_77GGFH",
+        "image_wdRAxG",
+        "sticker_rMTQBP",
+        "shape_divider_AVeBKX"
+      ],
+      "custom_css": [
+        "h2 {margin-top: 8rem;}",
+        ".max-w-site {max-width: 60%;}",
+        ".gap-theme {gap: 1rem;}",
+        "@media screen and (max-width: 750px) {h2 {margin-top: 2rem; } .max-w-site {max-width: 100%; }}"
+      ],
+      "name": "t:sections.collage.name",
+      "settings": {
+        "title": "Categories",
+        "first_large_image_position": "top_left",
+        "crop": "",
+        "button_style": "push-btn__surface",
+        "show_buttons_on_mobile": false,
+        "only_show_button_on_hover": true,
+        "color_scheme": "scheme-d45b19c8-70b7-4398-80da-4b912a751e5e",
+        "use_gradient_background": false
+      }
+    },
+    "rich_text_www8Cb": {
+      "type": "rich-text",
+      "blocks": {
+        "shape_divider_CFHt7J": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme-d45b19c8-70b7-4398-80da-4b912a751e5e",
+            "style": "tilt-1-shape_1440x101",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "shape_divider_YNnEpH": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme-d45b19c8-70b7-4398-80da-4b912a751e5e",
+            "style": "tilt-1-shape_1440x101",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_CFHt7J",
+        "shape_divider_YNnEpH"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "Free Shipping",
+        "heading_size": "heading-standard",
+        "rich_text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "scheme-d45b19c8-70b7-4398-80da-4b912a751e5e",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "hero_slideshow_Lp8DYY",
+    "custom_liquid_rQiDCk",
+    "collection_focus_carousel_xArQXG",
+    "curved_text_mXa8xN",
+    "custom_liquid_iKqdYi",
+    "curved_text_XhrWh7",
+    "image_with_text_overlay_QdHLTi",
+    "collection_focus_carousel_XnMGHU",
+    "scrolling_text_with_icons_CAQ94V",
+    "scrolling_text_with_icons_4XBWjx",
+    "testimonials_Fr76wm",
+    "collage_pecNfM",
+    "rich_text_www8Cb"
+  ]
+}
