@@ -296,7 +296,7 @@
       "settings": {
         "apply_vertical_spacing": true,
         "apply_horizontal_spacing": true,
-        "display_on_card": false,
+        "display_on_card": true,
         "content_width_desktop": "lg:w-full",
         "color_scheme": "",
         "use_gradient_background": false
