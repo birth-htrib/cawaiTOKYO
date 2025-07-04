@@ -268,10 +268,43 @@
         "use_gradient_background": false
       }
     },
+    "product-history": {
+      "type": "product-history",
+      "settings": {}
+    },
+    "1751618762ead83392": {
+      "type": "apps",
+      "blocks": {
+        "rempro_display_recent_view_products_Dy3Uyb": {
+          "type": "shopify://apps/rempro/blocks/display-recent-view-products/bf7dbc8e-7e97-487b-8543-1123a8c287bf",
+          "settings": {
+            "rempro_block_customer": "all",
+            "rempro_block_title": "Browsing history",
+            "rempro_block_alignment": "center",
+            "rempro_block_title_size": 24,
+            "rempro_block_columns": 4,
+            "rempro_block_product_image_fit": "contain",
+            "rempro_block_product_title_size": 16,
+            "rempro_block_product_title_length": 20
+          }
+        }
+      },
+      "block_order": [
+        "rempro_display_recent_view_products_Dy3Uyb"
+      ],
+      "settings": {
+        "apply_vertical_spacing": true,
+        "apply_horizontal_spacing": true,
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-full",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
     "rich_text_DyPheb": {
       "type": "rich-text",
       "blocks": {
-        "shape_divider_UJjUpJ": {
+        "shape_divider_bEgmBd": {
           "type": "shape_divider",
           "settings": {
             "target_section": "below",
@@ -284,14 +317,11 @@
         }
       },
       "block_order": [
-        "shape_divider_UJjUpJ"
-      ],
-      "custom_css": [
-        ".px-section {padding-bottom: 2rem;}"
+        "shape_divider_bEgmBd"
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
-        "title": "Browsing history",
+        "title": "",
         "heading_size": "heading-standard",
         "rich_text": "",
         "display_on_card": false,
@@ -301,10 +331,6 @@
         "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
         "use_gradient_background": false
       }
-    },
-    "product-history": {
-      "type": "product-history",
-      "settings": {}
     }
   },
   "order": [
@@ -312,7 +338,8 @@
     "related-products",
     "featured_collection_KY78aU",
     "rich_text_bjQbHE",
-    "rich_text_DyPheb",
-    "product-history"
+    "product-history",
+    "1751618762ead83392",
+    "rich_text_DyPheb"
   ]
 }
