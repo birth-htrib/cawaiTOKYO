@@ -173,7 +173,7 @@
         ".px-section {padding-left: 10%; padding-right: 10%;}"
       ],
       "settings": {
-        "display_on_card": false,
+        "display_on_card": true,
         "enable_quick_buy": false,
         "related_products_heading": "You may also like",
         "max_products": "3",
