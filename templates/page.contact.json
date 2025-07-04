@@ -11,8 +11,25 @@
   "sections": {
     "main": {
       "type": "main-page-contact",
+      "blocks": {
+        "shape_divider_j4nh3p": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme-133eabc6-bcfb-4350-ba4f-0a66b5aabf17",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_j4nh3p"
+      ],
       "custom_css": [
-        "h1 {font-size: 3rem; padding: 10px;}"
+        "h1 {font-size: 4vw; padding: 10px 0 10px 0;}",
+        "@media screen and (max-width: 750px) {h1 {font-size: 7vw; padding: 10px 0 0; }}"
       ],
       "settings": {
         "display_on_card": true,

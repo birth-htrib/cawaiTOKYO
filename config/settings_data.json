@@ -92,6 +92,7 @@
     "heading_drop_shadow_color": "color-scheme-accent-1",
     "underline_style": "wavy",
     "currency_code_enabled": true,
+    "predictive_search_crop": "aspect-w-1 aspect-h-1",
     "social_style": "icons",
     "cart_icon": "bag",
     "cart_type": "page",
