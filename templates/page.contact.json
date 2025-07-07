@@ -28,7 +28,7 @@
         "shape_divider_UUzhHk"
       ],
       "custom_css": [
-        "h1 {font-family: \"Zen Kaku Gothic New\", sans-serif; font-size: 4vw; padding: 10px 0 10px 0;}",
+        "h1 {font-family: \"Zen Kaku Gothic New\", sans-serif; font-size: 3rem; padding: 10px 0 10px 0;}",
         "@media screen and (max-width: 750px) {h1 {font-size: 7vw; padding: 10px 0 0; }}"
       ],
       "settings": {
