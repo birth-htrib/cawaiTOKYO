@@ -319,7 +319,7 @@
         "sticker_QL7TMn"
       ],
       "custom_css": [
-        "#sticker-text-sticker_QL7TMn div {padding-top: 5px;}"
+        "#sticker-text-sticker_QL7TMn div {padding-top: 6px;}"
       ],
       "name": "t:sections.image_with_text_overlay.name",
       "settings": {
