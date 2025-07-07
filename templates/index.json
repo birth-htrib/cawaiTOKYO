@@ -80,6 +80,7 @@
         },
         "shape_divider_XLNyhg": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "above",
             "target_section_color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
