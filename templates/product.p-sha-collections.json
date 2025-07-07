@@ -89,6 +89,10 @@
             "text_align": "text-left"
           }
         },
+        "scent_pyramid_eL6VMQ": {
+          "type": "scent_pyramid",
+          "settings": {}
+        },
         "shape_divider_HzGqXf": {
           "type": "shape_divider",
           "settings": {
@@ -98,11 +102,6 @@
             "flip_horizontal": false,
             "enable_animation": false,
             "animation_direction": ""
-          }
-        },
-        "scent_pyramid": {
-          "type": "scent_pyramid",
-          "settings": {
           }
         },
         "collapsible_tab_WAGr4R": {
@@ -170,8 +169,8 @@
         "baf3083e-d14d-435d-bca3-100d6ac490ce",
         "liquid_i9aQ6z",
         "a17e90c4-acc9-4f1d-af84-828ae4cb2289",
+        "scent_pyramid_eL6VMQ",
         "shape_divider_HzGqXf",
-        "scent_pyramid",
         "collapsible_tab_WAGr4R",
         "collapsible_tab_NQMDQJ",
         "collapsible_tab_xggdgX",
