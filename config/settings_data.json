@@ -1296,7 +1296,8 @@
       ".product-tile__container {padding: 0.9rem;}",
       "@media screen and (max-width: 750px) {.product-tile__container {padding: 0.5rem; }}",
       ".price {margin: 0px 0px 15px 0px;}",
-      ".shopify-policy__container {max-width: 50%;}"
+      ".shopify-policy__container {max-width: 50%;}",
+      ".shopify-policy__container h1 {font-size: 3rem;}"
     ]
   }
 }
