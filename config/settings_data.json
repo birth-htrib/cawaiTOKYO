@@ -1291,11 +1291,12 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "main{background-color: #FDEBF8;}",
+      "main {background-color: #fdebf8;}",
       "h3,.price-item,a {font-weight: 600;}",
       ".product-tile__container {padding: 0.9rem;}",
       "@media screen and (max-width: 750px) {.product-tile__container {padding: 0.5rem; }}",
-      ".price {margin: 0px 0px 15px 0px;}"
+      ".price {margin: 0px 0px 15px 0px;}",
+      ".shopify-policy__container {max-width: 50%;}"
     ]
   }
 }
