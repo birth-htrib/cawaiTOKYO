@@ -25,7 +25,7 @@
           "type": "sticker",
           "settings": {
             "width": 150,
-            "half_width_on_mobile": false,
+            "half_width_on_mobile": true,
             "text": "cawaii",
             "shape": "star_1",
             "sticker_font_size": "1.953rem",
