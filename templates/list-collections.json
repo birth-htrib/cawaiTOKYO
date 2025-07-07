@@ -36,6 +36,9 @@
       "block_order": [
         "sticker_QxrBUM"
       ],
+      "custom_css": [
+        ".relative h1 {font-size: 5rem;}"
+      ],
       "name": "t:sections.rich_text.name",
       "settings": {
         "title": "All Products",
