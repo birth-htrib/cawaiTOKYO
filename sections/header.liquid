@@ -149,6 +149,11 @@
 {% endif %}
 
 {%- liquid
+  for shape_divider in shape_dividers
+    render 'block-shape-divider' with block: shape_divider, section: section, no_padding: true
+  endfor
+-%}
+{%- liquid
   assign link_all = section.settings.show_all_navigation_links
   assign link_classes = base_font_class | append: ' px-2.5 py-3.5 flex items-center transition'
   assign cart_link_classes = base_font_class | append: ' pl-2.5 py-3.5 flex items-center transition'
