@@ -1291,7 +1291,6 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "main {background-color: #fdebf8;}",
       "h3,.price-item,a {font-weight: 600;}",
       ".product-tile__container {padding: 0.9rem;}",
       "@media screen and (max-width: 750px) {.product-tile__container {padding: 0.5rem; }}",
