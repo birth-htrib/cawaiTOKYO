@@ -250,6 +250,7 @@
     },
     "curved_text_XhrWh7": {
       "type": "curved-text",
+      "custom_css": [],
       "name": "t:sections.curved_text.name",
       "settings": {
         "text": "c w a i i T O K Y O",
@@ -264,6 +265,25 @@
         "pause_on_hover": false,
         "direction": "ltr",
         "color_scheme": "scheme-9c1aec51-f030-4ab1-80eb-883f41f64e00",
+        "use_gradient_background": false
+      }
+    },
+    "scrolling_text_rmdTcx": {
+      "type": "scrolling-text",
+      "name": "t:sections.scrolling_text.name",
+      "settings": {
+        "text": "",
+        "repeat_text": true,
+        "shape_between_text": "none",
+        "animate_shape_between_text": true,
+        "link": "",
+        "font": "font-heading heading-secondary",
+        "apply_effects": false,
+        "mobile_text_scale": 2,
+        "desktop_text_scale": 4,
+        "speed": 120,
+        "direction": "",
+        "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
         "use_gradient_background": false
       }
     },
@@ -681,6 +701,7 @@
     "curved_text_mXa8xN",
     "custom_liquid_iKqdYi",
     "curved_text_XhrWh7",
+    "scrolling_text_rmdTcx",
     "image_with_text_overlay_QdHLTi",
     "collection_focus_carousel_XnMGHU",
     "scrolling_text_with_icons_CAQ94V",

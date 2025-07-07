@@ -1297,8 +1297,7 @@
       ".price {margin: 0px 0px 15px 0px;}",
       ".shopify-policy__container {margin: 6vw auto; max-width: 50%; padding: 3vw; background-color: #ffffff; border: 0.3rem solid; border-radius: 10px; box-shadow: 10px 10px;}",
       ".shopify-policy__container h1 {font-family: \"Zen Kaku Gothic New\", sans-serif; font-size: 3.5vw; padding: 10px 0 30px 0;}",
-      "@media screen and (max-width: 750px) {.shopify-policy__container h1 {font-size: 5vw; padding: 10px 0 0; }}",
-      ".product-block{margin-top: 100px;}"
+      "@media screen and (max-width: 750px) {.shopify-policy__container h1 {font-size: 5vw; padding: 10px 0 0; }}"
     ]
   }
 }
