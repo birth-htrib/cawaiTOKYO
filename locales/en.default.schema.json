@@ -1687,6 +1687,21 @@
           }
         }
       },
+      "scent_pyramid": {
+        "name": "scent_pyramid",
+        "settings": {
+          "heading": {
+            "label": "Heading",
+            "info": "Include a heading that explains the content."
+          },
+          "content": {
+            "label": "Tab content"
+          },
+          "page": {
+            "label": "Tab content from page"
+          }
+        }
+      },
       "collapsible_tab": {
         "name": "Collapsible tab",
         "settings": {

@@ -541,6 +541,12 @@
                       block: block,
                       block_base_classes: block_base_classes
                     %}
+                  {%- when 'scent_pyramid' -%}
+                    {% render 'scent_pyramid',
+                      product: product,
+                      block: block,
+                      block_base_classes: block_base_classes
+                    %}
                   {%- when 'collapsible_tab' -%}
                     {% render 'product-block-collapsible-tab',
                       block: block,
