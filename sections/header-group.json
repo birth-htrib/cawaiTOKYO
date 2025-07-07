@@ -38,8 +38,8 @@
           "type": "shape_divider",
           "settings": {
             "target_section": "below",
-            "target_section_color_scheme": "scheme1",
-            "style": "waves-1-patterned_1200x20",
+            "target_section_color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
+            "style": "waves-2-patterned_1200x43",
             "flip_horizontal": false,
             "enable_animation": false,
             "animation_direction": ""
