@@ -83,6 +83,7 @@
         },
         "a17e90c4-acc9-4f1d-af84-828ae4cb2289": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "display_on_card": false,
             "truncate_description": false,
