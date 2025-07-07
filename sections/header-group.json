@@ -18,7 +18,7 @@
         "@media screen and (max-width: 750px) {.lg\\:py-2 {padding-top: 0.3rem; padding-bottom: 3rem; }}"
       ],
       "settings": {
-        "home_page_only": true,
+        "home_page_only": false,
         "display": "scrolling_text",
         "text": "cawaiiTOKYO",
         "link": "",
@@ -33,6 +33,22 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "shape_divider_WGqCeU": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-1-patterned_1200x20",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_WGqCeU"
+      ],
       "custom_css": [],
       "settings": {
         "logo_max_width": 230,

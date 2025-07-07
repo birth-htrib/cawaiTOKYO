@@ -12,7 +12,7 @@
     "main": {
       "type": "main-page-contact",
       "blocks": {
-        "shape_divider_j4nh3p": {
+        "shape_divider_UUzhHk": {
           "type": "shape_divider",
           "settings": {
             "target_section": "below",
@@ -25,7 +25,7 @@
         }
       },
       "block_order": [
-        "shape_divider_j4nh3p"
+        "shape_divider_UUzhHk"
       ],
       "custom_css": [
         "h1 {font-family: \"Zen Kaku Gothic New\", sans-serif; font-size: 4vw; padding: 10px 0 10px 0;}",
