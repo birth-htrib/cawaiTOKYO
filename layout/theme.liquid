@@ -258,9 +258,10 @@
     
   </style>
   
+    {{ 'common.css' | asset_url | stylesheet_tag: preload: true }}
   </head>
 
-  <body data-color-scheme="scheme1">
+  <body data-color-scheme="scheme1" class="{{ page_title }}">
     {%- if settings.show_on_sale_badge -%}
       {%- render 'static-sticker-defs',
         shape: settings.on_sale_badge_shape,
