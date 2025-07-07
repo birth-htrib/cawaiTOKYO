@@ -92,6 +92,7 @@
         },
         "scent_pyramid_eL6VMQ": {
           "type": "scent_pyramid",
+          "disabled": true,
           "settings": {}
         },
         "shape_divider_HzGqXf": {
