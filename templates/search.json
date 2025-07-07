@@ -11,6 +11,22 @@
   "sections": {
     "main": {
       "type": "main-search",
+      "blocks": {
+        "shape_divider_93a9PA": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme-133eabc6-bcfb-4350-ba4f-0a66b5aabf17",
+            "style": "waves-1-patterned_1200x20",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_93a9PA"
+      ],
       "settings": {
         "display_on_card": true,
         "crop": "aspect-w-1 aspect-h-1",
