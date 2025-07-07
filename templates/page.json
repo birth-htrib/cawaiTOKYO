@@ -29,7 +29,7 @@
       ],
       "custom_css": [
         "h1 {font-family: \"Zen Kaku Gothic New\", sans-serif; font-size: 3.5vw; padding: 10px 0 30px 0;}",
-        "@media screen and (max-width: 750px) {h1 {font-size: 5vw; padding: 10px 0 0; }}"
+        "@media screen and (max-width: 750px) {h1 {font-size: 6vw; padding: 10px 0 0; }}"
       ],
       "settings": {
         "max_width": "large",
