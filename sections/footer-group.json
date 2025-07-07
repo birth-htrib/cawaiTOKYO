@@ -16,11 +16,10 @@
       "blocks": {
         "shape_divider_UzAFLF": {
           "type": "shape_divider",
-          "disabled": true,
           "settings": {
             "target_section": "above",
-            "target_section_color_scheme": "scheme-3879db91-75d8-4e48-ad71-ebe556b7298b",
-            "style": "clouds-shape_1400x161",
+            "target_section_color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
+            "style": "waves-2-patterned_1200x43",
             "flip_horizontal": false,
             "enable_animation": false,
             "animation_direction": ""
