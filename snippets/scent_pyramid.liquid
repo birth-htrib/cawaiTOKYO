@@ -1,10 +1,29 @@
 
-<ul class="pyramid">
-  <li>TOP<br>{{product.metafields.p-sha.topnote}}</li>
-    <li>MIDDLE<br>{{product.metafields.p-sha.middlenote}}</li>
-    <li>LAST<br>{{product.metafields.p-sha.lastnote}}</li>
-</ul>
+<div class="scent">
+  <h3 class="scent__title"> 【{{product.metafields.p-sha.scent-title}} 】</h3>
+  <p class="scent__description" >
+  {{-product.metafields.p-sha.scent-description | metafield_tag}}
+  </p>
+  
+  <ul class="pyramid">
+      <li>TOP<br>{{product.metafields.p-sha.topnote}}</li>
+      <li>MIDDLE<br>{{product.metafields.p-sha.middlenote}}</li>
+      <li>LAST<br>{{product.metafields.p-sha.lastnote}}</li>
+  </ul>
+</div>
 <style>
+.scent{ }
+.scent__title{ 
+  font-size:1.3rem; 
+  text-align:center;
+}
+.metafield-rich_text_field p{ 
+  font-size:0.9rem !important;
+  text-align:center;
+}
+.metafield-rich_text_field { 
+  margin-bottom: 2rem;
+}
 .pyramid {
     position: relative;
     padding: 0px;
