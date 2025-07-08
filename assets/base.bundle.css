@@ -4748,7 +4748,7 @@ shopify-payment-terms {
 
 .rte > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(var(--rte-spacing) * calc(1 - var(--tw-space-y-reverse)));
+  /*margin-top: calc(var(--rte-spacing) * calc(1 - var(--tw-space-y-reverse)));*/
   margin-bottom: calc(var(--rte-spacing) * var(--tw-space-y-reverse));
 }
 
