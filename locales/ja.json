@@ -7,4 +7,67 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{}
+{
+  "products": {
+    "general": {
+      "previous_product_html": "&larr; Previous Product",
+      "next_product_html": "Next Product &rarr;",
+      "from_text_html": "From {{ price }}",
+      "sale_price": "Sale price",
+      "regular_price": "Regular price",
+      "share": "Share",
+      "related_products_title": "Related Products",
+    },
+    "product": {
+      "sold_out": "Sold Out",
+      "on_sale": "On Sale",
+      "on_sale_from_html": "<strong>On Sale</strong> from {{ price }}",
+      "unavailable": "Unavailable",
+      "unit_price_label": "Unit price",
+      "compare_at": "Compare at",
+      "quantity": "Quantity",
+      "add_to_cart": "Add to Cart",
+      "preorder": "Pre-order",
+      "adding_to_cart": "Adding",
+      "added_to_cart": "Added to Cart",
+      "add_to_cart_confirm_html": "<a href=\"{{ cart_url }}\">View cart</a> or <a href=\"{{ link_url }}\">continue shopping</a>",
+      "color_swatch_trigger": "Color",
+      "read_more": "Read more",
+      "in_stock": "In Stock",
+      "out_of_stock": "Out of Stock",
+      "inventory_in_stock": "Ready to ship",
+      "inventory_low_stock_with_count": "Only {{ count }} in stock",
+      "include_taxes": "Tax included.",
+      "price": {
+        "from_price_html": "From {{ price }}",
+        "regular_price": "Regular price",
+        "sale_price": "Sale price",
+        "unit_price": "Unit price"
+      },
+      "inventory_in_stock_with_count": "{{ count }} in stock",
+      "inventory_low_stock": "Low stock",
+      "inventory_out_of_stock": "Out of stock",
+      "inventory_out_of_stock_continue_selling": "Ready to ship"
+    },
+    "media": {
+      "media": "Media",
+      "view_in_your_space": "View in your space",
+      "view_in_your_space_label": "View in your space, loads item in augmented reality window"
+    }
+  },
+  "collections":{
+    "general":{
+      "all_of_collection":"コレクションを見る"
+    }
+  },
+  "general":{
+      "search":
+      {
+        "title":"検索結果",
+        "title_with_results":"検索結果",
+        "placeholder":"例)P-sha",
+        "no_results":"検索内容が見つかりませんでした",
+        "results_with_count":"{{ count }}件の検索結果が見つかりました",
+      }
+  }
+}
