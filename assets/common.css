@@ -4,6 +4,7 @@
 
 #AnnouncementBar {
   position: fixed;
+  pointer-events: none;
   top: 0;
   z-index: 40;
   height: 5.1rem;
