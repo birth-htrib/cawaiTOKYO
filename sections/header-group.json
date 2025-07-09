@@ -50,7 +50,7 @@
         "shape_divider_WGqCeU"
       ],
       "custom_css": [
-        "a{font-weight: 600;}"
+        "a {font-weight: 600;}"
       ],
       "settings": {
         "logo_max_width": 230,
@@ -79,10 +79,21 @@
         "sidebar_show_footer_menu": false,
         "sidebar_show_social_icons": false
       }
+    },
+    "custom_liquid_aHJaKt": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.name",
+      "settings": {
+        "title": "",
+        "custom_liquid": "",
+        "full_width": true,
+        "color_scheme": ""
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "custom_liquid_aHJaKt"
   ]
 }
