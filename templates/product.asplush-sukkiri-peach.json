@@ -205,44 +205,12 @@
     "product-history": {
       "type": "product-history",
       "settings": {}
-    },
-    "rich_text_KUbT8D": {
-      "type": "rich-text",
-      "blocks": {
-        "shape_divider_7yTxHi": {
-          "type": "shape_divider",
-          "settings": {
-            "target_section": "below",
-            "target_section_color_scheme": "scheme-133eabc6-bcfb-4350-ba4f-0a66b5aabf17",
-            "style": "waves-2-patterned_1200x43",
-            "flip_horizontal": false,
-            "enable_animation": false,
-            "animation_direction": ""
-          }
-        }
-      },
-      "block_order": [
-        "shape_divider_7yTxHi"
-      ],
-      "name": "t:sections.rich_text.name",
-      "settings": {
-        "title": "",
-        "heading_size": "heading-standard",
-        "rich_text": "",
-        "display_on_card": false,
-        "content_width_desktop": "lg:w-2/3",
-        "button_link": "",
-        "button_label": "Shop Now",
-        "color_scheme": "",
-        "use_gradient_background": false
-      }
     }
   },
   "order": [
     "main",
     "related-products",
     "rich_text_EBTVie",
-    "product-history",
-    "rich_text_KUbT8D"
+    "product-history"
   ]
 }
