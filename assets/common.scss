@@ -32,10 +32,13 @@
     margin-top: 4rem;
   }
 
-  :root{
-    --pyramid-size:min(7.5rem , 25vw)
+  :root {
+    --pyramid-size: min(7.5rem, 25vw)
   }
 
+  .privacy-policy {
+    background-color: #FDEBF8;
+  }
 
   .scent {}
 
@@ -57,7 +60,7 @@
     position: relative;
     padding: 0px;
     margin: 0px auto;
-    width: calc(calc(var(--pyramid-size) + 1rem) * 3) ;
+    width: calc(calc(var(--pyramid-size) + 1rem) * 3);
     list-style: none;
     font-size: 1rem;
   }

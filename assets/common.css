@@ -29,7 +29,11 @@ a {
 }
 
 :root {
-  --pyramid-size:min(7.5rem , 25vw) ;
+  --pyramid-size: min(7.5rem, 25vw) ;
+}
+
+.privacy-policy {
+  background-color: #FDEBF8;
 }
 
 .scent__title {
