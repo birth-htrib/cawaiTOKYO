@@ -12,7 +12,7 @@
     "main": {
       "type": "main-search",
       "custom_css": [
-        "h1 {font-family: \"Zen Kaku Gothic New\", sans-serif; font-size: 3rem; padding: 30px 0 5px 0;}",
+        "h1 {font-family: \"Zen Kaku Gothic New\", sans-serif; font-size: 3rem; padding: 50px 0 5px 0;}",
         "@media screen and (max-width: 750px) {h1 {font-size: 6vw; padding: 10px 0 0; }}"
       ],
       "settings": {
