@@ -79,21 +79,10 @@
         "sidebar_show_footer_menu": false,
         "sidebar_show_social_icons": false
       }
-    },
-    "custom_liquid_aHJaKt": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom_liquid.name",
-      "settings": {
-        "title": "",
-        "custom_liquid": "<style>\n.section-footer svg path:first-child{\nfill:#fdebf8\n}\n</style>",
-        "full_width": true,
-        "color_scheme": ""
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "custom_liquid_aHJaKt"
+    "header"
   ]
 }
