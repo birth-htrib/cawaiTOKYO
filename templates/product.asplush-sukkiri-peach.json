@@ -146,6 +146,8 @@
       "custom_css": [
         "h3 {font-family: \"Zen Kaku Gothic New\", sans-serif;}",
         "h4,p {font-size: 1.2rem; font-family: \"Zen Kaku Gothic New\", sans-serif;}",
+        ".appearance-none p {font-size: 1rem;}",
+        ".card__surface {padding: 0.8rem 1.5rem 1.7rem 1.5rem;}",
         "@media screen and (max-width: 750px) {h3 {font-size: 1.2rem; } p {font-size: 1rem; }}"
       ],
       "settings": {
@@ -202,6 +204,21 @@
         "use_gradient_background": false
       }
     },
+    "rich_text_jnb9cc": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
     "product-history": {
       "type": "product-history",
       "settings": {}
@@ -211,6 +228,7 @@
     "main",
     "related-products",
     "rich_text_EBTVie",
+    "rich_text_jnb9cc",
     "product-history"
   ]
 }

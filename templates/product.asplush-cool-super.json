@@ -207,12 +207,28 @@
     "product-history": {
       "type": "product-history",
       "settings": {}
+    },
+    "rich_text_xYdg4x": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "rich_text_EBTVie",
-    "product-history"
+    "product-history",
+    "rich_text_xYdg4x"
   ]
 }

@@ -204,6 +204,21 @@
         "use_gradient_background": false
       }
     },
+    "rich_text_HbxriF": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
     "product-history": {
       "type": "product-history",
       "settings": {}
@@ -213,6 +228,7 @@
     "main",
     "related-products",
     "rich_text_EBTVie",
+    "rich_text_HbxriF",
     "product-history"
   ]
 }
