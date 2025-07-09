@@ -45,6 +45,10 @@
       "block_order": [
         "sticker_bQ4BBn"
       ],
+      "custom_css": [
+        ".heading-feature {font-size: 5rem;}",
+        "@media screen and (max-width: 750px) {.heading-feature {font-size: 2.5rem; }}"
+      ],
       "settings": {
         "display_on_card": false,
         "show_collection_title": true,
