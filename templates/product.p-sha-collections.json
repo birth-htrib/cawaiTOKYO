@@ -281,6 +281,10 @@
     },
     "rich_text_bzENK3": {
       "type": "rich-text",
+      "custom_css": [
+        ".px-section {padding-bottom: 2rem;}",
+        ".section-content {padding-bottom: 0px;}"
+      ],
       "name": "t:sections.rich_text.name",
       "settings": {
         "title": "Browsing history",
