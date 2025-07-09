@@ -29,7 +29,7 @@ a {
 }
 
 :root {
-  --pyramid-size:7.5rem ;
+  --pyramid-size:min(7.5rem , 25vw) ;
 }
 
 .scent__title {
@@ -50,7 +50,7 @@ a {
   position: relative;
   padding: 0px;
   margin: 0px auto;
-  width: min((var(--pyramid-size) + 1rem) * 3, 90vw);
+  width: calc((var(--pyramid-size) + 1rem) * 3);
   list-style: none;
   font-size: 1rem;
 }
