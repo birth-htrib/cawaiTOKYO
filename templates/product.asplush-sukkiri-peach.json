@@ -189,8 +189,7 @@
       "type": "rich-text",
       "custom_css": [
         ".px-section {padding-bottom: 2rem;}",
-        ".section-content {padding-bottom: 0px;}",
-        ".product-template__container{margin-bottom: 2rem;}"
+        ".section-content {padding-bottom: 0px;}"
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
