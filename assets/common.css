@@ -16,6 +16,10 @@
 }
 
 @media screen and (max-width: 990px) {
+  #AnnouncementBar {
+    z-index: 41;
+    height: 2.1rem;
+  }
   .px-2\.5 {
     padding-left: 0rem;
     padding-right: 0rem;
@@ -31,8 +35,12 @@
   }
 }
 @media screen and (max-width: 750px) {
+  #AnnouncementBar {
+    z-index: 41;
+    height: 2.1rem;
+  }
   .lg\:py-0 {
-    margin-top: -63px;
+    margin-top: -68px;
   }
 }
 a {
@@ -40,7 +48,7 @@ a {
 }
 
 .product {
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 :root {
@@ -113,6 +121,10 @@ a {
 .pyramid > li:nth-of-type(3)::before {
   z-index: -3;
   height: calc(var(--pyramid-size) * 3);
+}
+
+#MainContent {
+  padding-top: 5rem;
 }
 
 /*# sourceMappingURL=common.css.map */
