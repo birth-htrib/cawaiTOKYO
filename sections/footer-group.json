@@ -41,7 +41,7 @@
       ],
       "custom_css": [
         "li {line-height: 1rem; margin-bottom: 25px;}",
-        ".relative{margin-top: 3rem;}"
+        ".relative {margin-top: 4rem;}"
       ],
       "settings": {
         "show_payment_icons": true,
