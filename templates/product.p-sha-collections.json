@@ -282,7 +282,7 @@
     "rich_text_bzENK3": {
       "type": "rich-text",
       "custom_css": [
-        "@media screen and (max-width: 750px) {h2 {line-height: 0.7rem;}}"
+        "@media screen and (max-width: 750px) {h2 {padding-bottom: 0rem; }}"
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
