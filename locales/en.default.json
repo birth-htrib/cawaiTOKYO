@@ -617,5 +617,16 @@
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_list": {
+        "order_status_message": {
+          "table_view": {
+            "last_updated": "{{date}}"
+          }
+        }
+      }
+    }
   }
 }

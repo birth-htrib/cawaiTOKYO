@@ -25,11 +25,11 @@
           "type": "sticker",
           "settings": {
             "width": 150,
-            "half_width_on_mobile": false,
+            "half_width_on_mobile": true,
             "text": "cawaii",
             "shape": "star_1",
             "sticker_font_size": "1.953rem",
-            "horizontal_position": 80,
+            "horizontal_position": 83,
             "vertical_position": 70,
             "rotate": 0,
             "show_sticker_on_mobile": true,
@@ -44,6 +44,10 @@
       },
       "block_order": [
         "sticker_bQ4BBn"
+      ],
+      "custom_css": [
+        ".heading-feature {font-size: 5rem;}",
+        "@media screen and (max-width: 750px) {.heading-feature {font-size: 2.5rem; }}"
       ],
       "settings": {
         "display_on_card": false,
@@ -74,24 +78,8 @@
         "use_gradient_background": false
       }
     },
-    "rich_text_zbQL39": {
+    "rich_text_XA3jUg": {
       "type": "rich-text",
-      "blocks": {
-        "shape_divider_p4TVp3": {
-          "type": "shape_divider",
-          "settings": {
-            "target_section": "below",
-            "target_section_color_scheme": "scheme-133eabc6-bcfb-4350-ba4f-0a66b5aabf17",
-            "style": "waves-2-patterned_1200x43",
-            "flip_horizontal": false,
-            "enable_animation": false,
-            "animation_direction": ""
-          }
-        }
-      },
-      "block_order": [
-        "shape_divider_p4TVp3"
-      ],
       "name": "t:sections.rich_text.name",
       "settings": {
         "title": "",
@@ -101,7 +89,7 @@
         "content_width_desktop": "lg:w-2/3",
         "button_link": "",
         "button_label": "Shop Now",
-        "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
+        "color_scheme": "",
         "use_gradient_background": false
       }
     }
@@ -110,6 +98,6 @@
     "featured-image",
     "banner",
     "product-grid",
-    "rich_text_zbQL39"
+    "rich_text_XA3jUg"
   ]
 }

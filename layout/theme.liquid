@@ -211,51 +211,57 @@
     {% # theme-check-enable AssetPreload %}
   {% include 'pagefly-app-header' %}
   <style>
-/* ----------------------------------------------------
+      /* ----------------------------------------------------
 	TOP
 ---------------------------------------------------- */
-/* P-sha Collections */
-#shopify-section-template--19185944559842__collection_focus_carousel_XnMGHU .inline-rte {
-  position: absolute;
-  bottom: 2.2rem;
-  left: 0;
-  right: 0;
-  margin: auto;
-  z-index: 2;
-  display: flex;
-  justify-content: center;
-}
-#shopify-section-template--19185944559842__collection_focus_carousel_XnMGHU .inline-rte a {
-  padding: 1.2rem 3rem 1.3rem;
-  background-color: black;
-  border-radius: 999rem;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-}
-#shopify-section-template--19185944559842__collection_focus_carousel_XnMGHU .inline-rte a:hover {
-  background-color: #22C3FF;
-  color: #000;
-}
-@media screen and (max-width: 988px) {
-  #shopify-section-template--19185944559842__collection_focus_carousel_XnMGHU .inline-rte {
-    bottom: 1.2rem;
-  }
-  #shopify-section-template--19185944559842__collection_focus_carousel_XnMGHU .inline-rte a {
-    padding: 1.8vw 5vw 2vw;
-  }
-}
-@media screen and (max-width: 500px) {
-  #shopify-section-template--19185944559842__collection_focus_carousel_XnMGHU .inline-rte {
-    bottom: 2rem;
-  }
-  #shopify-section-template--19185944559842__collection_focus_carousel_XnMGHU .inline-rte a {
-    font-size: 3.4vw;
-  }
-}
-    
+      /* P-sha Collections */
+
+      [id$="__collection_focus_carousel_XnMGHU"] .inline-rte {
+          position: absolute;
+          bottom: 2.2rem;
+          left: 0;
+          right: 0;
+          margin: auto;
+          z-index: 2;
+          display: flex;
+          justify-content: center;
+      }
+
+      [id$="__collection_focus_carousel_XnMGHU"] .inline-rte a {
+          padding: 1.2rem 3rem 1.3rem;
+          background-color: black;
+          border-radius: 999rem;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+      }
+
+      [id$="__collection_focus_carousel_XnMGHU"] .inline-rte a:hover {
+          background-color: #22C3FF;
+          color: #000;
+      }
+
+      @media screen and (max-width: 988px) {
+          [id$="__collection_focus_carousel_XnMGHU"] .inline-rte {
+              bottom: 1.2rem;
+          }
+
+          [id$="__collection_focus_carousel_XnMGHU"] .inline-rte a {
+              padding: 1.8vw 5vw 2vw;
+          }
+      }
+
+      @media screen and (max-width: 500px) {
+          [id$="__collection_focus_carousel_XnMGHU"] .inline-rte {
+              bottom: 2rem;
+          }
+
+          [id$="__collection_focus_carousel_XnMGHU"] .inline-rte a {
+              font-size: 3.4vw;
+          }
+      }
   </style>
   
     {{ 'common.css' | asset_url | stylesheet_tag: preload: true }}
