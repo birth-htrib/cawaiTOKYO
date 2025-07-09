@@ -78,7 +78,7 @@
           "type": "liquid",
           "settings": {
             "display_on_card": false,
-            "liquid": "<data-island x-data=\"RTE\" class=\"rte text-left\" ready=\"\">\n<h3><span style=\"vertical-align: inherit;\">離したくない、この香り。<br>日本の歌手で俳優のNissyがプロデュースした柔軟剤！</span></h3>\n<p><span style=\"vertical-align: inherit;\">何気ない生活の中で、パーフェクト（完璧）スペシャル（特別）ハピネス（幸せ）アソート（詰め合わせ）を皆さんにお届けしたいという思いから誕生しました🧼</span></p>\n\n<h4>P-shaの6つのこだわり🍀</h4>\n<p>\n<b style=\"font-size:1.5rem;\">01.</b>\n24時間抗菌＆防臭<br>\n<b style=\"font-size:1.5rem;\">02.</b>\n静電気防止に<br>\n<b style=\"font-size:1.5rem;\">03.</b>\n気になる匂いを抑える<br>\n<b style=\"font-size:1.5rem;\">04.</b>\n柔らか仕上げ<br>\n<b style=\"font-size:1.5rem;\">05.</b>\nオーガニックエキス配合<br>\n<b style=\"font-size:1.5rem;\">06.</b>\n毛玉・ケバダチ防止に\n</p>\n\n\n<!--\n<div class=\"square\">\n<h4><span style=\"vertical-align: inherit;\">P-shaの6つのこだわり🍀</span></h4>\n<p><span style=\"vertical-align: inherit;\">01 24時間抗菌＆防臭<br>02 静電気防止に<br>03 気になる匂いを抑える<br>04 柔らか仕上げ<br>05 オーガニックエキス配合<br>06 毛玉・ケバダチ防止に</span></p>\n</div>\n-->\n<br><br>\n\n    </data-island>"
+            "liquid": "<data-island x-data=\"RTE\" class=\"rte text-left\" ready=\"\">\n<h3><span style=\"vertical-align: inherit;\">離したくない、この香り。<br>日本の歌手で俳優のNissyがプロデュースした柔軟剤！</span></h3>\n<p><span style=\"vertical-align: inherit;\">何気ない生活の中で、パーフェクト（完璧）スペシャル（特別）ハピネス（幸せ）アソート（詰め合わせ）を皆さんにお届けしたいという思いから誕生しました🧼</span></p>\n\n<h4>P-shaの6つのこだわり🍀</h4>\n<p>\n<span style=\"color:#919191;\">01.</span>\n24時間抗菌＆防臭<br>\n<span style=\"color:#919191;\">02.</span>\n静電気防止に<br>\n<span style=\"color:#919191;\">03.</span>\n気になる匂いを抑える<br>\n<span style=\"color:#919191;\">04.</span>\n柔らか仕上げ<br>\n<span style=\"color:#919191;\">05.</span>\nオーガニックエキス配合<br>\n<span style=\"color:#919191;\">06.</span>\n毛玉・ケバダチ防止に\n</p>\n\n\n<!--\n<div class=\"square\">\n<h4><span style=\"vertical-align: inherit;\">P-shaの6つのこだわり🍀</span></h4>\n<p><span style=\"vertical-align: inherit;\">01 24時間抗菌＆防臭<br>02 静電気防止に<br>03 気になる匂いを抑える<br>04 柔らか仕上げ<br>05 オーガニックエキス配合<br>06 毛玉・ケバダチ防止に</span></p>\n</div>\n-->\n<br><br>\n\n    </data-island>"
           }
         },
         "a17e90c4-acc9-4f1d-af84-828ae4cb2289": {
@@ -181,6 +181,8 @@
       "custom_css": [
         "h3 {font-family: \"Zen Kaku Gothic New\", sans-serif;}",
         "h4,p {font-size: 1.2rem; font-family: \"Zen Kaku Gothic New\", sans-serif;}",
+        ".appearance-none p {font-size: 1rem;}",
+        ".card__surface {padding: 0.8rem 1.5rem 1.7rem 1.5rem;}",
         "@media screen and (max-width: 750px) {h3 {font-size: 1.2rem; } p {font-size: 1rem; }}"
       ],
       "settings": {
@@ -233,6 +235,9 @@
       "block_order": [
         "shape_divider_qfN7pd"
       ],
+      "custom_css": [
+        ".mt-5 {margin-top: 0.6rem;}"
+      ],
       "name": "t:sections.featured_collection.name",
       "settings": {
         "title": "Other scents",
@@ -268,7 +273,7 @@
         "rich_text": "",
         "display_on_card": false,
         "content_width_desktop": "lg:w-2/3",
-        "button_link": "shopify://collections/p-sha-collections-for-top",
+        "button_link": "shopify://collections/laundry",
         "button_label": "VIEW MORE",
         "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
         "use_gradient_background": false
