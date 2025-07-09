@@ -78,19 +78,14 @@
         "use_gradient_background": false
       }
     },
-    "rich_text_XA3jUg": {
-      "type": "rich-text",
-      "name": "t:sections.rich_text.name",
+    "custom_liquid_UnRxTV": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.name",
       "settings": {
         "title": "",
-        "heading_size": "heading-standard",
-        "rich_text": "",
-        "display_on_card": false,
-        "content_width_desktop": "lg:w-2/3",
-        "button_link": "",
-        "button_label": "Shop Now",
-        "color_scheme": "",
-        "use_gradient_background": false
+        "custom_liquid": "<style>\n.section-footer svg path:first-child{\nfill:#fdebf8\n}\n</style>",
+        "full_width": true,
+        "color_scheme": ""
       }
     }
   },
@@ -98,6 +93,6 @@
     "featured-image",
     "banner",
     "product-grid",
-    "rich_text_XA3jUg"
+    "custom_liquid_UnRxTV"
   ]
 }
