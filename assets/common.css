@@ -24,4 +24,72 @@ a {
   font-weight: 600;
 }
 
+.product {
+  margin-top: 4rem;
+}
+
+.scent__title {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.metafield-rich_text_field p {
+  font-size: 0.9rem !important;
+  text-align: center;
+}
+
+.metafield-rich_text_field {
+  margin-bottom: 2rem;
+}
+
+.pyramid {
+  position: relative;
+  padding: 0px;
+  margin: 0px auto;
+  width: min(22.5rem, 90vw);
+  list-style: none;
+  font-size: 1rem;
+}
+
+.pyramid > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6em;
+  box-sizing: border-box;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.pyramid > li + li {
+  border-top: 2px solid #fff;
+}
+
+.pyramid > li::before {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  background-position: top -2px left 1px, top -2px right 1px;
+  background-size: 50% 18em;
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.pyramid > li:nth-of-type(1)::before {
+  z-index: -1;
+  height: 6em;
+}
+
+.pyramid > li:nth-of-type(2)::before {
+  z-index: -2;
+  height: 12em;
+}
+
+.pyramid > li:nth-of-type(3)::before {
+  z-index: -3;
+  height: 18em;
+}
+
 /*# sourceMappingURL=common.css.map */
