@@ -236,7 +236,7 @@
         "shape_divider_qfN7pd"
       ],
       "custom_css": [
-        ".mt-5 {margin-top: 0.6rem;}"
+        ".mt-5 {margin-top: 0.5rem;}"
       ],
       "name": "t:sections.featured_collection.name",
       "settings": {
