@@ -22,10 +22,22 @@
             "linklist_2": "link-list",
             "linklist_3": "footer"
           }
+        },
+        "shape_divider_NqfiBq": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
         }
       },
       "block_order": [
-        "menus-0"
+        "menus-0",
+        "shape_divider_NqfiBq"
       ],
       "custom_css": [
         "li {line-height: 1rem; margin-bottom: 25px;}"
