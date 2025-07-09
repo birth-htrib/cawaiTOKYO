@@ -662,6 +662,21 @@
         "color_scheme": "scheme-d45b19c8-70b7-4398-80da-4b912a751e5e",
         "use_gradient_background": false
       }
+    },
+    "rich_text_7EM369": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
@@ -677,6 +692,7 @@
     "scrolling_text_with_icons_CAQ94V",
     "scrolling_text_with_icons_4XBWjx",
     "testimonials_Fr76wm",
-    "collage_pecNfM"
+    "collage_pecNfM",
+    "rich_text_7EM369"
   ]
 }

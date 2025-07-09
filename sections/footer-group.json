@@ -40,8 +40,7 @@
         "shape_divider_NqfiBq"
       ],
       "custom_css": [
-        "li {line-height: 1rem; margin-bottom: 25px;}",
-        ".relative {margin-top: 4rem;}"
+        "li {line-height: 1rem; margin-bottom: 25px;}"
       ],
       "settings": {
         "show_payment_icons": true,
