@@ -92,7 +92,7 @@
       "name": "t:sections.custom_liquid.name",
       "settings": {
         "title": "",
-        "custom_liquid": "<style>\nsvg path:first-child{\nfill:#fdebf8\n}\n</style>",
+        "custom_liquid": "<style>\n.section-footer svg path:first-child{\nfill:#fdebf8\n}\n</style>",
         "full_width": true,
         "color_scheme": ""
       }
