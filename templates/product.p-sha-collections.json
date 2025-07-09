@@ -281,10 +281,6 @@
     },
     "rich_text_bzENK3": {
       "type": "rich-text",
-      "custom_css": [
-        ".py-section-vertical-spacing {padding-bottom: 0.5rem; }",
-        "@media screen and (max-width: 750px) {h2 {margin-top: 1.7rem; line-height: 0; }}"
-      ],
       "name": "t:sections.rich_text.name",
       "settings": {
         "title": "Browsing history",
@@ -332,21 +328,6 @@
         "color_scheme": "scheme-5eef0961-56b1-4d0a-af8d-aab29f783b4b",
         "use_gradient_background": false
       }
-    },
-    "rich_text_jJqyec": {
-      "type": "rich-text",
-      "name": "t:sections.rich_text.name",
-      "settings": {
-        "title": "",
-        "heading_size": "heading-standard",
-        "rich_text": "",
-        "display_on_card": false,
-        "content_width_desktop": "lg:w-2/3",
-        "button_link": "",
-        "button_label": "Shop Now",
-        "color_scheme": "",
-        "use_gradient_background": false
-      }
     }
   },
   "order": [
@@ -356,7 +337,6 @@
     "rich_text_bjQbHE",
     "rich_text_bzENK3",
     "product-history",
-    "1751618762ead83392",
-    "rich_text_jJqyec"
+    "1751618762ead83392"
   ]
 }
