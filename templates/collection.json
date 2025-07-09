@@ -77,11 +77,27 @@
         "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
         "use_gradient_background": false
       }
+    },
+    "rich_text_XA3jUg": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
     "featured-image",
     "banner",
-    "product-grid"
+    "product-grid",
+    "rich_text_XA3jUg"
   ]
 }
