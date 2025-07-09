@@ -12,7 +12,7 @@
 }
 
 .lg\:py-0 {
-  margin-top: -58px;
+  margin-top: -51px;
   padding-bottom: 0;
 }
 
@@ -58,6 +58,9 @@ a {
 
 .privacy-policy {
   background-color: #FDEBF8;
+}
+.privacy-policy .section-footer svg path:first-child {
+  fill: #fdebf8;
 }
 
 .scent__title {
