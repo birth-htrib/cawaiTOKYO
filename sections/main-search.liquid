@@ -60,7 +60,7 @@ background:#FDEBF8;
       @submit.prevent="filterFormSubmit"
       class="hidden"
     >
-      <input type="hidden" name="q" value="{{ search.terms | escape }}">
+      <input type="hidden" name="q" value="{{ search.terms | escape }}" >
       <input name="options[prefix]" type="hidden" value="last">
     </form>
   {% endif %}
@@ -89,7 +89,7 @@ background:#FDEBF8;
         type="search"
         name="q"
         id="Search-{{ section.id }}"
-        class="input w-full pr-12 placeholder-current"
+        class="input w-full pr-12 placeholder-current  search-box-input "
         value="{{ search.terms | escape }}"
         placeholder="{{ 'general.search.placeholder' | t }}"
       >

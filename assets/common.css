@@ -189,6 +189,10 @@ body {
   font-family: "zen_kaku_gothic_new_n5";
 }
 
+.search-box-input {
+  background-color: white;
+}
+
 .search-box {
   top: 1rem;
 }
