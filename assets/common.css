@@ -183,6 +183,9 @@ body {
 .search-box {
   top: 1rem;
 }
+.search-box #header-search {
+  background-color: white;
+}
 
 .ja * {
   font-family: "Josefin Sans", "Zen Kaku Gothic New", sans-serif;
