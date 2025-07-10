@@ -148,6 +148,20 @@ a {
 .headerBorderWrap {
   background-color: #22c3ff;
 }
-body{
-  overflow-x:hidden;
+
+body {
+  overflow-x: hidden;
+}
+
+
+.splide__slide {
+  div.sold-out-sticker-text {
+    background-color: #ff5ce4;
+    color: #000000;
+  }
+
+  .sticker__drop-shadow-path {
+    stroke-width: 0.2rem;
+    stroke: black;
+  }
 }
