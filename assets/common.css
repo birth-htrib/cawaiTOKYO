@@ -167,6 +167,11 @@ body {
   stroke-width: 0.2rem;
   stroke: black;
 }
+@media screen and (max-width: 990px) {
+  .product-tile div.sold-out-sticker-text div {
+    font-size: 1.1rem;
+  }
+}
 .splide__arrow .push-btn__surface {
   background-color: #ff5ce4 !important;
   color: #000000 !important;

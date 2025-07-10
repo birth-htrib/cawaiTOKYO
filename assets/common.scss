@@ -177,7 +177,8 @@ body {
   div.sold-out-sticker-text {
     background-color: #ff5ce4;
     color: #000000;
-    div{
+
+    div {
       font-size: 1.3rem;
       padding-top: 0.5rem;
     }
@@ -196,6 +197,18 @@ body {
 
   .sticker__drop-shadow {
     // transform: none;
+  }
+}
+
+@media screen and (max-width: 990px) {
+
+  .product-tile {
+    div.sold-out-sticker-text {
+      div {
+        font-size: 1.1rem;
+      }
+    }
+
   }
 }
 
