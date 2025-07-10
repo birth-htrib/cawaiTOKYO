@@ -180,9 +180,10 @@
       ],
       "custom_css": [
         "h1,h3 {font-family: \"Josefin Sans\", \"Zen Kaku Gothic New\", sans-serif;}",
-        "h4,p {font-size: 1.2rem; font-family: \"Josefin Sans\",\"Zen Kaku Gothic New\", sans-serif;}",
+        "h4,p {font-size: 1.2rem; font-family: \"Josefin Sans\", \"Zen Kaku Gothic New\", sans-serif;}",
         ".appearance-none p {font-size: 1rem;}",
         ".card__surface {padding: 0.8rem 1.5rem 1.7rem 1.5rem;}",
+        ".ml-auto{margin-right: 10px;}",
         "@media screen and (max-width: 750px) {h3 {font-size: 1.2rem; } p {font-size: 1rem; } .product {margin-top: 0; }}"
       ],
       "settings": {
