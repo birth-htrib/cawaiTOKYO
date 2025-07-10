@@ -29,7 +29,7 @@
             "text": "cawaii",
             "shape": "star_1",
             "sticker_font_size": "1.953rem",
-            "horizontal_position": 83,
+            "horizontal_position": 75,
             "vertical_position": 77,
             "rotate": 0,
             "show_sticker_on_mobile": false,
@@ -79,6 +79,21 @@
         "use_gradient_background": false
       }
     },
+    "rich_text_w9iaaD": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
+        "use_gradient_background": false
+      }
+    },
     "custom_liquid_UnRxTV": {
       "type": "custom-liquid",
       "name": "t:sections.custom_liquid.name",
@@ -94,6 +109,7 @@
     "featured-image",
     "banner",
     "product-grid",
+    "rich_text_w9iaaD",
     "custom_liquid_UnRxTV"
   ]
 }
