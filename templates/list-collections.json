@@ -21,14 +21,14 @@
             "shape": "scalloped_circle_4",
             "sticker_font_size": "1.953rem",
             "horizontal_position": 83,
-            "vertical_position": 80,
+            "vertical_position": 89,
             "rotate": 0,
             "show_sticker_on_mobile": true,
             "show_sticker_on_desktop": true,
             "rotation_animation": "constantly_rotate",
             "enable_parallax": false,
             "parallax_speed": 3,
-            "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
+            "color_scheme": "scheme5",
             "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
           }
         }
@@ -37,8 +37,8 @@
         "sticker_QxrBUM"
       ],
       "custom_css": [
-        ".heading-feature {font-size: 5rem;}",
-        "@media screen and (max-width: 750px) {.heading-feature {font-size: 2.5rem; }}"
+        ".heading-feature {margin-top: 3rem; font-size: 5rem;}",
+        "@media screen and (max-width: 750px) {.heading-feature {margin-top: 1rem; font-size: 2.5rem; }}"
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
@@ -87,6 +87,21 @@
         "use_gradient_background": false
       }
     },
+    "rich_text_LbH67B": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
+        "use_gradient_background": false
+      }
+    },
     "custom_liquid_f9bBza": {
       "type": "custom-liquid",
       "name": "t:sections.custom_liquid.name",
@@ -102,6 +117,7 @@
     "rich_text_wiLrrk",
     "main",
     "collage",
+    "rich_text_LbH67B",
     "custom_liquid_f9bBza"
   ]
 }
