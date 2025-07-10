@@ -41,7 +41,7 @@
   }
 
   .section-site-header {
-    top: 88px !important;
+    top: 98px !important;
     ;
   }
 
@@ -55,6 +55,12 @@
 }
 
 @media screen and (max-width: 750px) {
+
+  .section-site-header {
+    top: 102px !important;
+    ;
+  }
+  
   #AnnouncementBar {
     z-index: 41;
     height: 2.1rem;
