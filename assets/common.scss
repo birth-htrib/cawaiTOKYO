@@ -154,7 +154,7 @@ body {
 }
 
 
-.splide__slide {
+.product-tile {
   div.sold-out-sticker-text {
     background-color: #ff5ce4;
     color: #000000;
@@ -171,9 +171,9 @@ body {
 }
 
 .collection-list {
-  .push-btn span{
-    background-color: #ff5ce4;
-    color: #000000;
-
+  .push-btn span,
+ .push-btn span:hover {
+    background-color: #ff5ce4 !important;
+    color: #000000 !important;
   }
 }

@@ -139,21 +139,22 @@ body {
   overflow-x: hidden;
 }
 
-.splide__slide div.sold-out-sticker-text {
+.product-tile div.sold-out-sticker-text {
   background-color: #ff5ce4;
   color: #000000;
 }
-.splide__slide .sticker__drop-shadow-path {
+.product-tile .sticker__drop-shadow-path {
   stroke-width: 0.2rem;
   stroke: black;
 }
-.splide__slide .sticker__drop-shadow {
+.product-tile .sticker__drop-shadow {
   transform: none;
 }
 
-.collection-list .push-btn span {
-  background-color: #ff5ce4;
-  color: #000000;
+.collection-list .push-btn span,
+.collection-list .push-btn span:hover {
+  background-color: #ff5ce4 !important;
+  color: #000000 !important;
 }
 
 /*# sourceMappingURL=common.css.map */
