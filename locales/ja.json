@@ -89,6 +89,15 @@
       "log_in":"ログイン",
       "create_account":"会員登録"
     }
+  },
+  "contact":{
+    "form":{
+      "name":"名前",
+      "email":"メールアドレス",
+      "phone":"電話番号",
+      "message":"お問い合わせ内容",
+      "send":"送信",
+    }
   }
     
 }
