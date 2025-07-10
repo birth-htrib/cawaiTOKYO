@@ -92,6 +92,8 @@
     "heading_drop_shadow_color": "color-scheme-accent-1",
     "underline_style": "wavy",
     "currency_code_enabled": true,
+    "predictive_search_enabled": false,
+    "search_products": true,
     "search_collections": false,
     "search_articles": false,
     "search_pages": false,
