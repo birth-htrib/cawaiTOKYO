@@ -170,17 +170,19 @@ body {
   }
 }
 
-  .splide__arrow .push-btn__surface  {
-    background-color: #ff5ce4 !important;
-    color: #000000 !important;
-    
-  }
+.splide__arrow .push-btn__surface {
+  background-color: #ff5ce4 !important;
+  color: #000000 !important;
+
+}
+
 .collection-list,
 #facets-filterable {
+
   .push-btn span,
-  .push-btn span:hover
-  {
+  .push-btn span:hover {
     background-color: #ff5ce4 !important;
     color: #000000 !important;
+    font-family: "zen_kaku_gothic_new_n5";
   }
 }
