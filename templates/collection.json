@@ -30,14 +30,14 @@
             "shape": "star_1",
             "sticker_font_size": "1.953rem",
             "horizontal_position": 83,
-            "vertical_position": 70,
+            "vertical_position": 77,
             "rotate": 0,
-            "show_sticker_on_mobile": true,
+            "show_sticker_on_mobile": false,
             "show_sticker_on_desktop": true,
             "rotation_animation": "constantly_rotate",
             "enable_parallax": false,
             "parallax_speed": 3,
-            "color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
+            "color_scheme": "scheme5",
             "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
           }
         }
@@ -46,8 +46,8 @@
         "sticker_bQ4BBn"
       ],
       "custom_css": [
-        ".heading-feature {font-size: 5rem;}",
-        "@media screen and (max-width: 750px) {.heading-feature {font-size: 2.5rem; }}"
+        ".heading-feature {margin-top: 3rem; font-size: 5rem;}",
+        "@media screen and (max-width: 750px) {.heading-feature {margin-top: 1rem; font-size: 2.5rem; }}"
       ],
       "settings": {
         "display_on_card": false,
@@ -61,7 +61,8 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        ".push-btn__surface {background-color: #eeff2f;}"
+        ".push-btn__surface {background-color: #eeff2f;}",
+        ".pb-5 {padding-bottom: 3rem;}"
       ],
       "settings": {
         "no_products": 8,
