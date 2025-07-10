@@ -151,4 +151,9 @@ body {
   transform: none;
 }
 
+.collection-list .push-btn span {
+  background-color: #ff5ce4;
+  color: #000000;
+}
+
 /*# sourceMappingURL=common.css.map */

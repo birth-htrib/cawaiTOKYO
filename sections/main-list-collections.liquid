@@ -9,7 +9,7 @@
 
 {%- paginate collections by 24 -%}
   <section
-    class="relative overflow-hidden bg-scheme-background py-section-vertical-spacing text-scheme-text {% if section.settings.use_gradient_background %}bg-scheme-gradient{% endif %}"
+    class="relative overflow-hidden bg-scheme-background py-section-vertical-spacing text-scheme-text collection-list {% if section.settings.use_gradient_background %}bg-scheme-gradient{% endif %}"
     data-color-scheme="{{ section.settings.color_scheme }}"
   >
     <div class="space-y-double-section-vertical-spacing">

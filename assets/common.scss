@@ -164,7 +164,16 @@ body {
     stroke-width: 0.2rem;
     stroke: black;
   }
-  .sticker__drop-shadow{
-    transform:none;
+
+  .sticker__drop-shadow {
+    transform: none;
+  }
+}
+
+.collection-list {
+  .push-btn span{
+    background-color: #ff5ce4;
+    color: #000000;
+
   }
 }
