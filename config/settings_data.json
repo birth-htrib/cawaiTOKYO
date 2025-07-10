@@ -1301,7 +1301,7 @@
       "@media screen and (max-width: 750px) {.shopify-policy__container {max-width: 90%; border: 0.2rem solid; } .shopify-policy__container h1 {font-size: 6vw; padding: 10px 0 0; }}",
       "@media (min-width: 990px) {.shopify-policy__container {padding: 2.5rem; }}",
       " /*商品ページ共通*/.product-block {margin-top: 70px;}",
-      ".product-block h1 {font-size: 2.7vw; line-height: 4.5rem;}",
+      ".product-block h1 {font-size: 2.5vw; line-height: 4.5rem;}",
       ".product-template__container {margin-bottom: 3rem;}",
       "@media screen and (max-width: 750px) {.product-block h1 {font-size: 1.5rem; line-height: 2.3rem; }}"
     ]
