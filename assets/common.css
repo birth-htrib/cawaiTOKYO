@@ -195,4 +195,8 @@ body {
   font-family: "Josefin Sans", sans-serif !important;
 }
 
+.card .card__surface .product-block:last-child details {
+  border-bottom: none;
+}
+
 /*# sourceMappingURL=common.css.map */

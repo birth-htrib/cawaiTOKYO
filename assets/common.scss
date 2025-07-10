@@ -225,14 +225,24 @@ body {
   }
 }
 
-.en{
-  
+.en {
+
   * {
-    font-family: "Josefin Sans",  sans-serif;
+    font-family: "Josefin Sans", sans-serif;
   }
 
   h1 {
 
-    font-family: "Josefin Sans",  sans-serif !important;
+    font-family: "Josefin Sans", sans-serif !important;
   }
+}
+
+
+.card {
+  .card__surface {
+    .product-block:last-child details{
+      border-bottom: none;
+    }
+  }
+
 }
