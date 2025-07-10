@@ -156,6 +156,9 @@ body {
   background-color: #ff5ce4;
   color: #000000;
 }
+.product-tile div.sold-out-sticker-text div {
+  font-size: 1.2rem;
+}
 .product-tile svg.sold-out-sticker-text .sticker__svg {
   stroke: black;
 }

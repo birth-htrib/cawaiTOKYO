@@ -60,7 +60,7 @@
     top: 102px !important;
     ;
   }
-  
+
   #AnnouncementBar {
     z-index: 41;
     height: 2.1rem;
@@ -177,6 +177,9 @@ body {
   div.sold-out-sticker-text {
     background-color: #ff5ce4;
     color: #000000;
+    div{
+      font-size: 1.2rem;
+    }
   }
 
   svg.sold-out-sticker-text {
@@ -218,9 +221,10 @@ body {
 
 .search-box {
   top: 1rem;
-  #header-search{
 
-  background-color: white;
+  #header-search {
+
+    background-color: white;
   }
 }
 
@@ -250,7 +254,7 @@ body {
 
 .card {
   .card__surface {
-    .product-block:last-child details{
+    .product-block:last-child details {
       border-bottom: none;
     }
   }
