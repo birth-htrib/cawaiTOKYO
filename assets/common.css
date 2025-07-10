@@ -147,5 +147,8 @@ body {
   stroke-width: 0.2rem;
   stroke: black;
 }
+.splide__slide .sticker__drop-shadow {
+  transform: none;
+}
 
 /*# sourceMappingURL=common.css.map */
