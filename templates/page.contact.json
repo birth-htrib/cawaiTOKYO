@@ -12,9 +12,9 @@
     "main": {
       "type": "main-page-contact",
       "custom_css": [
-        ".section-content {margin-top: 3rem;}",
+        ".section-content {margin-top: 4rem; margin-bottom: 5rem;}",
         "h1 {font-family: \"Zen Kaku Gothic New\", sans-serif; font-size: 3rem; padding: 10px 0 10px 0;}",
-        ".push-btn__surface{background-color: #FF5CE4; color: #000000;}",
+        ".push-btn__surface {background-color: #ff5ce4; color: #000000;}",
         "@media screen and (max-width: 750px) {.section-content {margin-top: 1rem; } h1 {font-size: 7vw; padding: 10px 0 0; }}"
       ],
       "settings": {
