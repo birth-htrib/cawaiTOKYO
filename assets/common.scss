@@ -1,6 +1,7 @@
 .section-site-header {
   top: 88px !important;
-.shape-divider{
+
+  .shape-divider {
     z-index: -1;
   }
 }
@@ -18,16 +19,17 @@
   margin-top: -51px;
   padding-bottom: 0;
 }
-.headerBorderWrap
-{
+
+.headerBorderWrap {
   height: 3rem;
 }
+
 @media screen and (max-width: 990px) {
-  
-.headerBorderWrap
-{
-  height: auto;
-}
+
+  .headerBorderWrap {
+    height: auto;
+  }
+
   #AnnouncementBar {
     z-index: 41;
     height: 2.1rem;
@@ -170,9 +172,10 @@ body {
     background-color: #ff5ce4;
     color: #000000;
   }
-  svg.sold-out-sticker-text{
-    .sticker__svg{
-      stroke:black;
+
+  svg.sold-out-sticker-text {
+    .sticker__svg {
+      stroke: black;
     }
   }
 
@@ -189,30 +192,47 @@ body {
 .splide__arrow .push-btn__surface {
   background-color: #ff5ce4 !important;
   color: #000000 !important;
-    font-family: "zen_kaku_gothic_new_n5";
+  font-family: "zen_kaku_gothic_new_n5";
 
 }
 
 
-  .push-btn span,
-  .push-btn span:hover {
-    background-color: #ff5ce4 !important;
-    color: #000000 !important;
-    font-family: "zen_kaku_gothic_new_n5";
+.push-btn span,
+.push-btn span:hover {
+  background-color: #ff5ce4 !important;
+  color: #000000 !important;
+  font-family: "zen_kaku_gothic_new_n5";
+}
+
+
+.push-btn__surface {
+
+  font-family: "zen_kaku_gothic_new_n5";
+}
+
+.search-box {
+  top: 1rem;
+}
+
+.ja {
+  * {
+    font-family: "Josefin Sans", "Zen Kaku Gothic New", sans-serif;
   }
 
+  h1 {
 
-.push-btn__surface{
+    font-family: "Zen Kaku Gothic New", sans-serif !important;
+  }
+}
+
+.en{
   
-    font-family: "zen_kaku_gothic_new_n5";
-}
-.search-box{
-  top:1rem;
-}
-*{
-    font-family: "Josefin Sans", "Zen Kaku Gothic New", sans-serif;
-}
-h1{
-  
-    font-family:  "Zen Kaku Gothic New", sans-serif !important;
+  * {
+    font-family: "Josefin Sans",  sans-serif;
+  }
+
+  h1 {
+
+    font-family: "Josefin Sans",  sans-serif !important;
+  }
 }
