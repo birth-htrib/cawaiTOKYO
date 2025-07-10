@@ -47,6 +47,7 @@
       ],
       "custom_css": [
         ".heading-feature {margin-top: 3rem; font-size: 5rem;}",
+        ".py-section-vertical-spacing {padding-bottom: 0;}",
         "@media screen and (max-width: 750px) {.heading-feature {margin-top: 1rem; font-size: 2.5rem; }}"
       ],
       "settings": {
@@ -62,7 +63,8 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         ".push-btn__surface {background-color: #eeff2f;}",
-        ".pb-5 {padding-bottom: 3rem;}"
+        ".pb-5 {padding-bottom: 3rem;}",
+        "@media screen and (max-width: 750px) {.pb-5 {padding-bottom: 1.5rem;} }"
       ],
       "settings": {
         "no_products": 8,
