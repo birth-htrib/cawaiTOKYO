@@ -23,7 +23,7 @@
             "horizontal_position": 83,
             "vertical_position": 89,
             "rotate": 0,
-            "show_sticker_on_mobile": true,
+            "show_sticker_on_mobile": false,
             "show_sticker_on_desktop": true,
             "rotation_animation": "constantly_rotate",
             "enable_parallax": false,
@@ -38,6 +38,7 @@
       ],
       "custom_css": [
         ".heading-feature {margin-top: 3rem; font-size: 5rem;}",
+        ".py-section-vertical-spacing {padding-bottom: 0;}",
         "@media screen and (max-width: 750px) {.heading-feature {margin-top: 1rem; font-size: 2.5rem; }}"
       ],
       "name": "t:sections.rich_text.name",
