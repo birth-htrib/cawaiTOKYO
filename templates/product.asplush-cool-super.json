@@ -144,11 +144,11 @@
         "collapsible_tab_9fTQkQ"
       ],
       "custom_css": [
-        "h3 {font-family: \"Zen Kaku Gothic New\", sans-serif;}",
+        "h1,h3 {font-family: \"Zen Kaku Gothic New\", sans-serif;}",
         "h4,p {font-size: 1.2rem; font-family: \"Zen Kaku Gothic New\", sans-serif;}",
         ".appearance-none p {font-size: 1rem;}",
         ".card__surface {padding: 0.8rem 1.5rem 1.7rem 1.5rem;}",
-        "@media screen and (max-width: 750px) {h3 {font-size: 1.2rem; } p {font-size: 1rem; } .product{margin-top: 0;}"
+        "@media screen and (max-width: 750px) {h3 {font-size: 1.2rem; } p {font-size: 1rem; } .product{margin-top: 0; }"
       ],
       "settings": {
         "crop": "",
