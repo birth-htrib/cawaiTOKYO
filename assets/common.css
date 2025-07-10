@@ -147,12 +147,15 @@ body {
   stroke-width: 0.2rem;
   stroke: black;
 }
-.product-tile .sticker__drop-shadow {
-  transform: none;
+.splide__arrow .push-btn__surface {
+  background-color: #ff5ce4 !important;
+  color: #000000 !important;
 }
 
-.push-btn span,
-.push-btn span:hover {
+.collection-list .push-btn span,
+.collection-list .push-btn span:hover,
+#facets-filterable .push-btn span,
+#facets-filterable .push-btn span:hover {
   background-color: #ff5ce4 !important;
   color: #000000 !important;
 }

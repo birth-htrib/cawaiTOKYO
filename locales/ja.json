@@ -69,5 +69,26 @@
         "no_results":"検索内容が見つかりませんでした",
         "results_with_count":"{{ count }}件の検索結果が見つかりました",
       }
+  },
+  "facets":
+  {
+    "filters":{
+      "title_tags":"フィルター",
+      "apply":"適応する",
+      "from":"最低金額",
+      "to":"最高金額",
+    },
+
+    "sorting":{
+      "title":"並び順",
+    }
+  },
+  "layout":
+  {
+    "customer":{
+      "log_in":"ログイン",
+      "create_account":"会員登録"
+    }
   }
+    
 }

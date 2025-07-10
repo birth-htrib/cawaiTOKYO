@@ -166,12 +166,21 @@ body {
   }
 
   .sticker__drop-shadow {
-    transform: none;
+    // transform: none;
   }
 }
 
+  .splide__arrow .push-btn__surface  {
+    background-color: #ff5ce4 !important;
+    color: #000000 !important;
+    
+  }
+.collection-list,
+#facets-filterable {
   .push-btn span,
- .push-btn span:hover {
+  .push-btn span:hover
+  {
     background-color: #ff5ce4 !important;
     color: #000000 !important;
   }
+}
