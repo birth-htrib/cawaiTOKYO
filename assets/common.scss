@@ -1,5 +1,8 @@
 .section-site-header {
   top: 88px !important;
+.shape-divider{
+    z-index: -1;
+  }
 }
 
 #AnnouncementBar {
@@ -159,6 +162,11 @@ body {
     background-color: #ff5ce4;
     color: #000000;
   }
+  svg.sold-out-sticker-text{
+    .sticker__svg{
+      stroke:black;
+    }
+  }
 
   .sticker__drop-shadow-path {
     stroke-width: 0.2rem;
@@ -186,4 +194,9 @@ body {
     color: #000000 !important;
     font-family: "zen_kaku_gothic_new_n5";
   }
+}
+
+
+.search-box{
+  top:1rem;
 }

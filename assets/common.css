@@ -1,6 +1,9 @@
 .section-site-header {
   top: 88px !important;
 }
+.section-site-header .shape-divider {
+  z-index: -1;
+}
 
 #AnnouncementBar {
   position: fixed;
@@ -143,6 +146,9 @@ body {
   background-color: #ff5ce4;
   color: #000000;
 }
+.product-tile svg.sold-out-sticker-text .sticker__svg {
+  stroke: black;
+}
 .product-tile .sticker__drop-shadow-path {
   stroke-width: 0.2rem;
   stroke: black;
@@ -160,6 +166,10 @@ body {
   background-color: #ff5ce4 !important;
   color: #000000 !important;
   font-family: "zen_kaku_gothic_new_n5";
+}
+
+.search-box {
+  top: 1rem;
 }
 
 /*# sourceMappingURL=common.css.map */

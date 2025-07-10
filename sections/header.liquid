@@ -454,7 +454,7 @@
 {% assign close_text = 'general.accessibility.close_modal' %}
 {%- capture search_form -%}
   <form x-ref="searchForm" action="{{ routes.search_url }}" method="get" role="search" {% if predictive_search_enabled %} @submit="onFormSubmit"{% endif %} @click.away.prevent="searchOpen = false">
-    <div x-ref="searchFieldComponent" class="relative py-2" {% unless predictive_search_enabled %}@focusout="searchFocusOut"{% endunless %}>
+    <div x-ref="searchFieldComponent" class="relative py-2 search-box" {% unless predictive_search_enabled %}@focusout="searchFocusOut"{% endunless %}>
       <input
         id="header-search"
         type="search"
