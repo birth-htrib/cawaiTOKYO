@@ -46,9 +46,9 @@
         "sticker_bQ4BBn"
       ],
       "custom_css": [
-        ".heading-feature {margin-top: 3rem; font-size: 5rem;}",
+        ".heading-feature {margin-top: 6rem; font-size: 5rem;}",
         ".py-section-vertical-spacing {padding-bottom: 0;}",
-        "@media screen and (max-width: 750px) {.heading-feature {margin-top: 1rem; font-size: 2.5rem; }}"
+        "@media screen and (max-width: 750px) {.heading-feature {margin-top: 2.5rem; font-size: 2.5rem; }}"
       ],
       "settings": {
         "display_on_card": false,
@@ -64,7 +64,9 @@
       "custom_css": [
         ".push-btn__surface {background-color: #eeff2f;}",
         ".pb-5 {padding-bottom: 3rem;}",
-        "@media screen and (max-width: 750px) {.pb-5 {padding-bottom: 1.5rem;} }"
+        ".w-1\\/2 {width: auto;}",
+        ".product-tile__container {background-color: #fff;}",
+        "@media screen and (max-width: 750px) {.pb-5 {padding-top: 1.5rem; padding-bottom: 3rem; }}"
       ],
       "settings": {
         "no_products": 8,
