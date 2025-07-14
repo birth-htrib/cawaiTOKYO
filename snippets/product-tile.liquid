@@ -180,7 +180,7 @@
           assign text = 'products.product.on_sale' | t
           assign id = 'on-sale-sticker-' | append: product.id
           assign shape = settings.on_sale_badge_shape
-          assign vertical_position = 15
+          assign vertical_position =5
           assign horizontal_position = 90
           if rotate > 0
             assign rotate = -5
@@ -191,7 +191,7 @@
             assign vertical_position = 5
           endif
           if scatter_position
-            assign vertical_position = vertical_position | plus: 15
+            assign vertical_position = vertical_position | plus: 5
           endif
         -%}
         {%- render 'static-sticker',
@@ -212,8 +212,8 @@
         {%- liquid
           assign text = 'products.product.sold_out' | t
           assign id = 'sold-out-sticker-' | append: product.id
-          assign vertical_position = 15
-          assign horizontal_position = 10
+          assign vertical_position = 5
+          assign horizontal_position =5 
           if rotate > 0
             assign rotate = -5
           else
@@ -223,7 +223,7 @@
             assign vertical_position = 5
           endif
           if scatter_position
-            assign vertical_position = vertical_position | plus: 15
+            assign vertical_position = vertical_position | plus: 5
           endif
         -%}
         {%- render 'static-sticker',
@@ -249,7 +249,7 @@
           assign text = metafield_badge.value
           assign id = 'metafield-sticker-' | append: product.id
           assign shape = settings.metafield_badge_shape
-          assign vertical_position = 15
+          assign vertical_position = 5
           if display_on_card
             assign vertical_position = 5
           endif
@@ -271,7 +271,7 @@
             assign rotate = 5
           endif
           if scatter_position
-            assign vertical_position = vertical_position | plus: 15
+            assign vertical_position = vertical_position | plus: 5
           endif
         -%}
         {%- render 'static-sticker',
