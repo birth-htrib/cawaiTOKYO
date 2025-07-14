@@ -364,6 +364,8 @@
     "collection_focus_carousel_XnMGHU": {
       "type": "collection-focus-carousel",
       "custom_css": [
+        ".inline-rte a {padding: 1.5rem 3rem 1.3rem;}",
+        "@media screen and (max-width: 988px) {.inline-rte a {padding: 3vw 5vw 2vw; }}",
         "@media screen and (max-width: 750px) {h2 {margin-top: 1rem; }}"
       ],
       "name": "t:sections.collection_focus_carousel.name",
