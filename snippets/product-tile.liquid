@@ -240,7 +240,7 @@
         %}
       {%- endif -%}
       
-      {%- if product.metafields.new_sticker.show  and available ==true-%}
+      {%- if product.metafields.new_sticker.show ==true  and available ==true-%}
         {%- liquid
           assign text = 'NEW'
           assign id = 'sold-out-sticker-' | append: product.id
