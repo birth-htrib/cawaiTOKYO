@@ -34,9 +34,9 @@
   endif
 
   if odd_even == 'odd'
-    assign rotate = 5
+    assign rotate = 2
   else
-    assign rotate = 5
+    assign rotate = 2
   endif
 
   unless loading
@@ -185,13 +185,13 @@
           if rotate > 0
             assign rotate = -5
           else
-            assign rotate = 5
+            assign rotate = 2
           endif
           if display_on_card
-            assign vertical_position = 5
+            assign vertical_position = 2
           endif
           if scatter_position
-            assign vertical_position = vertical_position | plus: 5
+            assign vertical_position = vertical_position | plus: 2
           endif
         -%}
         {%- render 'static-sticker',
@@ -212,18 +212,18 @@
         {%- liquid
           assign text = 'products.product.sold_out' | t
           assign id = 'sold-out-sticker-' | append: product.id
-          assign vertical_position = 5
-          assign horizontal_position =5 
+          assign vertical_position = 2
+          assign horizontal_position =2 
           if rotate > 0
             assign rotate = -5
           else
-            assign rotate = 5
+            assign rotate = 2
           endif
           if display_on_card
-            assign vertical_position = 5
+            assign vertical_position = 2
           endif
           if scatter_position
-            assign vertical_position = vertical_position | plus: 5
+            assign vertical_position = vertical_position | plus: 2
           endif
         -%}
         {%- render 'static-sticker',
@@ -249,9 +249,9 @@
           assign text = metafield_badge.value
           assign id = 'metafield-sticker-' | append: product.id
           assign shape = settings.metafield_badge_shape
-          assign vertical_position = 5
+          assign vertical_position = 2
           if display_on_card
-            assign vertical_position = 5
+            assign vertical_position = 2
           endif
           if on_sale and available
             assign horizontal_position = 10
@@ -268,10 +268,10 @@
           if rotate > 0
             assign rotate = -5
           else
-            assign rotate = 5
+            assign rotate = 2
           endif
           if scatter_position
-            assign vertical_position = vertical_position | plus: 5
+            assign vertical_position = vertical_position | plus: 2
           endif
         -%}
         {%- render 'static-sticker',
