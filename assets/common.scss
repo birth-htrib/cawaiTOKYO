@@ -181,11 +181,13 @@ body {
     div {
       font-size: 1.3rem;
       padding-top: 0.55rem;
-    }
-@media screen and (max-width: 990px) {
-    div {
-      padding-top: 0.45rem;
-    }
+   padding-left: 0.32rem; }
+
+    @media screen and (max-width: 990px) {
+      div {
+        padding-top: 0.45rem;
+        padding-left: 0.32rem;
+      }
     }
   }
 
@@ -237,10 +239,11 @@ body {
 
   font-family: "Zen Kaku Gothic New";
 }
-.search-box-input
-{
+
+.search-box-input {
   background-color: white;
 }
+
 .search-box {
   top: 1rem;
 

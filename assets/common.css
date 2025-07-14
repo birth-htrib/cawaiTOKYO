@@ -159,10 +159,12 @@ body {
 .product-tile div.sold-out-sticker-text div {
   font-size: 1.3rem;
   padding-top: 0.55rem;
+  padding-left: 0.32rem;
 }
 @media screen and (max-width: 990px) {
   .product-tile div.sold-out-sticker-text div {
     padding-top: 0.45rem;
+    padding-left: 0.32rem;
   }
 }
 .product-tile svg.sold-out-sticker-text .sticker__svg {
