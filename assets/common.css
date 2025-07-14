@@ -237,4 +237,8 @@ body {
   stroke-width: 0.3rem;
 }
 
+.sticker__svg {
+  overflow: visible;
+}
+
 /*# sourceMappingURL=common.css.map */
