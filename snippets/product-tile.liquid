@@ -239,6 +239,38 @@
           will_transform: will_transform
         %}
       {%- endif -%}
+      
+      {%- if product.metafields.new_sticker.show  and available ==true-%}
+        {%- liquid
+          assign text = 'NEW'
+          assign id = 'sold-out-sticker-' | append: product.id
+          assign vertical_position = 2
+          assign horizontal_position =2 
+          if rotate > 0
+            assign rotate = -5
+          else
+            assign rotate = 2
+          endif
+          if display_on_card
+            assign vertical_position = 2
+          endif
+          if scatter_position
+            assign vertical_position = vertical_position | plus: 2
+          endif
+        -%}
+        {%- render 'static-sticker',
+          static_id: 'sold-out',
+          id: id,
+          text: text,
+          vertical_position: vertical_position,
+          horizontal_position: horizontal_position,
+          rotate: rotate,
+          width: 100,
+          font_size: settings.badge_font_size,
+          color: 'bg-scheme-text text-scheme-text-contrast sold-out-sticker-text',
+          will_transform: will_transform
+        %}
+      {%- endif -%}
       {%- liquid
         assign metafield_namespace = settings.product_tile_metafield_badge | split: '.' | first
         assign metafield_key = settings.product_tile_metafield_badge | split: '.' | last
