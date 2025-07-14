@@ -169,7 +169,7 @@ body {
 }
 @media screen and (max-width: 990px) {
   .product-tile div.sold-out-sticker-text div {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
   }
 }
 .splide__arrow .push-btn__surface {
