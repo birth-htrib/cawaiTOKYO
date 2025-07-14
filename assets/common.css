@@ -171,7 +171,7 @@ body {
   stroke: black;
 }
 .product-tile .sticker__drop-shadow-path {
-  stroke-width: 0.2rem;
+  stroke-width: 0.3rem;
   stroke: black;
 }
 @media screen and (max-width: 990px) {
@@ -231,6 +231,10 @@ body {
 
 .new-product .sticker__svg {
   stroke: none;
+}
+
+.product-tile .sticker__drop-shadow-path {
+  stroke-width: 0.3rem;
 }
 
 /*# sourceMappingURL=common.css.map */

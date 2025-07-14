@@ -199,7 +199,7 @@ body {
   }
 
   .sticker__drop-shadow-path {
-    stroke-width: 0.2rem;
+    stroke-width: 0.3rem;
     stroke: black;
   }
 
@@ -296,4 +296,8 @@ body {
   .sticker__svg {
     stroke: none;
   }
+}
+
+.product-tile .sticker__drop-shadow-path {
+  stroke-width: 0.3rem;
 }
