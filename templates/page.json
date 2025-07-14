@@ -14,6 +14,7 @@
       "custom_css": [
         ".section-content {margin-top: 4rem; margin-bottom: 4rem;}",
         "h1 {font-family: \"Zen Kaku Gothic New\", sans-serif; font-size: 3rem; padding: 10px 0 30px 0;}",
+        ".card__surface{background-color: #FFF;}",
         "@media screen and (max-width: 750px) {.section-content {margin-top: 1rem; } h1 {font-size: 6vw; padding: 10px 0 0; }}"
       ],
       "settings": {

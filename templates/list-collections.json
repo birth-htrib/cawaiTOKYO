@@ -37,9 +37,9 @@
         "sticker_QxrBUM"
       ],
       "custom_css": [
-        ".heading-feature {margin-top: 3rem; font-size: 5rem;}",
+        ".heading-feature {margin-top: 6rem; font-size: 5rem;}",
         ".py-section-vertical-spacing {padding-bottom: 0;}",
-        "@media screen and (max-width: 750px) {.heading-feature {margin-top: 1rem; font-size: 2.5rem; }}"
+        "@media screen and (max-width: 750px) {.heading-feature {margin-top: 2.5rem; font-size: 2.5rem; }}"
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
@@ -56,7 +56,9 @@
     },
     "main": {
       "type": "main-list-collections",
-      "custom_css": [],
+      "custom_css": [
+        ".product-tile__container {background-color: #FFF;}"
+      ],
       "settings": {
         "layout": "grid",
         "crop": "aspect-w-1 aspect-h-1",
