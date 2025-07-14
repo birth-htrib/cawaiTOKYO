@@ -77,7 +77,7 @@
           href="{{ product.url | within: collection }}"
           class="product-tile__featured-media group block"
         >
-          <div class="product-media-object relative {% unless display_on_card %}{% if settings.media_shadow_direction contains 'top' %}pt-media-shadow{% else %}pb-media-shadow{% endif %}{% endunless %}">
+      <div class="product-media-object {} relative {% unless display_on_card %}{% if settings.media_shadow_direction contains 'top' %}pt-media-shadow{% else %}pb-media-shadow{% endif %}{% endunless %}">
             {%- render 'product-tile-media-image',
               media: product.featured_media,
               shape_id: shape_id,
@@ -233,7 +233,7 @@
           vertical_position: vertical_position,
           horizontal_position: horizontal_position,
           rotate: rotate,
-          width: 85,
+          width: 90,
           font_size: settings.badge_font_size,
           color: 'bg-scheme-text text-scheme-text-contrast sold-out-sticker-text',
           will_transform: will_transform
@@ -265,9 +265,9 @@
           vertical_position: vertical_position,
           horizontal_position: horizontal_position,
           rotate: rotate,
-          width: 85,
+          width: 90,
           font_size: settings.badge_font_size,
-          color: 'bg-scheme-text text-scheme-text-contrast sold-out-sticker-text',
+          color: 'bg-scheme-text text-scheme-text-contrast sold-out-sticker-text new-product',
           will_transform: will_transform
         %}
       {%- endif -%}

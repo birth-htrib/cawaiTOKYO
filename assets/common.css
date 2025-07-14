@@ -225,4 +225,12 @@ body {
   border-bottom: none;
 }
 
+.product-tile div.new-product {
+  background-color: #edff2e;
+}
+
+.new-product .sticker__svg {
+  stroke: none;
+}
+
 /*# sourceMappingURL=common.css.map */
