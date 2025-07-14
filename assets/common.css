@@ -153,8 +153,8 @@ body {
 }
 
 .product-tile div.sold-out-sticker-text {
-  background-color: #ff5ce4;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
 }
 .product-tile div.sold-out-sticker-text div {
   font-size: 1.3rem;
@@ -239,6 +239,10 @@ body {
 
 .sticker__svg {
   overflow: visible;
+}
+
+.product-media-object.product-sold-out img {
+  filter: brightness(0.8);
 }
 
 /*# sourceMappingURL=common.css.map */

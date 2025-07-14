@@ -77,7 +77,7 @@
           href="{{ product.url | within: collection }}"
           class="product-tile__featured-media group block"
         >
-      <div class="product-media-object {} relative {% unless display_on_card %}{% if settings.media_shadow_direction contains 'top' %}pt-media-shadow{% else %}pb-media-shadow{% endif %}{% endunless %}">
+      <div class="product-media-object {% if product.available==false%} product-sold-out {%endif%} relative {% unless display_on_card %}{% if settings.media_shadow_direction contains 'top' %}pt-media-shadow{% else %}pb-media-shadow{% endif %}{% endunless %}">
             {%- render 'product-tile-media-image',
               media: product.featured_media,
               shape_id: shape_id,

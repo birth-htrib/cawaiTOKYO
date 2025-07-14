@@ -175,8 +175,8 @@ body {
 
 .product-tile {
   div.sold-out-sticker-text {
-    background-color: #ff5ce4;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
 
     div {
       font-size: 1.3rem;
@@ -301,6 +301,14 @@ body {
 .product-tile .sticker__drop-shadow-path {
   stroke-width: 0.3rem;
 }
-  .sticker__svg {
+
+.sticker__svg {
   overflow: visible;
+}
+
+.product-media-object.product-sold-out {
+  img {
+    filter: brightness(0.8);
+  }
+
 }
