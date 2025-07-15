@@ -103,6 +103,16 @@
     "general":{
       "title":"カート",
       "empty":"カートは空です",
+      "remove":"削除",
+      "note":"メモ",
+      "subtotal":"総額",
+      "taxes_included_but_shipping_at_checkout":"送料はチェックアウトで追加されます",
+      "checkout":"チェックアウト",
+    },
+    "label":{
+      "product":"商品",
+      "quantity":"注文数",
+      "total":"総額",
     }
   }
     
