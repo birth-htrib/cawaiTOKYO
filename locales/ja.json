@@ -17,6 +17,9 @@
       "regular_price": "Regular price",
       "share": "Share",
       "related_products_title": "Related Products",
+      "search":{
+        "loading":"ローディング中"
+      }
     },
     "product": {
       "sold_out": "SOLD\nOUT",
