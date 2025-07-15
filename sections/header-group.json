@@ -50,7 +50,8 @@
         "shape_divider_WGqCeU"
       ],
       "custom_css": [
-        "a {font-weight: 600;}"
+        "a {font-weight: 600;}",
+        ".text-base{font-size: 1rem;}"
       ],
       "settings": {
         "logo_max_width": 230,
