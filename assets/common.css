@@ -246,4 +246,11 @@ body {
   filter: brightness(0.8);
 }
 
+#localization-form-footer .text-scheme-text-contrast {
+  color: white;
+}
+#localization-form-footer .theme-icon path {
+  fill: transparent;
+}
+
 /*# sourceMappingURL=common.css.map */
