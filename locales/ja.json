@@ -28,7 +28,7 @@
       "unavailable": "Unavailable",
       "unit_price_label": "Unit price",
       "compare_at": "Compare at",
-      "quantity": "Quantity",
+      "quantity": "個数",
       "add_to_cart": "Add to Cart",
       "preorder": "Pre-order",
       "adding_to_cart": "Adding",
@@ -40,7 +40,7 @@
       "out_of_stock": "Out of Stock",
       "inventory_in_stock": "Ready to ship",
       "inventory_low_stock_with_count": "Only {{ count }} in stock",
-      "include_taxes": "Tax included.",
+      "include_taxes": "税込み",
       "price": {
         "from_price_html": "From {{ price }}",
         "regular_price": "Regular price",
