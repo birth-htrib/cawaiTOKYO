@@ -51,11 +51,12 @@
       ],
       "custom_css": [
         "a {font-weight: 600;}",
-        ".text-base {font-size: 1rem;}"
+        ".text-base {font-size: 1rem;}",
+        "@media screen and (max-width: 420px) {img {width: 120px; }}"
       ],
       "settings": {
         "logo": "shopify://shop_images/cawaiiTOKYO_logo_2_black.png",
-        "logo_max_width": 190,
+        "logo_max_width": 170,
         "main_linklist": "main-menu",
         "nested_nav_style": "mega_menu",
         "showcase_top_level_collections": false,
