@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/pc_fv1.webp",
-            "image_mobile": "shopify://shop_images/sp-fv1_14371d89-3c31-4c35-a6ac-e2ab14fc76bd.webp",
+            "image_mobile": "shopify://shop_images/sp-fv1.webp",
             "title": "",
             "richtext": "",
             "cta_url": "",
@@ -29,7 +29,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/pc_fv2.webp",
-            "image_mobile": "shopify://shop_images/sp-fv2_4b962678-18bd-45c8-acf0-2b4d9da3d949.webp",
+            "image_mobile": "shopify://shop_images/sp-fv2.webp",
             "title": "",
             "richtext": "",
             "cta_url": "",
