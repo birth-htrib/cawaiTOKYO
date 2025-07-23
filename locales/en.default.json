@@ -800,6 +800,36 @@
             }
           }
         }
+      },
+      "purchase_order_number": {
+        "edit_modal_title": "Edit order number",
+        "empty_state": "No order number",
+        "modal_po_number_input_label": "Order Number",
+        "modal_po_number_input_max_length_error": "The order number can be up to {{maxLength}} characters long.",
+        "save": "Save",
+        "title": "Order Number {{poNumber}}"
+      }
+    },
+    "account_information": {
+      "add_button": "Add",
+      "loading_accessibility_message": "Loading account information",
+      "loading_finished_accessibility_message": "Account information has been loaded.",
+      "people": {
+        "pagination": {
+          "load_more": "Load more",
+          "load_more_accessibility_label": "Load more users",
+          "loading_accessibility_label": "Loading users"
+        }
+      },
+      "profile_card": {
+        "cancel": "Cancel",
+        "cancel_accessibility_label": "Cancel editing the profile",
+        "edit": "Edit",
+        "edit_accessibility_label": "Edit Profile",
+        "email": "Email",
+        "email_help_text": "The email address used for login cannot be changed.",
+        "first_name": "Name",
+        "last_name": "Last Name"
       }
     }
   }
