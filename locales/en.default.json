@@ -635,7 +635,71 @@
       },
       "addresses": {
         "add_billing_address_button": "Add billing address",
-        "add_billing_address_section_accessibility_label": "Add billing address"
+        "add_billing_address_section_accessibility_label": "Add billing address",
+        "add_shipping_address_button": "Add a shipping address",
+        "add_shipping_address_section_accessibility_label": "Add a shipping address",
+        "billing_address_card_title": "Billing Address",
+        "cancel_adding_billing_address_accessibility_label": "Cancel adding billing address",
+        "cancel_adding_shipping_address_accessibility_label": "Cancel adding a delivery address",
+        "save_new_billing_address_accessibility_label": "Save billing address",
+        "save_new_shipping_address_accessibility_label": "Save shipping address",
+        "shipping_address_card_title": "Shipping Address"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Order ({{draftOrderName}}) confirmation date: {{date}}",
+        "loading": "Loading order details",
+        "loading_finished_accessibility_message": "Order details have been loaded.",
+        "order_timeline": {
+          "expand_events_accessibility_label": "Display the details of the draft order",
+          "expand_events_label": "Show details",
+          "hide_events_accessibility_label": "Hide the details of the draft order",
+          "hide_events_label": "Hide details"
+        },
+        "payment_status": {
+          "canceled": {
+            "description": "You were not charged.",
+            "title": "Your payment has been canceled."
+          },
+          "draft": {
+            "deposit": {
+              "due_later": "Once your order is confirmed, you will need to make a payment of {{depositAmount}}. The remaining balance will be payable over a period of {{translatedName}}.",
+              "due_on_date": "Once your order is confirmed, you will need to pay {{depositAmount}}. The balance will be paid to {{dueDate}}.",
+              "due_on_fulfillment": "You will be required to pay {{depositAmount}} at the time your order is confirmed. The remaining balance will be due when the order is fulfilled.",
+              "due_on_receipt": "Once your order is confirmed, you will need to pay {{depositAmount}}. The remaining balance will be due at a later date."
+            },
+            "description": "Payment details will be finalized when the order is confirmed.",
+            "in_review": {
+              "description": "Payment details will be finalized when the order is confirmed.",
+              "title": "Unpaid"
+            },
+            "submitted": {
+              "deposit": {
+                "due_later": "The balance is under the condition of {{translatedName}}, and the payment due date is {{dueDate}}.",
+                "due_on_date": "The payment deadline for the balance is {{dueDate}}.",
+                "due_on_fulfillment": "The payment deadline for the balance is when all items in this order have been fulfilled.",
+                "due_on_receipt": "You will receive an invoice for the remaining balance.",
+                "title": "Payment Due Date"
+              },
+              "description": "Please make a payment to confirm this order.",
+              "title": "Confirm and complete your payment."
+            },
+            "title": "Unpaid Amount"
+          },
+          "paid": {
+            "description": "This order has been paid in full.",
+            "title": "Paid",
+            "title_with_date": "Paid{{date}}"
+          },
+          "pay_now": "Pay Now",
+          "pay_now_accessibility_label": "Pay for your order ({{orderName}}) now!",
+          "pending": {
+            "banner_due": {
+              "one": "The payment deadline is {{count}}.",
+              "other": "The payment deadline is {{count}} days."
+            },
+            "banner_due_today": "The payment deadline is today."
+          }
+        }
       }
     }
   }
