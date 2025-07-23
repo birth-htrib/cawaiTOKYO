@@ -697,9 +697,55 @@
               "one": "The payment deadline is {{count}}.",
               "other": "The payment deadline is {{count}} days."
             },
-            "banner_due_today": "The payment deadline is today."
-          }
-        }
+            "banner_due_today": "The payment deadline is today.",
+            "banner_overdue": {
+              "one": "Your payment is {{count}} days late.",
+              "other": "Your payment is {{count}} days late."
+            },
+            "description_authorized": "You will be billed on the payment due date for your payment method, but you can also pay right now.",
+            "description_due_on_fulfillment": "The payment deadline is when all items in this order have been shipped.",
+            "description_due_on_fulfillment_partially_paid": "A portion of this order has been paid, and there is a remaining balance. The payment deadline is when all items in this order have been fulfilled.",
+            "description_due_on_receipt": "When the payment deadline approaches, an invoice will be sent to you.",
+            "description_due_on_receipt_partially_paid": "A portion of this order has been paid, and there is a remaining balance. An invoice will be sent when the payment deadline arrives.",
+            "description_overdue": "Your payment is overdue.",
+            "description_partially_paid": "A portion of this order has been paid, and there is a remaining balance.",
+            "description_waiting_for_manual_payment": "The payment for this order is currently on hold. Once the payment is received, the balance will be updated.",
+            "title": "Payment Due Date",
+            "title_due_on_fulfillment": "The payment deadline is at the time of fulfillment.",
+            "title_due_on_receipt": "The payment deadline has not yet arrived.",
+            "title_with_date": "Payment Deadline: {{date}}"
+          },
+          "refund": {
+            "description_full_refund": "This order has been fully refunded.",
+            "description_multiple_refunds": "This order has been partially refunded.",
+            "description_single_refund": "This order has been partially refunded.",
+            "title": "Refunded",
+            "title_with_date": "{{date}}Refunded"
+          },
+          "title": "Payment Status"
+        },
+        "subtitle": "Send Date: {{date}}",
+        "title": "Order ({{name}})"
+      },
+      "location_selection": {
+        "clear_search": "Clear search",
+        "continue_to_store": "Continue the store",
+        "description": "If you already have items in your cart, changing the location may affect the price and quantity in your cart.",
+        "description_switch_later": "You can change it anytime later.",
+        "list_accessibility_label": "Location List",
+        "list_item_accessibility_label": "{{name}}: {{address}}",
+        "list_item_without_address_accessibility_label": "{{name}}: No address",
+        "list_loading_accessibility_message": "Loading the list of locations.",
+        "list_loading_address_accessibility_message": "{{locationName}}Loading the address.",
+        "list_loading_finished_accessibility_message": "The list of locations has been loaded.",
+        "loading_store_accessibility_message": "Moving to the store",
+        "no_location_description": "{{company}}You no longer have the authority to place orders. However, you can still continue to make personal orders.",
+        "no_location_title": "Individual orders only",
+        "no_locations_found": "Location not found",
+        "search": "Search for locations",
+        "search_location_title": "Select Location",
+        "selection_cancel_button": "Cancel",
+        "selection_confirmation_button": "Select Location"
       }
     }
   }
