@@ -140,17 +140,17 @@
   },
   "cart": {
     "general": {
-      "title": "Your cart",
-      "remove": "Remove",
-      "note": "Add a note to your order",
-      "subtotal": "Subtotal",
+      "title": "Cart",
+      "remove": "Delete",
+      "note": "Memo",
+      "subtotal": "Total amount",
       "shipping_at_checkout": "Shipping & taxes calculated at checkout",
       "update": "Update Cart",
-      "checkout": "Check Out",
-      "empty": "Your cart is currently empty.",
+      "checkout": "Checkout",
+      "empty": "Your cart is empty.",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
-      "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
+      "taxes_included_but_shipping_at_checkout": "Shipping costs will be added at checkout.",
       "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
       "cookies_required": "Enable cookies to use the shopping cart",
       "continue_shopping": "Continue shopping",
@@ -166,11 +166,11 @@
       "price": "Price",
       "price_column": "See Price column for discount details.",
       "product_details": "Product details",
-      "quantity": "Quantity",
+      "quantity": "Order Quantity",
       "qty": "Qty",
       "regular_total": "Regular total",
       "remove": "Remove {{ product }}",
-      "total": "Total",
+      "total": "Total Amount",
       "update": "Update",
       "discounted_price": "Discounted price",
       "original_price": "Original price"
@@ -189,7 +189,7 @@
   "collections": {
     "general": {
       "title": "Collection",
-      "all_of_collection": "View All",
+      "all_of_collection": "View Collection",
       "no_matches": "Sorry, there are no products in this collection",
       "link_title": "Browse our {{ title }} collection",
       "grid_view": "Grid view",
@@ -237,9 +237,9 @@
   "contact": {
     "form": {
       "name": "Name",
-      "email": "Email",
+      "email": "Email Address",
       "phone": "Phone Number",
-      "message": "Message",
+      "message": "Inquiry Details",
       "send": "Send",
       "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
       "error_heading": "Please adjust the following:"
@@ -626,6 +626,16 @@
             "last_updated": "{{date}}"
           }
         }
+      }
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Company Name",
+        "company_card_section_accessibility_label": "Company"
+      },
+      "addresses": {
+        "add_billing_address_button": "Add billing address",
+        "add_billing_address_section_accessibility_label": "Add billing address"
       }
     }
   }
