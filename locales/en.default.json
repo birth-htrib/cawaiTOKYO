@@ -745,7 +745,61 @@
         "search": "Search for locations",
         "search_location_title": "Select Location",
         "selection_cancel_button": "Cancel",
-        "selection_confirmation_button": "Select Location"
+        "selection_confirmation_button": "Select Location",
+        "selection_continue_button": "Continue",
+        "title": "Which location will you purchase from?",
+        "title_choose_location": "Select a location",
+        "try_new_search": "Try a new search"
+      },
+      "locations": {
+        "contact_email": "Email",
+        "contact_list_title": "Member",
+        "contact_name": "Name",
+        "contact_permissions": "Authority",
+        "contact_phone_number": "Phone Number",
+        "deposit_percentage": "{{percentage}}Deposit",
+        "location_picker_accessibility_label": "Location Name: {{locationName}}",
+        "location_picker_label": "Location Name",
+        "multiple_tax_exemptions": "Other {{taxExemptionsCount}}countries",
+        "multiple_tax_exemptions_and": "And",
+        "net_payment_terms_description": "{{name}}: {{numberOfDays}}Payment deadline within days</t10>",
+        "own_role_contact_name": "You",
+        "pagination": {
+          "load_more": "Load more",
+          "load_more_accessibility_label": "Load more locations"
+        },
+        "payment_details_title": "Payment Details",
+        "payment_terms": "Payment Period",
+        "permissions_label": "Your Authority",
+        "permissions_title": "Authority",
+        "section_title": "Location",
+        "shipping_address_required": "Add the delivery address to this location and start your order.",
+        "staff_and_permissions_title": "Staff and Permissions",
+        "tax_details_title": "Tax Details",
+        "tax_exemption_not_applicable": "Not applicable",
+        "tax_exemptions": "Tax-free",
+        "tax_exemptions_modal_button_accessibility_label": "Display all tax exemptions",
+        "tax_exemptions_modal_close": "Close",
+        "tax_id": "Taxpayer Number",
+        "taxes_none": "なし"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Hide all",
+          "hide_all_accessibility_label": "Hide all orders under review",
+          "pagination": {
+            "nav_accessibility_label": "Menu button for the order being confirmed"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}}That's all.",
+          "pending_tab_accessibility_label": {
+            "more_than_pagination_length": "{{count}}You have pending orders exceeding the specified number.",
+            "no_pending_orders": "There are no pending orders.",
+            "pending_orders": {
+              "one": "{{count}}You have a pending order.",
+              "other": "{{count}}You have a pending order."
+            }
+          }
+        }
       }
     }
   }
