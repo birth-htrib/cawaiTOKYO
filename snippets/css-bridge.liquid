@@ -130,6 +130,9 @@
       assign selected_text_color = 'var(--color-scheme-background)'
       assign selected_text_background_color = 'var(--color-scheme-text)'
     endif
+    if scheme.settings.accent_1.red == scheme.settings.accent_1_contrast.red && scheme.settings.accent_1.green == scheme.settings.accent_1_contrast.green &&scheme.settings.accent_1.blue == scheme.settings.accent_1_contrast.blue
+      assign selected_text_color="255,255,255"
+    endif
   %}
 
   ::selection {
