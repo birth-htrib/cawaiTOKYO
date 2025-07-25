@@ -30,7 +30,11 @@
     {%- endunless -%}
 
     <title>
+      {%-if page_title contains "コレクション"-%}
+        All Products
+      {%-else-%}
       {{ page_title }}
+        {%- endif -%}
       {%- if current_tags %}
         &ndash; tagged "{{ current_tags | join: ', ' }}"
       {%- endif -%}
