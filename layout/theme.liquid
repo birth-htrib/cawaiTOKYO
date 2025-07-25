@@ -30,7 +30,7 @@
     {%- endunless -%}
 
     <title>
-      {%-if page_title contains "コレクション" or page_title contains "Collections"-%}
+      {%-if page_title contains "コレクション" || page_title contains "Collections"-%}
         All Products
       {%-else-%}
       {{ page_title }}
