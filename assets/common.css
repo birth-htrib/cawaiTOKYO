@@ -253,4 +253,10 @@ body {
   fill: transparent;
 }
 
+.related-products .section-content.px-section.py-section-vertical-spacing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*# sourceMappingURL=common.css.map */

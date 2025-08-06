@@ -289,7 +289,7 @@ body {
 
 .product-tile div.new-product {
 
-    color: #000000;
+  color: #000000;
   background-color: #edff2e;
 }
 
@@ -314,14 +314,21 @@ body {
 
 }
 
-#localization-form-footer{
-  .text-scheme-text-contrast{
+#localization-form-footer {
+  .text-scheme-text-contrast {
     color: white;
   }
-  .theme-icon{
+
+  .theme-icon {
     path {
-    fill: transparent;
+      fill: transparent;
     }
   }
-  
+
+}
+
+.related-products .section-content.px-section.py-section-vertical-spacing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
