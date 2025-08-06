@@ -59,12 +59,7 @@
 }
 @media screen and (max-width: 990px) {
   .related-products .section-content.px-section.py-section-vertical-spacing ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .related-products .section-content.px-section.py-section-vertical-spacing ul li {
-    width: 47%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 a {
