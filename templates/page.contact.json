@@ -17,7 +17,7 @@
         ".push-btn__surface {background-color: #ff5ce4; color: #000000;}",
         ".card__surface {background-color: #fff;}",
         "input {background-color: #fff;}",
-        "#ContactFormMessage{background-color: #FFF;}",
+        "#ContactFormMessage {background-color: #fff;}",
         "@media screen and (max-width: 750px) {.section-content {margin-top: 1rem; } h1 {font-size: 7vw; padding: 10px 0 0; }}"
       ],
       "settings": {
@@ -28,10 +28,11 @@
     },
     "custom_liquid_BFGRhr": {
       "type": "custom-liquid",
+      "custom_css": [],
       "name": "t:sections.custom_liquid.name",
       "settings": {
         "title": "",
-        "custom_liquid": "<style>\n.section-footer svg path:first-child{\nfill:#fdebf8\n}\n</style>",
+        "custom_liquid": "<style>\n.section-footer svg path:first-child{\nfill:#fdebf8\n}\nbody{\nbackground:#fdebf8;\n}\n</style>",
         "full_width": true,
         "color_scheme": ""
       }
