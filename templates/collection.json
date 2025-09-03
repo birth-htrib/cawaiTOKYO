@@ -26,10 +26,10 @@
           "settings": {
             "width": 150,
             "half_width_on_mobile": true,
-            "text": "cawaii",
+            "text": "cute",
             "shape": "star_1",
-            "sticker_font_size": "1.953rem",
-            "horizontal_position": 75,
+            "sticker_font_size": "2.441rem",
+            "horizontal_position": 78,
             "vertical_position": 77,
             "rotate": 0,
             "show_sticker_on_mobile": false,

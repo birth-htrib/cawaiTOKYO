@@ -43,7 +43,7 @@
           "settings": {
             "width": 230,
             "half_width_on_mobile": true,
-            "text": "cawaii",
+            "text": "cute",
             "shape": "scalloped_circle_3",
             "sticker_font_size": "2.441rem",
             "horizontal_position": 87,
@@ -137,7 +137,7 @@
       "name": "t:sections.custom_liquid.name",
       "settings": {
         "title": "",
-        "custom_liquid": "<strong>“cawaii” <br>from Tokyo <br>to Asia</strong>",
+        "custom_liquid": "<strong>“cute” <br>from Tokyo <br>to Asia</strong>",
         "full_width": false,
         "color_scheme": "scheme-9c1aec51-f030-4ab1-80eb-883f41f64e00"
       }
@@ -170,7 +170,7 @@
           "settings": {
             "width": 170,
             "half_width_on_mobile": false,
-            "text": "cawaii",
+            "text": "cute",
             "shape": "star_wide",
             "sticker_font_size": "1.953rem",
             "horizontal_position": 14,
@@ -219,7 +219,7 @@
       "custom_css": [],
       "name": "t:sections.curved_text.name",
       "settings": {
-        "text": "c a w a i i T O K Y O",
+        "text": "c u t i e T O K Y O",
         "link": "",
         "wave_height": 200,
         "wave_width": 300,
@@ -254,7 +254,7 @@
       "custom_css": [],
       "name": "t:sections.curved_text.name",
       "settings": {
-        "text": "c w a i i T O K Y O",
+        "text": "c u t i e T O K Y O",
         "link": "",
         "wave_height": 200,
         "wave_width": 300,
@@ -583,9 +583,9 @@
           "settings": {
             "width": 240,
             "half_width_on_mobile": true,
-            "text": "cawaii",
+            "text": "cute",
             "shape": "ribbon",
-            "sticker_font_size": "1.563rem",
+            "sticker_font_size": "2.441rem",
             "horizontal_position": 13,
             "vertical_position": 3,
             "rotate": 0,
