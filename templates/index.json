@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/pc_fv1.webp",
-            "image_mobile": "shopify://shop_images/sp-fv1.webp",
+            "image_mobile": "shopify://shop_images/sp_fv1.webp",
             "title": "",
             "richtext": "",
             "cta_url": "",
@@ -29,7 +29,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/pc_fv2.webp",
-            "image_mobile": "shopify://shop_images/sp-fv2.webp",
+            "image_mobile": "shopify://shop_images/sp_fv2.webp",
             "title": "",
             "richtext": "",
             "cta_url": "",
