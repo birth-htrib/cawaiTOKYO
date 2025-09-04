@@ -1,5 +1,5 @@
 .section-site-header {
-  position: fixed;
+  position: fixed !important;
   top: 98px !important;
 }
 .section-site-header .shape-divider {
