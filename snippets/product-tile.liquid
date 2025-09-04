@@ -103,6 +103,7 @@
           class="block h-full w-full"
         >
           <h3 class="font-body text-base">{{ product.title | escape }}</h3>
+          <h3 class="font-body text-base" style="visibility:hidden; height:0;">ああああああああああああああああああああああああああああああああああああああああああああああああああああああ</h3>
           {%- if settings.product_tiles_show_vendor -%}
             <p class="mt-1">{{ product.vendor }}</p>
           {%- endif -%}
@@ -341,6 +342,7 @@
         <h3 class="font-body text-base">
           {{ 'sections.onboarding.product_title' | t }}
         </h3>
+          <h3 class="font-body text-base" style="visibility:hidden; height:0;">ああああああああああああああああああああああああああああああああああああああああああああああああああああああ</h3>
         {% render 'price', price_class: 'mt-2' %}
       </div>
     </div>

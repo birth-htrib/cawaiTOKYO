@@ -1,11 +1,13 @@
 html {
-	overflow: auto;
+  overflow: auto;
 }
+
 body {
-	overflow: hidden;
+  overflow: hidden;
 }
+
 .section-site-header {
-  position: fixed!important;
+  position: fixed !important;
   width: 100%;
   top: 98px !important;
 
@@ -49,7 +51,8 @@ body {
   }
 
   .section-site-header {
-    top: 98px !important;;
+    top: 98px !important;
+    ;
   }
 
   .w-1\/3 {
@@ -353,6 +356,4 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.related-products .font-body.text-base{
-  min-width: 25em;
-}
+
