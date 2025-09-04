@@ -110,6 +110,7 @@
         "shape_divider_XLNyhg",
         "shape_divider_N9yAre"
       ],
+      "disabled": true,
       "custom_css": [
         ".splide__arrows {display: none;}"
       ],
