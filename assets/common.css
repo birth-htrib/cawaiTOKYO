@@ -275,4 +275,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}/*# sourceMappingURL=common.css.map */
+}
+
+.font-body.text-base {
+  min-width: 25em;
+}
+
+/*# sourceMappingURL=common.css.map */
