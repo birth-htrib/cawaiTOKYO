@@ -272,15 +272,7 @@
   </style>
   
     {{ 'common.css' | asset_url | stylesheet_tag: preload: true }}
-  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.shopify.com/s/files/1/0743/8145/9682/files/apple-touch-icon.png?v=1756949801">
-  <script>
-  var scrollEventHandler = function()
-{
-  window.scroll(0, window.pageYOffset)
-}
-
-  window.addEventListener("scroll", scrollEventHandler, false);
-  </script>
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.shopify.com/s/files/1/0743/8145/9682/files/apple-touch-icon.png">
   </head>
 
       <body data-color-scheme="scheme1" class="{{ page_title }}   {{canonical_url|split:'/'|last}}    {{ request.locale.iso_code }}">
