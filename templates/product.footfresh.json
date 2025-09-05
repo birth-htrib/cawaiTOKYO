@@ -211,6 +211,7 @@
       "blocks": {
         "shape_divider_7yTxHi": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "below",
             "target_section_color_scheme": "scheme-133eabc6-bcfb-4350-ba4f-0a66b5aabf17",
