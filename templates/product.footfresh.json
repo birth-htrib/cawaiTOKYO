@@ -185,6 +185,7 @@
     },
     "rich_text_EBTVie": {
       "type": "rich-text",
+      "disabled": true,
       "custom_css": [
         ".px-section {padding-bottom: 2rem;}",
         ".section-content {padding-bottom: 0px;}"
@@ -204,6 +205,7 @@
     },
     "product-history": {
       "type": "product-history",
+      "disabled": true,
       "settings": {}
     },
     "rich_text_KUbT8D": {
