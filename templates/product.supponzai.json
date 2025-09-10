@@ -147,7 +147,7 @@
         "h1,h3 {font-family: \"Zen Kaku Gothic New\", sans-serif;}",
         "h4,p {font-size: 1.2rem; font-family: \"Zen Kaku Gothic New\", sans-serif;}",
         ".appearance-none p {font-size: 1rem;}",
-        ".card__surface {padding: 0.8rem 1.5rem 1.7rem 1.5rem;}",
+        ".card__surface {padding: 0.6rem 1.5rem 0.5rem 1.5rem;}",
         ".ml-auto {margin-right: 10px;}",
         "@media screen and (max-width: 750px) {h3 {font-size: 1.2rem; } p {font-size: 1rem; } .product{margin-top: 0;}"
       ],
@@ -188,6 +188,7 @@
     },
     "rich_text_EBTVie": {
       "type": "rich-text",
+      "disabled": true,
       "custom_css": [
         ".px-section {padding-bottom: 2rem;}",
         ".section-content {padding-bottom: 0px;}"
@@ -207,6 +208,7 @@
     },
     "product-history": {
       "type": "product-history",
+      "disabled": true,
       "settings": {}
     }
   },

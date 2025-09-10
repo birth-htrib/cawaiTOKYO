@@ -74,14 +74,7 @@
             "show_gift_card_recipient": false
           }
         },
-        "liquid_i9aQ6z": {
-          "type": "liquid",
-          "settings": {
-            "display_on_card": false,
-            "liquid": "<data-island x-data=\"RTE\" class=\"rte text-left\" ready=\"\">\n<h3><span style=\"vertical-align: inherit;\">離したくない、この香り。<br>日本の歌手で俳優のNissyがプロデュースした柔軟剤！</span></h3>\n<p><span style=\"vertical-align: inherit;\">何気ない生活の中で、パーフェクト（完璧）スペシャル（特別）ハピネス（幸せ）アソート（詰め合わせ）を皆さんにお届けしたいという思いから誕生しました🧼</span></p>\n\n<h4>P-shaの6つのこだわり🍀</h4>\n<p>\n<span style=\"color:#919191;\">01.</span>\n24時間抗菌＆防臭<br>\n<span style=\"color:#919191;\">02.</span>\n静電気防止に<br>\n<span style=\"color:#919191;\">03.</span>\n気になる匂いを抑える<br>\n<span style=\"color:#919191;\">04.</span>\n柔らか仕上げ<br>\n<span style=\"color:#919191;\">05.</span>\nオーガニックエキス配合<br>\n<span style=\"color:#919191;\">06.</span>\n毛玉・ケバダチ防止に\n</p>\n\n\n<!--\n<div class=\"square\">\n<h4><span style=\"vertical-align: inherit;\">P-shaの6つのこだわり🍀</span></h4>\n<p><span style=\"vertical-align: inherit;\">01 24時間抗菌＆防臭<br>02 静電気防止に<br>03 気になる匂いを抑える<br>04 柔らか仕上げ<br>05 オーガニックエキス配合<br>06 毛玉・ケバダチ防止に</span></p>\n</div>\n-->\n<br><br>\n\n    </data-island>"
-          }
-        },
-        "a17e90c4-acc9-4f1d-af84-828ae4cb2289": {
+        "description_NPVUYB": {
           "type": "description",
           "settings": {
             "display_on_card": false,
@@ -167,8 +160,7 @@
         "quantity_selector",
         "variant_picker",
         "baf3083e-d14d-435d-bca3-100d6ac490ce",
-        "liquid_i9aQ6z",
-        "a17e90c4-acc9-4f1d-af84-828ae4cb2289",
+        "description_NPVUYB",
         "scent_pyramid_eL6VMQ",
         "shape_divider_HzGqXf",
         "collapsible_tab_WAGr4R",
@@ -281,6 +273,7 @@
     },
     "rich_text_bzENK3": {
       "type": "rich-text",
+      "disabled": true,
       "custom_css": [
         ".px-section {padding-bottom: 2rem;}",
         ".section-content {padding-bottom: 0px;}"
@@ -300,6 +293,7 @@
     },
     "product-history": {
       "type": "product-history",
+      "disabled": true,
       "settings": {}
     },
     "1751618762ead83392": {
