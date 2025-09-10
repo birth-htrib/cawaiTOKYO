@@ -277,4 +277,16 @@ body {
   align-items: center;
 }
 
+.gallery > .section-content {
+  padding-top: 200px;
+}
+@media screen and (max-width: 988px) {
+  .gallery > .section-content {
+    padding-top: 12vw;
+  }
+}
+.gallery .grid {
+  max-width: 1050px;
+}
+
 /*# sourceMappingURL=common.css.map */

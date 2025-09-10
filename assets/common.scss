@@ -357,3 +357,16 @@ body {
   align-items: center;
 }
 
+.gallery {
+  &>.section-content {
+    padding-top: 200px;
+
+    @media screen and (max-width: 988px) {
+      padding-top: 12vw;
+    }
+  }
+
+  .grid {
+    max-width: 1050px;
+  }
+}
