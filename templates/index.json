@@ -632,11 +632,21 @@
         "image_wdRAxG": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/innercare_dc2ab06c-4452-4320-b933-261c6f0342b2.jpg",
+            "image": "shopify://shop_images/innercare_250910.jpg",
             "image_shape": "default",
             "rotate_image": 0,
             "button_text": "InnerCare",
             "url": "https://cawaiitokyo.jp/collections/innercare"
+          }
+        },
+        "image_ymyG8y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shoescare_250910.jpg",
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "",
+            "url": ""
           }
         }
       },
@@ -645,7 +655,8 @@
         "shape_divider_qTh6KY",
         "image_gU9gqN",
         "image_77GGFH",
-        "image_wdRAxG"
+        "image_wdRAxG",
+        "image_ymyG8y"
       ],
       "custom_css": [
         "h2 {margin-top: 8rem;}",
