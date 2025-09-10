@@ -645,7 +645,7 @@
             "image": "shopify://shop_images/shoescare_250910.jpg",
             "image_shape": "default",
             "rotate_image": 0,
-            "button_text": "",
+            "button_text": "Shoescare",
             "url": "shopify://collections/shoescare"
           }
         }
