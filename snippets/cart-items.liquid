@@ -188,6 +188,7 @@
                       {% endif %}
                     >
                       {%- if item.line_level_discount_allocations != blank -%}
+                        {% unless template == 'cart' %}
                         <ul
                           class="mt-1 text-xs"
                           aria-label="{{ 'customer.order.discount' | t }}"
@@ -203,6 +204,7 @@
                             </li>
                           {%- endfor -%}
                         </ul>
+                        {% endunless %}
                       {%- endif -%}
                       {%- if item.unit_price_measurement -%}
                         <div class="text-xs {% if item.original_price != item.final_price %} inline-block bg-scheme-accent-1 text-scheme-accent-1-contrast p-1 rounded-button -mx-1 {% else %} text-scheme-text {% endif %}">
@@ -229,7 +231,7 @@
                     {% if item.original_price != item.final_price %}
                       <s class="text-scheme-text/50">{{ item.original_price | money }}</s>
                       <br>
-                      <span class="font-bold text-red-600">{{ item.final_price | money }}</span>
+                      <span class="font-bold" style="color: #dc2626;">{{ item.final_price | money }}</span>
                     {% else %}
                       {{ item.original_price | money }}
                     {% endif %}
