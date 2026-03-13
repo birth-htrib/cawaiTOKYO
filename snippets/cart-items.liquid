@@ -142,22 +142,7 @@
                         {{ item.product.title }}
                       </p>
 
-                      {% if template == 'cart' %}
-                        <p class="mt-1 text-sm">
-                          {% if item.original_line_price != item.line_price %}
-                            <span class="visually-hidden">
-                              {{- 'cart.label.discounted_price' | t -}}
-                            </span>
-                            {{ item.price | money }}
-                            <span class="visually-hidden">
-                              {{- 'cart.label.original_price' | t -}}
-                            </span>
-                            <s>{{ item.original_price | money }}</s>
-                          {% else %}
-                            {{ item.price | money }}
-                          {% endif %}
-                        </p>
-                      {% endif %}
+                      {% comment %} 単価列に統合したため非表示 {% endcomment %}
 
                       {% unless item.product.has_only_default_variant %}
                         <p class="mt-1 text-xs">{{ item.variant.title }}</p>
@@ -239,16 +224,23 @@
                 {%- endunless -%}
               </div>
               {% if template == 'cart' %}
-                <div class="col-span-1 lg:col-span-2 lg:row-span-2 flex items-center justify-center">
+                <div class="col-span-1 lg:col-span-2 lg:row-span-2 flex flex-col items-center justify-center">
                   <p class="text-sm lg:text-base text-center">
                     {% if item.original_price != item.final_price %}
                       <s class="text-scheme-text/50">{{ item.original_price | money }}</s>
                       <br>
-                      <span class="font-bold">{{ item.final_price | money }}</span>
+                      <span class="font-bold text-red-600">{{ item.final_price | money }}</span>
                     {% else %}
                       {{ item.original_price | money }}
                     {% endif %}
                   </p>
+                  {%- if item.line_level_discount_allocations != blank -%}
+                    {%- for discount_allocation in item.line_level_discount_allocations -%}
+                      <span class="mt-1 inline-block rounded-button bg-scheme-accent-1 p-1 text-scheme-accent-1-contrast text-xs whitespace-nowrap">
+                        {{ discount_allocation.discount_application.title }}
+                      </span>
+                    {%- endfor -%}
+                  {%- endif -%}
                 </div>
               {% endif %}
               {% if template == 'cart' %}
