@@ -23,13 +23,16 @@
       method="post"
       id="cart"
     >
-      <div class="flex-auto overflow-hidden overflow-y-auto border-t-general border-scheme-text  pb-16 pt-4">
+      <div class="flex-auto overflow-hidden overflow-y-auto border-t-general border-scheme-text pb-4 pt-4">
         {% if template == 'cart' %}
           <div class="hidden lg:grid {{ cart_item_grid_container }} mb-5 items-end border-b-section border-scheme-text pb-5">
-            <p class="justify-self-start lg:col-span-8">
+            <p class="justify-self-start lg:col-span-6">
               {{ 'cart.label.product' | t }}
             </p>
-            <p class="justify-self-start lg:col-span-3">
+            <p class="justify-self-center lg:col-span-2 text-center">
+              {{ 'cart.label.price' | t | default: '単価' }}
+            </p>
+            <p class="justify-self-center lg:col-span-3 text-center">
               {{ 'cart.label.quantity' | t }}
             </p>
             <p class="justify-self-end lg:col-span-3">
@@ -111,7 +114,7 @@
               id="CartItem-{{ forloop.index }}-{{ item.key }}"
               data-line-item-key="{{ item.key }}"
             >
-              <div class="col-span-1 lg:col-span-2 {% if template == 'cart' %} lg:col-span-2 lg:max-w-[166px] {% endif %} row-span-2">
+              <div class="col-span-1 lg:col-span-2 {% if template == 'cart' %} lg:col-span-2 lg:max-w-[120px] {% endif %} row-span-2">
                 {%- if item.image != blank -%}
                   <a
                     href="{{ item.url }}"
@@ -131,7 +134,7 @@
                   </a>
                 {%- endif -%}
               </div>
-              <div class="col-span-2 {% if template == 'cart' %} lg:col-span-6 lg:row-span-3 {% endif %}">
+              <div class="col-span-2 {% if template == 'cart' %} lg:col-span-4 lg:row-span-3 {% endif %}">
                 <div>
                   <a href="{{ item.url }}">
                     <div data-product-title>
@@ -236,7 +239,20 @@
                 {%- endunless -%}
               </div>
               {% if template == 'cart' %}
-                <div class="col-span-2 lg:col-span-3 lg:row-span-2">
+                <div class="col-span-1 lg:col-span-2 lg:row-span-2 flex items-center justify-center">
+                  <p class="text-sm lg:text-base text-center">
+                    {% if item.original_price != item.final_price %}
+                      <s class="text-scheme-text/50">{{ item.original_price | money }}</s>
+                      <br>
+                      <span class="font-bold">{{ item.final_price | money }}</span>
+                    {% else %}
+                      {{ item.original_price | money }}
+                    {% endif %}
+                  </p>
+                </div>
+              {% endif %}
+              {% if template == 'cart' %}
+                <div class="col-span-2 lg:col-span-3 lg:row-span-2 flex items-center justify-center">
                   <div class="max-w-min">
                     {{ quantity }}
                   </div>
