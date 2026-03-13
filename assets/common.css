@@ -295,3 +295,39 @@ body {
 .bg-scheme-accent-1.text-scheme-accent-1-contrast {
   color: #ffffff !important;
 }
+
+/* ===== カートページ レイアウト改善 ===== */
+
+/* メモ上の余白を削減 */
+.cart__contents .pb-16 {
+  padding-bottom: 1rem !important;
+}
+
+/* カートアイテムの行間を整理 */
+.cart-items li {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  gap: 0.5rem !important;
+}
+
+/* カートアイテムを表形式に整理: 情報を横一列に配置 */
+.cart-items li.grid {
+  align-items: center !important;
+}
+
+/* 商品画像を小さくしてスペース確保 */
+.cart-items li .col-span-1 img,
+.cart-items li [class*="col-span-1"] img {
+  max-width: 80px;
+}
+
+/* 価格・割引情報を整理 */
+.cart-items li [class*="col-start"] {
+  text-align: right;
+}
+
+/* カートフッター余白調整 */
+.cart-footer {
+  margin-top: 0 !important;
+  padding-top: 1rem !important;
+}
