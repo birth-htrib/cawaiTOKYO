@@ -290,3 +290,8 @@ body {
 }
 
 /*# sourceMappingURL=common.css.map */
+
+/* ===== accent-1 バッジの文字色修正（背景と文字が両方黒の問題を修正） ===== */
+.bg-scheme-accent-1.text-scheme-accent-1-contrast {
+  color: #ffffff !important;
+}
