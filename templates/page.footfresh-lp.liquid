@@ -1573,6 +1573,39 @@
     updateStock();
     setInterval(updateStock, 60000);
   });
+
+    // ===== 在庫数の自動減少スクリプト =====
+    function updateDynamicStock() {
+      var now = new Date();
+      var h = now.getHours();
+      var m = now.getMinutes();
+      var s = now.getSeconds();
+      
+      var elapsedSeconds = (h * 3600) + (m * 60) + s;
+      var totalSeconds = 24 * 3600;
+      
+      var maxStock = 100;
+      var minStock = 15;
+      var currentStock = maxStock - Math.floor((elapsedSeconds / totalSeconds) * (maxStock - minStock));
+      
+      if (currentStock < minStock) currentStock = minStock;
+      if (currentStock > maxStock) currentStock = maxStock;
+      
+      var stockElements = document.querySelectorAll('.dynamic-stock');
+      stockElements.forEach(function(el) {
+        el.textContent = currentStock;
+      });
+      
+      var stockBar = document.getElementById('dynamic-stock-bar');
+      if (stockBar) {
+        var percentage = (currentStock / 100) * 100;
+        stockBar.style.width = percentage + '%';
+      }
+    }
+    
+    updateDynamicStock();
+    setInterval(updateDynamicStock, 60000);
+
 </script>
 </body>
 
