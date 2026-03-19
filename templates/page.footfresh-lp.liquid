@@ -1533,7 +1533,13 @@
         }]
       })
     }).then(res => res.json()).then(data => {
-      window.location.href = '/checkout';
+            let locale = 'ja';
+      let activeLangBtn = document.querySelector('.lang-btn.active');
+      if (activeLangBtn) {
+        if (activeLangBtn.innerText.includes('EN')) locale = 'en';
+        else if (activeLangBtn.innerText.includes('中文')) locale = 'zh-CN';
+      }
+      window.location.href = '/checkout?locale=' + locale;
     }).catch(err => {
       alert('エラーが発生しました');
       btns.forEach(btn => {
