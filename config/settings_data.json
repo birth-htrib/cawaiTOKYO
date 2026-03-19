@@ -9,6 +9,18 @@
  */
 {
   "current": {
+    "color_checkout_header_text": "#000000",
+    "color_checkout_header_background": "#ffffff",
+    "color_checkout_background": "#fafafa",
+    "color_checkout_text": "#333333",
+    "color_checkout_button": "#d81b60",
+    "color_checkout_button_text": "#ffffff",
+    "color_checkout_accent": "#d81b60",
+    "color_checkout_error": "#e22120",
+    "checkout_body_background_color": "#fafafa",
+    "checkout_header_background_color": "#ffffff",
+    "checkout_button_color": "#d81b60",
+    "checkout_accent_color": "#d81b60",
     "drawer_color_scheme": "scheme-163cda8d-cb7c-476f-83c9-be330bb036b7",
     "base_font_size": 17,
     "base_line_height": 1.5,
