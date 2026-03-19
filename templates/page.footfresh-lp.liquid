@@ -1422,7 +1422,7 @@
 
   function addToCartFF(idx) {
     const qty = document.getElementById('product-qty-' + idx).value;
-    const variantId = {{ all_products['footfresh'].first_available_variant.id | default: 'null' }};
+    const variantId = {{ all_products['フットフレッシュ'].first_available_variant.id | default: 'null' }};
     
     if(!variantId) { 
       alert('商品のVariant IDが見つかりません。'); 
