@@ -1523,7 +1523,8 @@
       btn.disabled = true;
     });
 
-    fetch('/cart/add.js', {
+    fetch('/cart/clear.js', { method: 'POST' })
+    .then(() => fetch('/cart/add.js', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -1532,7 +1533,9 @@
           quantity: parseInt(qty)
         }]
       })
-    }).then(res => res.json()).then(data => {
+    }))
+    .then(res => res.json())
+    .then(data => {
             let locale = 'ja';
       let activeLangBtn = document.querySelector('.lang-btn.active');
       if (activeLangBtn) {
