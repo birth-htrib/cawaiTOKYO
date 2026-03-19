@@ -645,7 +645,7 @@
     h3[data-lang].active { display: block; }
 
     /* ===== アニメーション ===== */
-    .fade-up {
+    .{
       opacity: 0;
       transform: translateY(30px);
       transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -751,7 +751,7 @@
 
 <!-- ===== ① ヒーロー ===== -->
 <section class="hero section bg-wave-bottom">
-  <div class="container fade-up">
+  <div class="container">
     <div class="section-label">Made in Japan 🇯🇵</div>
     <h1 class="section-title" data-lang="en">Say Goodbye<br>to Shoe Odor! 👋</h1>
     <h1 class="section-title" data-lang="zh">告别鞋臭<br>从此自信脱鞋! 👋</h1>
@@ -780,7 +780,7 @@
 
 <!-- ===== ① 共感・問題提起 ===== -->
 <section class="empathy section">
-  <div class="container fade-up">
+  <div class="container">
     <div class="section-label" data-lang="en">The Silent Struggle 💭</div>
     <div class="section-label" data-lang="zh">难以启齿的困扰 💭</div>
     <div class="section-label" data-lang="ja">言えない悩み 💭</div>
@@ -818,7 +818,7 @@
 
 <!-- ===== ② 問題深掘り ===== -->
 <section class="problem section">
-  <div class="container fade-up">
+  <div class="container">
     <div class="section-label" data-lang="en">The Real Cause 🦠</div>
     <div class="section-label" data-lang="zh">真正的原因 🦠</div>
     <div class="section-label" data-lang="ja">本当の原因 🦠</div>
@@ -862,7 +862,7 @@
 
 <!-- ===== ③ 解決策 ===== -->
 <section class="solution section bg-wave-top bg-wave-bottom">
-  <div class="container fade-up" style="text-align:center;">
+  <div class="container" style="text-align:center;">
     <div class="section-label">The Solution 💖</div>
     <h2 class="section-title" data-lang="en" style="color:#00838f;">Meet<br><span style="background:rgba(255,255,255,0.7); padding:4px 12px; border-radius:20px; display:inline-block; margin-top:10px;">Foot Fresh ✨</span></h2>
     <h2 class="section-title" data-lang="zh" style="color:#00838f;">解决方案<br><span style="background:rgba(255,255,255,0.7); padding:4px 12px; border-radius:20px; display:inline-block; margin-top:10px;">Foot Fresh ✨</span></h2>
@@ -878,7 +878,7 @@
 
 <!-- ===== ④ 商品特徴 ===== -->
 <section class="features section">
-  <div class="container fade-up">
+  <div class="container">
     <div class="section-label" data-lang="en">Why Foot Fresh? 🌟</div>
     <div class="section-label" data-lang="zh">为什么选择Foot Fresh？🌟</div>
     <div class="section-label" data-lang="ja">Foot Freshの特徴 🌟</div>
@@ -1067,7 +1067,7 @@
 
 <!-- ===== ⑤-b 成分紹介(メカニズム) ===== -->
 <section class="ingredients section">
-  <div class="container fade-up">
+  <div class="container">
     <div style="text-align:center;">
       <div class="section-label" data-lang="en">Odor Prevention Mechanism 🔬</div>
       <div class="section-label" data-lang="zh">核心除臭机制 🔬</div>
@@ -1088,7 +1088,7 @@
     </div>
 
     <!-- The generated image -->
-    <div class="ingredient-image-wrapper fade-up">
+    <div class="ingredient-image-wrapper">
       <img src="{{ 'fflp_ingredients_illustration.png' | asset_img_url: 'master' }}" alt="Natural Ingredients" class="ingredient-img">
     </div>
 
@@ -1132,7 +1132,7 @@
       }
     </style>
 
-    <div class="mechanism-steps fade-up">
+    <div class="mechanism-steps">
       <!-- Step 1 -->
       <div class="step-card">
         <div class="step-icon-wrapper"><div class="step-icon">🎯</div><div class="step-number">01</div></div>
@@ -1207,7 +1207,7 @@
     </div>
 
     <!-- Conclusion -->
-    <div class="conclusion-box fade-up">
+    <div class="conclusion-box">
       <h3 data-lang="en">Synergy for an odor-free environment</h3>
       <h3 data-lang="zh">协同增效，打造无异味环境</h3>
       <h3 data-lang="ja">相乗効果で、ニオイの発生しにくい環境へ</h3>
@@ -1222,7 +1222,7 @@
 
 <!-- ===== ⑤ ベネフィット ===== -->
 <section class="benefits section bg-wave-top">
-  <div class="container fade-up">
+  <div class="container">
     <div class="section-label" data-lang="en">Imagine This 🌈</div>
     <div class="section-label" data-lang="zh">想象一下 🌈</div>
     <div class="section-label" data-lang="ja">こんな未来 🌈</div>
@@ -1255,7 +1255,7 @@
 
 <!-- ===== ⑥ 信頼 ===== -->
 <section class="trust section">
-  <div class="container fade-up">
+  <div class="container">
     <div class="section-label" data-lang="en">Why Trust Us 👑</div>
     <div class="section-label" data-lang="zh">值得信赖 👑</div>
     <div class="section-label" data-lang="ja">信頼の実績 👑</div>
@@ -1309,7 +1309,7 @@
       <p data-lang="zh" style="font-size:15px; color:#666; font-weight:700;">在日本唐吉诃德全国门店有售！<br>日本社交媒体热门话题。第三方检测。</p>
             <p data-lang="ja" style="font-size:15px; color:#666; font-weight:700;">日本のドンキホーテで販売中！<br>SNSで話題。第三者機関のテスト済み。</p>
       
-      <div class="donki-store-image fade-up">
+      <div class="donki-store-image">
         <img src="{{ 'fflp_donki-stores.jpg' | asset_img_url: 'master' }}" alt="Displays in various Don Quijote stores in Japan" style="width:100%; max-width:700px; border-radius:20px; margin-top:24px; box-shadow:0 10px 24px rgba(0,0,0,0.08); border:6px solid #fff;">
       </div>
     </div>
@@ -1318,7 +1318,7 @@
 
 <!-- ===== ⑦ オファー ===== -->
 <section class="offer section">
-  <div class="container fade-up">
+  <div class="container">
     <div class="section-label">Special Offer 🎁</div>
     <h2 class="section-title" data-lang="en">Limited Time Deal!</h2>
     <h2 class="section-title" data-lang="zh">限时优惠！</h2>
@@ -1366,7 +1366,7 @@
 
 <!-- ===== ⑧ 緊急性 ===== -->
 <section class="urgency section bg-wave-top">
-  <div class="container fade-up">
+  <div class="container">
     <h2 class="section-title" data-lang="en">⚡ Don't Wait!</h2>
     <h2 class="section-title" data-lang="zh">⚡ 别犹豫了！</h2>
     <h2 class="section-title" data-lang="ja">⚡ お急ぎください！</h2>
