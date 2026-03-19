@@ -1333,15 +1333,15 @@ span.best-seller-label[data-lang].active { display: inline-block; }
         .sns-photo {
           width: 190px; height: auto; object-fit: cover; border-radius: 6px;
           border: 8px solid #fff; border-bottom-width: 24px; box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-          transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), z-index 0s; cursor: pointer;
+          transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s; cursor: pointer;
           position: relative; z-index: 1;
         }
-        .sns-photo:hover { transform: scale(1.15) rotate(0deg) !important; z-index: 10; box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
-        .sns-photo-1 { transform: rotate(-8deg) translateY(10px); }
-        .sns-photo-2 { transform: rotate(5deg) translateY(-5px); width: 220px; height: auto; z-index: 2; }
-        .sns-photo-3 { transform: rotate(-4deg) translateY(8px); }
-        .sns-photo-4 { transform: rotate(7deg) translateY(-12px); width: 170px; height: auto; }
-        .sns-photo-5 { transform: rotate(-6deg) translateY(15px); }
+        .sns-photo:hover { transform: scale(1.15) rotate(0deg) !important; z-index: 20 !important; box-shadow: 0 12px 30px rgba(0,0,0,0.3); }
+        .sns-photo-1 { transform: rotate(-8deg) translateY(10px); z-index: 1; }
+        .sns-photo-2 { transform: rotate(5deg) translateY(-5px); width: 230px; height: auto; z-index: 10; box-shadow: 0 10px 24px rgba(0,0,0,0.25); }
+        .sns-photo-3 { transform: rotate(-4deg) translateY(8px); z-index: 2; }
+        .sns-photo-4 { transform: rotate(7deg) translateY(-12px); width: 170px; height: auto; z-index: 3; }
+        .sns-photo-5 { transform: rotate(-6deg) translateY(15px); z-index: 4; }
         
         @media (max-width: 600px) {
           .sns-collage {
@@ -1349,13 +1349,12 @@ span.best-seller-label[data-lang].active { display: inline-block; }
           }
           .sns-photo {
             position: absolute; border-width: 4px; border-bottom-width: 14px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            /* Reset transforms from desktop */
           }
           .sns-photo-1 { top: 0; left: 10px; width: 130px; transform: rotate(-12deg); z-index: 1; }
-          .sns-photo-2 { top: 20px; right: 10px; width: 120px; transform: rotate(-4deg); z-index: 2; }
-          .sns-photo-3 { top: 60px; left: 80px; width: 160px; transform: rotate(6deg); z-index: 3; }
-          .sns-photo-4 { top: 160px; left: 20px; width: 140px; transform: rotate(9deg); z-index: 4; }
-          .sns-photo-5 { top: 140px; right: 20px; width: 150px; transform: rotate(-7deg); z-index: 5; }
+          .sns-photo-3 { top: 20px; right: 10px; width: 120px; transform: rotate(-4deg); z-index: 2; }
+          .sns-photo-4 { top: 160px; left: 20px; width: 140px; transform: rotate(9deg); z-index: 3; }
+          .sns-photo-5 { top: 140px; right: 20px; width: 150px; transform: rotate(-7deg); z-index: 4; }
+          .sns-photo-2 { top: 30px; left: 50%; transform: translateX(-50%) rotate(3deg); width: 170px; z-index: 10; box-shadow: 0 8px 20px rgba(0,0,0,0.25); }
         }
       </style>
       <div class="sns-collage">
