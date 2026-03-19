@@ -986,54 +986,78 @@
 
 <div class="discount-box-wrapper" id="order-section-1">
   <div class="discount-heading-row">
-    <div class="discount-label" data-lang="en">🏷️ Bulk Discount</div>
-    <div class="discount-label" data-lang="zh">🏷️ 多件优惠</div>
-    <div class="discount-label" data-lang="ja">🏷️ まとめ買い割引</div>
-    <div class="discount-tip" data-lang="en">💡 Discount applied automatically</div>
-    <div class="discount-tip" data-lang="zh">💡 增加数量自动打折</div>
-    <div class="discount-tip" data-lang="ja">💡 個数を増やすと割引が自動適用されます</div>
+    <div class="discount-label">
+      <span data-lang="en">🏷️ Bulk Discount</span>
+      <span data-lang="zh">🏷️ 多件优惠</span>
+      <span data-lang="ja">🏷️ まとめ買い割引</span>
+    </div>
+    <div class="discount-tip">
+      <span data-lang="en">💡 Discount applied automatically</span>
+      <span data-lang="zh">💡 增加数量自动打折</span>
+      <span data-lang="ja">💡 個数を増やすと割引が自動適用されます</span>
+    </div>
   </div>
   
   <table class="new-discount-table" id="ff-discount-table-1">
     <thead>
       <tr>
-        <th data-lang="en">Qty</th>
-        <th data-lang="zh">数量</th>
-        <th data-lang="ja">数量</th>
-        <th data-lang="en">Discount</th>
-        <th data-lang="zh">折扣率</th>
-        <th data-lang="ja">割引率</th>
-        <th data-lang="en">Price</th>
-        <th data-lang="zh">单价</th>
-        <th data-lang="ja">単価</th>
+        <th>
+          <span data-lang="en">Qty</span>
+          <span data-lang="zh">数量</span>
+          <span data-lang="ja">数量</span>
+        </th>
+        <th>
+          <span data-lang="en">Discount</span>
+          <span data-lang="zh">折扣率</span>
+          <span data-lang="ja">割引率</span>
+        </th>
+        <th>
+          <span data-lang="en">Price</span>
+          <span data-lang="zh">单价</span>
+          <span data-lang="ja">単価</span>
+        </th>
       </tr>
     </thead>
     <tbody>
       <tr data-qty="1">
-        <td data-lang="en">1 item</td>
-        <td data-lang="zh">1件</td>
-        <td data-lang="ja">1個</td>
-        <td><span class="badge" data-lang="en">Regular Price</span><span class="badge" data-lang="zh">普通售价</span><span class="badge" data-lang="ja">通常価格</span></td>
+        <td>
+          <span data-lang="en">1 item</span>
+          <span data-lang="zh">1件</span>
+          <span data-lang="ja">1個</span>
+        </td>
+        <td>
+          <span class="badge">
+            <span data-lang="en">Regular Price</span>
+            <span data-lang="zh">普通售价</span>
+            <span data-lang="ja">通常価格</span>
+          </span>
+        </td>
         <td>44.94$ SGD</td>
       </tr>
       <tr data-qty="2">
-        <td data-lang="en">2 items</td>
-        <td data-lang="zh">2件</td>
-        <td data-lang="ja">2個</td>
+        <td>
+          <span data-lang="en">2 items</span>
+          <span data-lang="zh">2件</span>
+          <span data-lang="ja">2個</span>
+        </td>
         <td><span class="badge">5% OFF</span></td>
         <td>42.69$ SGD</td>
       </tr>
       <tr data-qty="3">
-        <td data-lang="en">3-4 items</td>
-        <td data-lang="zh">3〜4件</td>
-        <td data-lang="ja">3〜4個</td>
+        <td>
+          <span data-lang="en">3-4 items</span>
+          <span data-lang="zh">3〜4件</span>
+          <span data-lang="ja">3〜4個</span>
+        </td>
         <td><span class="badge">10% OFF</span></td>
         <td>40.45$ SGD</td>
       </tr>
       <tr data-qty="5">
-        <td data-lang="en">5+ items</td>
-        <td data-lang="zh">5件以上</td>
-        <td data-lang="ja">5個〜</td>
+        <td>
+          <span data-lang="en">5+ items</span>
+          <span data-lang="zh">5件以上</span>
+          <span data-lang="ja">5個〜</span>
+        </td>
         <td><span class="badge">15% OFF</span></td>
         <td>38.20$ SGD</td>
       </tr>
@@ -1042,14 +1066,18 @@
 
   <div class="total-box">
     <div class="total-box-top">
-      <span data-lang="en">Total Amount</span>
-      <span data-lang="zh">合计金额</span>
-      <span data-lang="ja">合計金額</span>
+      <span>
+        <span data-lang="en">Total Amount</span>
+        <span data-lang="zh">合计金额</span>
+        <span data-lang="ja">合計金額</span>
+      </span>
       <span class="total-price-calc" id="ff-total-calc-1">44.94$ SGD * 1 = <span style="font-size:24px;">44.94$ SGD</span></span>
     </div>
-    <div class="total-box-bottom" data-lang="en" style="display:none;">Discount applies for 2+ items ✨</div>
-    <div class="total-box-bottom" data-lang="zh" style="display:none;">购买2件以上即可享受多件优惠 ✨</div>
-    <div class="total-box-bottom" data-lang="ja">2個以上でまとめ買い割引が適用されます ✨</div>
+    <div class="total-box-bottom">
+      <span data-lang="en">Discount applies for 2+ items ✨</span>
+      <span data-lang="zh">购买2件以上即可享受多件优惠 ✨</span>
+      <span data-lang="ja">2個以上でまとめ買い割引が適用されます ✨</span>
+    </div>
   </div>
 
   <div class="buy-action-area">
@@ -1060,13 +1088,15 @@
     </div>
     
     <button type="button" class="cta-btn" onclick="addToCartFF(1)" style="width:100%; max-width:400px; padding:20px; font-size:22px; margin-top:10px;">
-      <span data-lang="en" style="display:none;">💖 Add To Cart</span>
-      <span data-lang="zh" style="display:none;">💖 加入购物车</span>
+      <span data-lang="en">💖 Add To Cart</span>
+      <span data-lang="zh">💖 加入购物车</span>
       <span data-lang="ja">💖 かごに追加する</span>
     </button>
-    <p class="cta-subtext" data-lang="en" style="display:none;">Free shipping in Singapore 🚚</p>
-    <p class="cta-subtext" data-lang="zh" style="display:none;">新加坡免运费 ��</p>
-    <p class="cta-subtext" data-lang="ja">シンガポール送料無料 🚚</p>
+    <p class="cta-subtext">
+      <span data-lang="en">Free shipping in Singapore 🚚</span>
+      <span data-lang="zh">新加坡免运费 🚚</span>
+      <span data-lang="ja">シンガポール送料無料 🚚</span>
+    </p>
   </div>
 </div>
 
@@ -1179,54 +1209,78 @@
 
 <div class="discount-box-wrapper" id="order-section-2">
   <div class="discount-heading-row">
-    <div class="discount-label" data-lang="en">🏷️ Bulk Discount</div>
-    <div class="discount-label" data-lang="zh">🏷️ 多件优惠</div>
-    <div class="discount-label" data-lang="ja">🏷️ まとめ買い割引</div>
-    <div class="discount-tip" data-lang="en">💡 Discount applied automatically</div>
-    <div class="discount-tip" data-lang="zh">💡 增加数量自动打折</div>
-    <div class="discount-tip" data-lang="ja">💡 個数を増やすと割引が自動適用されます</div>
+    <div class="discount-label">
+      <span data-lang="en">🏷️ Bulk Discount</span>
+      <span data-lang="zh">🏷️ 多件优惠</span>
+      <span data-lang="ja">🏷️ まとめ買い割引</span>
+    </div>
+    <div class="discount-tip">
+      <span data-lang="en">💡 Discount applied automatically</span>
+      <span data-lang="zh">💡 增加数量自动打折</span>
+      <span data-lang="ja">💡 個数を増やすと割引が自動適用されます</span>
+    </div>
   </div>
   
   <table class="new-discount-table" id="ff-discount-table-2">
     <thead>
       <tr>
-        <th data-lang="en">Qty</th>
-        <th data-lang="zh">数量</th>
-        <th data-lang="ja">数量</th>
-        <th data-lang="en">Discount</th>
-        <th data-lang="zh">折扣率</th>
-        <th data-lang="ja">割引率</th>
-        <th data-lang="en">Price</th>
-        <th data-lang="zh">单价</th>
-        <th data-lang="ja">単価</th>
+        <th>
+          <span data-lang="en">Qty</span>
+          <span data-lang="zh">数量</span>
+          <span data-lang="ja">数量</span>
+        </th>
+        <th>
+          <span data-lang="en">Discount</span>
+          <span data-lang="zh">折扣率</span>
+          <span data-lang="ja">割引率</span>
+        </th>
+        <th>
+          <span data-lang="en">Price</span>
+          <span data-lang="zh">单价</span>
+          <span data-lang="ja">単価</span>
+        </th>
       </tr>
     </thead>
     <tbody>
       <tr data-qty="1">
-        <td data-lang="en">1 item</td>
-        <td data-lang="zh">1件</td>
-        <td data-lang="ja">1個</td>
-        <td><span class="badge" data-lang="en">Regular Price</span><span class="badge" data-lang="zh">普通售价</span><span class="badge" data-lang="ja">通常価格</span></td>
+        <td>
+          <span data-lang="en">1 item</span>
+          <span data-lang="zh">1件</span>
+          <span data-lang="ja">1個</span>
+        </td>
+        <td>
+          <span class="badge">
+            <span data-lang="en">Regular Price</span>
+            <span data-lang="zh">普通售价</span>
+            <span data-lang="ja">通常価格</span>
+          </span>
+        </td>
         <td>44.94$ SGD</td>
       </tr>
       <tr data-qty="2">
-        <td data-lang="en">2 items</td>
-        <td data-lang="zh">2件</td>
-        <td data-lang="ja">2個</td>
+        <td>
+          <span data-lang="en">2 items</span>
+          <span data-lang="zh">2件</span>
+          <span data-lang="ja">2個</span>
+        </td>
         <td><span class="badge">5% OFF</span></td>
         <td>42.69$ SGD</td>
       </tr>
       <tr data-qty="3">
-        <td data-lang="en">3-4 items</td>
-        <td data-lang="zh">3〜4件</td>
-        <td data-lang="ja">3〜4個</td>
+        <td>
+          <span data-lang="en">3-4 items</span>
+          <span data-lang="zh">3〜4件</span>
+          <span data-lang="ja">3〜4個</span>
+        </td>
         <td><span class="badge">10% OFF</span></td>
         <td>40.45$ SGD</td>
       </tr>
       <tr data-qty="5">
-        <td data-lang="en">5+ items</td>
-        <td data-lang="zh">5件以上</td>
-        <td data-lang="ja">5個〜</td>
+        <td>
+          <span data-lang="en">5+ items</span>
+          <span data-lang="zh">5件以上</span>
+          <span data-lang="ja">5個〜</span>
+        </td>
         <td><span class="badge">15% OFF</span></td>
         <td>38.20$ SGD</td>
       </tr>
@@ -1235,14 +1289,18 @@
 
   <div class="total-box">
     <div class="total-box-top">
-      <span data-lang="en">Total Amount</span>
-      <span data-lang="zh">合计金额</span>
-      <span data-lang="ja">合計金額</span>
+      <span>
+        <span data-lang="en">Total Amount</span>
+        <span data-lang="zh">合计金额</span>
+        <span data-lang="ja">合計金額</span>
+      </span>
       <span class="total-price-calc" id="ff-total-calc-2">44.94$ SGD * 1 = <span style="font-size:24px;">44.94$ SGD</span></span>
     </div>
-    <div class="total-box-bottom" data-lang="en" style="display:none;">Discount applies for 2+ items ✨</div>
-    <div class="total-box-bottom" data-lang="zh" style="display:none;">购买2件以上即可享受多件优惠 ✨</div>
-    <div class="total-box-bottom" data-lang="ja">2個以上でまとめ買い割引が適用されます ✨</div>
+    <div class="total-box-bottom">
+      <span data-lang="en">Discount applies for 2+ items ✨</span>
+      <span data-lang="zh">购买2件以上即可享受多件优惠 ✨</span>
+      <span data-lang="ja">2個以上でまとめ買い割引が適用されます ✨</span>
+    </div>
   </div>
 
   <div class="buy-action-area">
@@ -1253,17 +1311,17 @@
     </div>
     
     <button type="button" class="cta-btn" onclick="addToCartFF(2)" style="width:100%; max-width:400px; padding:20px; font-size:22px; margin-top:10px;">
-      <span data-lang="en" style="display:none;">💖 Add To Cart</span>
-      <span data-lang="zh" style="display:none;">💖 加入购物车</span>
+      <span data-lang="en">💖 Add To Cart</span>
+      <span data-lang="zh">💖 加入购物车</span>
       <span data-lang="ja">💖 かごに追加する</span>
     </button>
-    <p class="cta-subtext" data-lang="en" style="display:none;">Free shipping in Singapore 🚚</p>
-    <p class="cta-subtext" data-lang="zh" style="display:none;">新加坡免运费 ��</p>
-    <p class="cta-subtext" data-lang="ja">シンガポール送料無料 🚚</p>
+    <p class="cta-subtext">
+      <span data-lang="en">Free shipping in Singapore 🚚</span>
+      <span data-lang="zh">新加坡免运费 🚚</span>
+      <span data-lang="ja">シンガポール送料無料 🚚</span>
+    </p>
   </div>
 </div>
-  </div>
-</section>
 
 <!-- ===== フッター ===== -->
 <footer class="lp-footer">
