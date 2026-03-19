@@ -965,9 +965,10 @@
   font-weight: 800;
   border-bottom: 1px solid #f9f9f9;
 }
-.new-discount-table tr:first-child td {
+.new-discount-table tr.best-seller td {
   background: #ffeef2;
   color: #d81b60;
+  position: relative;
 }
 .new-discount-table .badge {
   display: inline-block;
@@ -978,10 +979,23 @@
   font-size: 12px;
   font-weight: 800;
 }
-.new-discount-table tr:first-child .badge {
+.new-discount-table tr.best-seller .badge {
   background: #e91e63;
   color: #fff;
 }
+span.best-seller-label {
+  background: linear-gradient(135deg, #ffaa00, #ff8c00);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 900;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  box-shadow: 0 4px 10px rgba(255,170,0,0.4);
+  text-transform: uppercase;
+}
+span.best-seller-label[data-lang] { display: none; }
+span.best-seller-label[data-lang].active { display: inline-block; }
 .total-box {
   background: #fafafa;
   border: 1px solid #f0f0f0;
@@ -1484,8 +1498,13 @@
         <td><span class="badge">5% OFF</span></td>
         <td>42.69$ SGD</td>
       </tr>
-      <tr data-qty="3">
+      <tr data-qty="3" class="best-seller">
         <td>
+          <div>
+            <span class="best-seller-label" data-lang="en">👑 Most Popular</span>
+            <span class="best-seller-label" data-lang="zh">👑 人气No.1</span>
+            <span class="best-seller-label" data-lang="ja">👑 1番人気！</span>
+          </div>
           <span data-lang="en">3-4 items</span>
           <span data-lang="zh">3〜4件</span>
           <span data-lang="ja">3〜4個</span>
