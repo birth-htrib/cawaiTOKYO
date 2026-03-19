@@ -965,10 +965,24 @@
   font-weight: 800;
   border-bottom: 1px solid #f9f9f9;
 }
+.new-discount-table tr.best-seller {
+  background: #fffdf0;
+}
 .new-discount-table tr.best-seller td {
-  background: #ffeef2;
-  color: #d81b60;
+  color: #e65100;
+  border-top: 2px solid #ffcc00;
+  border-bottom: 2px solid #ffcc00;
   position: relative;
+}
+.new-discount-table tr.best-seller td:first-child {
+  border-left: 2px solid #ffcc00;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.new-discount-table tr.best-seller td:last-child {
+  border-right: 2px solid #ffcc00;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 .new-discount-table .badge {
   display: inline-block;
@@ -1070,13 +1084,7 @@ span.best-seller-label[data-lang].active { display: inline-block; }
 }
 </style>
 
-<div class="cta-section" style="padding: 20px;">
-  <a href="#order-section-2" class="cta-btn">
-    <span data-lang="en">💖 Order Now</span>
-    <span data-lang="zh">💖 立即购买</span>
-    <span data-lang="ja">💖 今すぐ申し込む</span>
-  </a>
-</div>
+
 
 
 <!-- ===== ⑤-b 成分紹介(メカニズム) ===== -->
