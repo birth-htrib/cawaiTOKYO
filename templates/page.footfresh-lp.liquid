@@ -984,38 +984,56 @@
 }
 </style>
 
-<div class="discount-box-wrapper" id="order-section">
+<div class="discount-box-wrapper" id="order-section-1">
   <div class="discount-heading-row">
-    <div class="discount-label">🏷️ まとめ買い割引</div>
-    <div class="discount-tip">💡 個数を増やすと割引が自動適用されます</div>
+    <div class="discount-label" data-lang="en">🏷️ Bulk Discount</div>
+    <div class="discount-label" data-lang="zh">🏷️ 多件优惠</div>
+    <div class="discount-label" data-lang="ja">🏷️ まとめ買い割引</div>
+    <div class="discount-tip" data-lang="en">💡 Discount applied automatically</div>
+    <div class="discount-tip" data-lang="zh">💡 增加数量自动打折</div>
+    <div class="discount-tip" data-lang="ja">💡 個数を増やすと割引が自動適用されます</div>
   </div>
   
-  <table class="new-discount-table" id="ff-discount-table">
+  <table class="new-discount-table" id="ff-discount-table-1">
     <thead>
       <tr>
-        <th>数量</th>
-        <th>割引率</th>
-        <th>単価</th>
+        <th data-lang="en">Qty</th>
+        <th data-lang="zh">数量</th>
+        <th data-lang="ja">数量</th>
+        <th data-lang="en">Discount</th>
+        <th data-lang="zh">折扣率</th>
+        <th data-lang="ja">割引率</th>
+        <th data-lang="en">Price</th>
+        <th data-lang="zh">单价</th>
+        <th data-lang="ja">単価</th>
       </tr>
     </thead>
     <tbody>
       <tr data-qty="1">
-        <td>1個</td>
-        <td><span class="badge">通常価格</span></td>
+        <td data-lang="en">1 item</td>
+        <td data-lang="zh">1件</td>
+        <td data-lang="ja">1個</td>
+        <td><span class="badge" data-lang="en">Regular Price</span><span class="badge" data-lang="zh">普通售价</span><span class="badge" data-lang="ja">通常価格</span></td>
         <td>44.94$ SGD</td>
       </tr>
       <tr data-qty="2">
-        <td>2個</td>
+        <td data-lang="en">2 items</td>
+        <td data-lang="zh">2件</td>
+        <td data-lang="ja">2個</td>
         <td><span class="badge">5% OFF</span></td>
         <td>42.69$ SGD</td>
       </tr>
       <tr data-qty="3">
-        <td>3〜4個</td>
+        <td data-lang="en">3-4 items</td>
+        <td data-lang="zh">3〜4件</td>
+        <td data-lang="ja">3〜4個</td>
         <td><span class="badge">10% OFF</span></td>
         <td>40.45$ SGD</td>
       </tr>
       <tr data-qty="5">
-        <td>5個〜</td>
+        <td data-lang="en">5+ items</td>
+        <td data-lang="zh">5件以上</td>
+        <td data-lang="ja">5個〜</td>
         <td><span class="badge">15% OFF</span></td>
         <td>38.20$ SGD</td>
       </tr>
@@ -1024,85 +1042,33 @@
 
   <div class="total-box">
     <div class="total-box-top">
-      <span>合計金額</span>
-      <span class="total-price-calc" id="ff-total-calc">44.94$ SGD * 1 = <span style="font-size:24px;">44.94$ SGD</span></span>
+      <span data-lang="en">Total Amount</span>
+      <span data-lang="zh">合计金额</span>
+      <span data-lang="ja">合計金額</span>
+      <span class="total-price-calc" id="ff-total-calc-1">44.94$ SGD * 1 = <span style="font-size:24px;">44.94$ SGD</span></span>
     </div>
-    <div class="total-box-bottom">2個以上でまとめ買い割引が適用されます ✨</div>
+    <div class="total-box-bottom" data-lang="en" style="display:none;">Discount applies for 2+ items ✨</div>
+    <div class="total-box-bottom" data-lang="zh" style="display:none;">购买2件以上即可享受多件优惠 ✨</div>
+    <div class="total-box-bottom" data-lang="ja">2個以上でまとめ買い割引が適用されます ✨</div>
   </div>
 
   <div class="buy-action-area">
     <div class="qty-wrapper">
-      <button type="button" class="qty-btn" onclick="updateFFQty(-1)">-</button>
-      <input type="number" id="product-qty" class="qty-input" value="1" min="1" max="10" readonly>
-      <button type="button" class="qty-btn" onclick="updateFFQty(1)">+</button>
+      <button type="button" class="qty-btn" onclick="updateFFQty(1, -1)">-</button>
+      <input type="number" id="product-qty-1" class="qty-input" value="1" min="1" max="10" readonly>
+      <button type="button" class="qty-btn" onclick="updateFFQty(1, 1)">+</button>
     </div>
     
-    <button type="button" class="cta-btn" onclick="addToCartFF()" style="width:100%; max-width:400px; padding:20px; font-size:22px; margin-top:10px;">💖 かごに追加する</button>
-    <p class="cta-subtext">シンガポール送料無料 🚚</p>
+    <button type="button" class="cta-btn" onclick="addToCartFF(1)" style="width:100%; max-width:400px; padding:20px; font-size:22px; margin-top:10px;">
+      <span data-lang="en" style="display:none;">💖 Add To Cart</span>
+      <span data-lang="zh" style="display:none;">💖 加入购物车</span>
+      <span data-lang="ja">💖 かごに追加する</span>
+    </button>
+    <p class="cta-subtext" data-lang="en" style="display:none;">Free shipping in Singapore 🚚</p>
+    <p class="cta-subtext" data-lang="zh" style="display:none;">新加坡免运费 ��</p>
+    <p class="cta-subtext" data-lang="ja">シンガポール送料無料 🚚</p>
   </div>
 </div>
-
-<script>
-  const ffTiers = [
-    { min: 1, max: 1, price: 44.94 },
-    { min: 2, max: 2, price: 42.69 },
-    { min: 3, max: 4, price: 40.45 },
-    { min: 5, max: 99, price: 38.20 }
-  ];
-
-  function updateFFQty(change) {
-    const input = document.getElementById('product-qty');
-    let val = parseInt(input.value) + change;
-    if (val < 1) val = 1;
-    if (val > 10) val = 10;
-    input.value = val;
-    renderFFDiscount(val);
-  }
-
-  function renderFFDiscount(qty) {
-    const tableRows = document.querySelectorAll('#ff-discount-table tbody tr');
-    let currentPrice = 44.94;
-    
-    tableRows.forEach(row => {
-      // Reset styles
-      row.style.background = '#fff';
-      row.style.color = '#555';
-      const badge = row.querySelector('.badge');
-      if (badge) {
-        badge.style.background = '#f0f0f0';
-        badge.style.color = '#888';
-      }
-      
-      const rowQty = parseInt(row.getAttribute('data-qty'));
-      let match = false;
-      if (qty === 1 && rowQty === 1) match = true;
-      if (qty === 2 && rowQty === 2) match = true;
-      if (qty >= 3 && qty <= 4 && rowQty === 3) match = true;
-      if (qty >= 5 && rowQty === 5) match = true;
-      
-      if (match) {
-        row.style.background = '#ffeef2';
-        row.style.color = '#d81b60';
-        if (badge) {
-          badge.style.background = '#e91e63';
-          badge.style.color = '#fff';
-        }
-      }
-    });
-
-    const tier = ffTiers.find(t => qty >= t.min && qty <= t.max);
-    if (tier) {
-      currentPrice = tier.price;
-    }
-    
-    const total = (currentPrice * qty).toFixed(2);
-    document.getElementById('ff-total-calc').innerHTML = `${currentPrice.toFixed(2)}$ SGD * ${qty} = <span style="font-size:24px;">${total}$ SGD</span>`;
-  }
-
-  document.addEventListener('DOMContentLoaded', () => {
-    renderFFDiscount(1);
-  });
-</script>
 
 <!-- ===== ⑤ ベネフィット ===== -->
 <section class="benefits section bg-wave-top">
@@ -1196,10 +1162,10 @@
       <p style="font-size:16px; font-weight:800;" data-lang="en">Singapore Stock Remaining</p>
       <p style="font-size:16px; font-weight:800;" data-lang="zh">新加坡剩余库存</p>
       <p style="font-size:16px; font-weight:800;" data-lang="ja">シンガポール在庫状況</p>
-      <div class="stock-bar"><div class="stock-bar-fill"></div></div>
-      <p style="font-size:32px; font-weight:900; color:#ff4757;" data-lang="en">Only 23 left!</p>
-      <p style="font-size:32px; font-weight:900; color:#ff4757;" data-lang="zh">仅剩23件！</p>
-      <p style="font-size:32px; font-weight:900; color:#ff4757;" data-lang="ja">残り23個！</p>
+      <div class="stock-bar"><div class="stock-bar-fill" id="dynamic-stock-bar"></div></div>
+      <p style="font-size:32px; font-weight:900; color:#ff4757;" data-lang="en">Only <span class="dynamic-stock">23</span> left!</p>
+      <p style="font-size:32px; font-weight:900; color:#ff4757;" data-lang="zh">仅剩 <span class="dynamic-stock">23</span> 件！</p>
+      <p style="font-size:32px; font-weight:900; color:#ff4757;" data-lang="ja">残り <span class="dynamic-stock">23</span> 個！</p>
     </div>
 
     <div class="urgency-items">
@@ -1211,9 +1177,91 @@
       <div class="urgency-item" data-lang="ja">📅 次回入荷未定</div>
     </div>
 
-    <a href="https://cutietokyo.jp/products/%E3%83%95%E3%83%83%E3%83%88%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5" class="cta-btn cta-btn-white" data-lang="en" style="margin-top:30px;">💖 Get Yours Now</a>
-    <a href="https://cutietokyo.jp/products/%E3%83%95%E3%83%83%E3%83%88%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5" class="cta-btn cta-btn-white" data-lang="zh" style="margin-top:30px;">💖 立即抢购</a>
-    <a href="https://cutietokyo.jp/products/%E3%83%95%E3%83%83%E3%83%88%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5" class="cta-btn cta-btn-white" data-lang="ja" style="margin-top:30px;">💖 今すぐ手に入れる</a>
+<div class="discount-box-wrapper" id="order-section-2">
+  <div class="discount-heading-row">
+    <div class="discount-label" data-lang="en">🏷️ Bulk Discount</div>
+    <div class="discount-label" data-lang="zh">🏷️ 多件优惠</div>
+    <div class="discount-label" data-lang="ja">🏷️ まとめ買い割引</div>
+    <div class="discount-tip" data-lang="en">💡 Discount applied automatically</div>
+    <div class="discount-tip" data-lang="zh">💡 增加数量自动打折</div>
+    <div class="discount-tip" data-lang="ja">💡 個数を増やすと割引が自動適用されます</div>
+  </div>
+  
+  <table class="new-discount-table" id="ff-discount-table-2">
+    <thead>
+      <tr>
+        <th data-lang="en">Qty</th>
+        <th data-lang="zh">数量</th>
+        <th data-lang="ja">数量</th>
+        <th data-lang="en">Discount</th>
+        <th data-lang="zh">折扣率</th>
+        <th data-lang="ja">割引率</th>
+        <th data-lang="en">Price</th>
+        <th data-lang="zh">单价</th>
+        <th data-lang="ja">単価</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr data-qty="1">
+        <td data-lang="en">1 item</td>
+        <td data-lang="zh">1件</td>
+        <td data-lang="ja">1個</td>
+        <td><span class="badge" data-lang="en">Regular Price</span><span class="badge" data-lang="zh">普通售价</span><span class="badge" data-lang="ja">通常価格</span></td>
+        <td>44.94$ SGD</td>
+      </tr>
+      <tr data-qty="2">
+        <td data-lang="en">2 items</td>
+        <td data-lang="zh">2件</td>
+        <td data-lang="ja">2個</td>
+        <td><span class="badge">5% OFF</span></td>
+        <td>42.69$ SGD</td>
+      </tr>
+      <tr data-qty="3">
+        <td data-lang="en">3-4 items</td>
+        <td data-lang="zh">3〜4件</td>
+        <td data-lang="ja">3〜4個</td>
+        <td><span class="badge">10% OFF</span></td>
+        <td>40.45$ SGD</td>
+      </tr>
+      <tr data-qty="5">
+        <td data-lang="en">5+ items</td>
+        <td data-lang="zh">5件以上</td>
+        <td data-lang="ja">5個〜</td>
+        <td><span class="badge">15% OFF</span></td>
+        <td>38.20$ SGD</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="total-box">
+    <div class="total-box-top">
+      <span data-lang="en">Total Amount</span>
+      <span data-lang="zh">合计金额</span>
+      <span data-lang="ja">合計金額</span>
+      <span class="total-price-calc" id="ff-total-calc-2">44.94$ SGD * 1 = <span style="font-size:24px;">44.94$ SGD</span></span>
+    </div>
+    <div class="total-box-bottom" data-lang="en" style="display:none;">Discount applies for 2+ items ✨</div>
+    <div class="total-box-bottom" data-lang="zh" style="display:none;">购买2件以上即可享受多件优惠 ✨</div>
+    <div class="total-box-bottom" data-lang="ja">2個以上でまとめ買い割引が適用されます ✨</div>
+  </div>
+
+  <div class="buy-action-area">
+    <div class="qty-wrapper">
+      <button type="button" class="qty-btn" onclick="updateFFQty(2, -1)">-</button>
+      <input type="number" id="product-qty-2" class="qty-input" value="1" min="1" max="10" readonly>
+      <button type="button" class="qty-btn" onclick="updateFFQty(2, 1)">+</button>
+    </div>
+    
+    <button type="button" class="cta-btn" onclick="addToCartFF(2)" style="width:100%; max-width:400px; padding:20px; font-size:22px; margin-top:10px;">
+      <span data-lang="en" style="display:none;">💖 Add To Cart</span>
+      <span data-lang="zh" style="display:none;">💖 加入购物车</span>
+      <span data-lang="ja">💖 かごに追加する</span>
+    </button>
+    <p class="cta-subtext" data-lang="en" style="display:none;">Free shipping in Singapore 🚚</p>
+    <p class="cta-subtext" data-lang="zh" style="display:none;">新加坡免运费 ��</p>
+    <p class="cta-subtext" data-lang="ja">シンガポール送料無料 🚚</p>
+  </div>
+</div>
   </div>
 </section>
 
@@ -1257,37 +1305,128 @@
 
 
 <script>
-function addToCartFF() {
-  const qty = document.getElementById('product-qty').value;
-  // Get footfresh variant ID dynamically via Liquid
-  const variantId = {{ all_products['footfresh'].first_available_variant.id | default: 'null' }};
-  
-  if(!variantId) { 
-    alert('商品のVariant IDが見つかりません。テスト環境のためカートには進めません。'); 
-    return; 
-  }
-  
-  const btn = document.querySelector('.cta-btn');
-  btn.innerText = '追加中...';
-  btn.disabled = true;
+  const ffTiers = [
+    { min: 1, max: 1, price: 44.94 },
+    { min: 2, max: 2, price: 42.69 },
+    { min: 3, max: 4, price: 40.45 },
+    { min: 5, max: 99, price: 38.20 }
+  ];
 
-  fetch('/cart/add.js', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      items: [{
-        id: variantId,
-        quantity: parseInt(qty)
-      }]
-    })
-  }).then(res => res.json()).then(data => {
-    window.location.href = '/cart';
-  }).catch(err => {
-    alert('エラーが発生しました');
-    btn.innerText = 'Add To Cart';
-    btn.disabled = false;
+  function updateFFQty(idx, change) {
+    const input = document.getElementById('product-qty-' + idx);
+    let val = parseInt(input.value) + change;
+    if (val < 1) val = 1;
+    if (val > 10) val = 10;
+    input.value = val;
+    renderFFDiscount(idx, val);
+  }
+
+  function renderFFDiscount(idx, qty) {
+    const tableEl = document.getElementById('ff-discount-table-' + idx);
+    if(!tableEl) return;
+    const tableRows = tableEl.querySelectorAll('tbody tr');
+    let currentPrice = 44.94;
+    
+    tableRows.forEach(row => {
+      row.style.background = '#fff';
+      row.style.color = '#555';
+      const badges = row.querySelectorAll('.badge');
+      badges.forEach(badge => {
+        badge.style.background = '#f0f0f0';
+        badge.style.color = '#888';
+      });
+      
+      const rowQty = parseInt(row.getAttribute('data-qty'));
+      let match = false;
+      if (qty === 1 && rowQty === 1) match = true;
+      if (qty === 2 && rowQty === 2) match = true;
+      if (qty >= 3 && qty <= 4 && rowQty === 3) match = true;
+      if (qty >= 5 && rowQty === 5) match = true;
+      
+      if (match) {
+        row.style.background = '#ffeef2';
+        row.style.color = '#d81b60';
+        badges.forEach(badge => {
+          badge.style.background = '#e91e63';
+          badge.style.color = '#fff';
+        });
+      }
+    });
+
+    const tier = ffTiers.find(t => qty >= t.min && qty <= t.max);
+    if (tier) {
+      currentPrice = tier.price;
+    }
+    
+    const total = (currentPrice * qty).toFixed(2);
+    document.getElementById('ff-total-calc-' + idx).innerHTML = `${currentPrice.toFixed(2)}$ SGD * ${qty} = <span style="font-size:24px;">${total}$ SGD</span>`;
+  }
+
+  function addToCartFF(idx) {
+    const qty = document.getElementById('product-qty-' + idx).value;
+    const variantId = {{ all_products['footfresh'].first_available_variant.id | default: 'null' }};
+    
+    if(!variantId) { 
+      alert('商品のVariant IDが見つかりません。'); 
+      return; 
+    }
+    
+    const btns = document.querySelectorAll('#order-section-' + idx + ' .cta-btn');
+    btns.forEach(btn => {
+      btn.innerHTML = 'Adding...';
+      btn.disabled = true;
+    });
+
+    fetch('/cart/add.js', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        items: [{
+          id: variantId,
+          quantity: parseInt(qty)
+        }]
+      })
+    }).then(res => res.json()).then(data => {
+      window.location.href = '/cart';
+    }).catch(err => {
+      alert('エラーが発生しました');
+      btns.forEach(btn => {
+        btn.innerHTML = '💖 Error';
+      });
+    });
+  }
+
+  // Stock dynamically updates
+  function updateStock() {
+    const now = new Date();
+    // seconds since midnight local time
+    const secondsSinceMidnight = now.getHours() * 3600 + now.getMinutes() * 60 + now.getSeconds();
+    
+    // We want stock to be 30 at 0:00, and go down to 3 at 23:59:59 (so it sells 27 items per day)
+    // 86400 seconds / 27 = 3200 seconds per item
+    let stock = 30 - Math.floor(secondsSinceMidnight / 3200);
+    if (stock < 3) stock = 3; 
+    if (stock > 30) stock = 30;
+    
+    document.querySelectorAll('.dynamic-stock').forEach(el => {
+      el.innerText = stock;
+    });
+    const stockBarFill = document.getElementById('dynamic-stock-bar');
+    if (stockBarFill) {
+      stockBarFill.style.width = ((stock / 30) * 100) + '%';
+    }
+  }
+
+  // Init
+  document.addEventListener('DOMContentLoaded', () => {
+    // initial renders
+    renderFFDiscount(1, 1);
+    renderFFDiscount(2, 1);
+    
+    // update stock initially and every 1 minute
+    updateStock();
+    setInterval(updateStock, 60000);
   });
-}
 </script>
 </body>
 
