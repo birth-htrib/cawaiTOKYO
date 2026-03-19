@@ -664,6 +664,23 @@
       .section { padding: 60px 16px; }
       .pain-point { margin-left: 0 !important; }
       .offer-card { flex-direction: column; text-align: center; }
+      
+      /* ヒーロー画像を画面幅いっぱいに (Edge-to-Edge) */
+      .hero-image-wrapper {
+        margin-left: -16px;
+        margin-right: -16px;
+        width: calc(100% + 32px);
+        display: block;
+      }
+      .hero-image {
+        max-width: 100%;
+        width: 100%;
+        border-radius: 0;
+        border: none;
+      }
+      .hero-badges {
+        margin-top: -15px;
+      }
     }
   </style>
 </head>
