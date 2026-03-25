@@ -1502,7 +1502,7 @@ span.best-seller-label[data-lang].active { display: inline-block; }
             <span data-lang="ja">通常価格</span>
           </span>
         </td>
-        <td>44.94$ SGD</td>
+        <td>15.99$ SGD</td>
       </tr>
       <tr data-qty="2">
         <td>
@@ -1511,7 +1511,7 @@ span.best-seller-label[data-lang].active { display: inline-block; }
           <span data-lang="ja">2個</span>
         </td>
         <td><span class="badge">5% OFF</span></td>
-        <td>42.69$ SGD</td>
+        <td>15.19$ SGD</td>
       </tr>
       <tr data-qty="3" class="best-seller">
         <td>
@@ -1525,7 +1525,7 @@ span.best-seller-label[data-lang].active { display: inline-block; }
           <span data-lang="ja">3〜4個</span>
         </td>
         <td><span class="badge">10% OFF</span></td>
-        <td>40.45$ SGD</td>
+        <td>14.39$ SGD</td>
       </tr>
       <tr data-qty="5">
         <td>
@@ -1534,7 +1534,7 @@ span.best-seller-label[data-lang].active { display: inline-block; }
           <span data-lang="ja">5個〜</span>
         </td>
         <td><span class="badge">15% OFF</span></td>
-        <td>38.20$ SGD</td>
+        <td>13.59$ SGD</td>
       </tr>
     </tbody>
   </table>
@@ -1546,7 +1546,7 @@ span.best-seller-label[data-lang].active { display: inline-block; }
         <span data-lang="zh">合计金额</span>
         <span data-lang="ja">合計金額</span>
       </span>
-      <span class="total-price-calc" id="ff-total-calc-2">44.94$ SGD * 1 = <span style="font-size:24px;">44.94$ SGD</span></span>
+      <span class="total-price-calc" id="ff-total-calc-2">15.99$ SGD * 1 = <span style="font-size:24px;">15.99$ SGD</span></span>
     </div>
     <div class="total-box-bottom">
       <span data-lang="en">Discount applies for 2+ items ✨</span>
@@ -1616,10 +1616,10 @@ span.best-seller-label[data-lang].active { display: inline-block; }
 
 <script>
   const ffTiers = [
-    { min: 1, max: 1, price: 44.94 },
-    { min: 2, max: 2, price: 42.69 },
-    { min: 3, max: 4, price: 40.45 },
-    { min: 5, max: 99, price: 38.20 }
+    { min: 1, max: 1, price: 15.99 },
+    { min: 2, max: 2, price: 15.19 },
+    { min: 3, max: 4, price: 14.39 },
+    { min: 5, max: 99, price: 13.59 }
   ];
 
   function updateFFQty(idx, change) {
@@ -1635,7 +1635,7 @@ span.best-seller-label[data-lang].active { display: inline-block; }
     const tableEl = document.getElementById('ff-discount-table-' + idx);
     if(!tableEl) return;
     const tableRows = tableEl.querySelectorAll('tbody tr');
-    let currentPrice = 44.94;
+    let currentPrice = 15.99;
     
     tableRows.forEach(row => {
       row.style.background = '#fff';
